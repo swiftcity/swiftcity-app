@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Swicity - Visualizing Swift Systems as cities!</title>
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+        <script src="js/three/three.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="css/icons.css" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	</head>
+	<body class="grey lighten-5">
+        <nav>
+            <div class="navbar-fixed">
+                <div class="nav-wrapper deep-orange">
+                    <ul>
+                        <li>
+                            <a href="#appInfo" style="padding-left: 10px" class="brand-logo modal-trigger">
+                                <i class="material-icons white-text">info_outline</i>
+                                Swicity <sup><small>1.0</small></sup>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul id="nav-mobile" class="right">
+                        <li>
+                            <div class="file-field input-field" style="padding-top: 7px">
+                                <div class="btn orange">
+                                    <span>BROWSE</span>
+                                    <input id="fileInput" type="file">
+                                </div>
+                                <div class="file-path-wrapper">
+                                    <input class="file-path validate" type="text" placeholder="Upload the project file...">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="center waves-effect waves-light tooltipped" data-position="left" data-delay="30" data-tooltip="Load and run file!" href="javascript:updateWithFile();">
+                                <i class="disabled material-icons">play_arrow</i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="appInfo" class="modal">
+            <div class="modal-content center">
+                <h3>What is Swicity<sup><small>1.0</small></sup>?</h3>
+                <div class="divider"></div>
+                </br>
+                <h4>The project</h4>
+                <p class="">This application was built by <a href="http://github.io/peaonunes" target="_blank">Rafael Nunes</a> as the graduation project under the tutorship of Professor <a href="https://sites.google.com/a/cin.ufpe.br/castor/" target="_blank">Fernando Castor</a>. The goal is to colaborate to the professor and Marcel Rebouças, masters student, research about Swift and its usage. However, it is an open-source platform to visualize software systems written in Swift.</p></br></br>
+                <h4>The city metaphor</h4>
+                <p> City Metaphor was proposed by Wettel in <a href="http://ieeexplore.ieee.org/document/4290706/" target="_blank">Visualizing Software Systems as Cities</a> and translates software systems to visualize as a city.</p>
+                </br>
+                <h4>Abstract</h4>
+                <p> The effort spent by software organizations with maintenance and rework in software development can vary, on average, between 40% and 50% of the total development effort. With the growth of systems and their complexities, the human's natural ability to perform maintenance is compromised. To mitigate this, different processes and proposals are applied in maintenance context to try to identify targets of possible code inspections, such as: manual code verification, testing, validation, static analysis, etc. </br></br>Software visualization, however, is also an area that provides an alternative to mitigate this problem. This area brings together techniques and approaches to construct clear, objective and useful visions in the analysis of software systems, whether in the context of evolution, version control, code inspection, etc. There are several approaches to building system visualizations, and each one has its advantages and disadvantages. </br></br>Swift is a new language with notorious and growing adoption by the developer community. Despite this fact, few studies and initiatives are focused on Swift code analysis. The purpose of this work, then, is to construct a tool for visualization of systems written in Swift, based on the city metaphor (Wettel, 2007). In addition, this research also aims to collaborate with research on the use of Swift carried out by Professor Fernando Castor. </br></br>To achieve these objectives, studies were done on the construction and visualization techniques of software to understand the difficulties and needs of a good visualization. But also, studies related to the mapping of the elements of the Swift language to the development of the city metaphor. In this way, it was possible to offer a platform that is useful, easy to use and allows to explore Swift code systems in search of non-obvious conclusions about it.
+                    </br>
+                    </br>
+                    Keywords: Software Engineering, Software Visualization, Software Maintenance, Code Inspection, Swift, City Metaphor.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+            </div>
+        </div>
+        <div id="firstLayer" class="row first-layer-design">
+            <div id="city" class="card col s12 m12 l8 city-internal">
+            </div>
+            <div id="details" class="col s12 m12 l4 details-design">
+                <div id="projectDetails">
+                    <ul class="collapsible" data-collapsible="accordion" style="margin-top: 1px !important;">
+                        <li>
+                             <div id="projectOptions" class="collapsible-header active">
+                                 <i class="material-icons">settings</i>
+                                 Visualization settings
+                             </div>
+                             <div class="collapsible-body white">
+                                <table class="responsive-table center">
+                                    <tbody>
+                                        <tr id="#firstRow" style="padding: 10px;">
+                                            <p class="label-fonts" style="padding: 10px !important;"><strong>Color objects by category and sort blocks inside districs.</strong></p>
+                                            <td style="width: 20%" class="center-align td-settings">
+                                                <a id="helpbutton" href="#modal1" class="btn-flat center waves-effect waves-light modal-trigger tooltipped" data-position="top" data-delay="30" data-tooltip="What is this?">
+                                                    <i class="material-icons">live_help</i>
+                                                </a>
+                                                <div id="modal1" class="modal">
+                                                    <div class="modal-content">
+                                                        <h4>What are these options for?</h4>
+                                                        <div class="divider"></div>
+                                                        </br>
+                                                        <h5>Coloring blocks</h5>
+                                                        Enabling colours means that the blocks will be colored according with their category.</br>
+                                                        E. g. Structs, Enums, Classes, Protocols, Extensions.</br>
+                                                        See legend in project details card.</br>
+                                                        </br>
+                                                        <h5>Sort district's blocks</h5>
+                                                        Sort the blocks means that inside each district, light-gray floor that represents a file,</br>
+                                                        the blocks will be sorted first by their height and by width as second criteria.
+                                                        </br>
+                                                        </br>
+                                                        <h5>Handling extensions relations</h5>
+                                                        Extensions are part of some others types, they extends the behavior of others type by</br>
+                                                        adding functionally, conforming with protocols, etc. With this option you can choose between:</br>
+                                                        <ul>
+                                                            <li><strong>Stack up</strong> the elements and extensions related, blocks are sorted by width first, height after.</li>
+                                                            <li><strong>Group by</strong> floor, add a new level in topology meaning the elements inside are related.</li>
+                                                        </ul>
+                                                        Note: If an extension is isolated, neither stacked up or gruped by it means that it is an extension of</br>
+                                                        a primitive type or an API type, or third part type...
+                                                        </br>
+                                                        </br>
+                                                        <h5>Height' scale options</h5>
+                                                        There are four possible scales for the height of the blocks in the view.</br>
+                                                        <ul>
+                                                            <li><strong>Linear</strong>, it the default, with the domain [min, max] of LOC.</li>
+                                                            <li><strong>Logarithmic</strong> scale, base 1.5, with the domain [min, max] of LOC.</li>
+                                                            <li><strong>SQRT</strong> scale which is basically a scale with the exponent 0.5. </br>Also with the domain [min, max] of LOC.</li>
+                                                            <li><strong>Boxplot</strong> is a scale suggested in the literature by Wettel to normalize.</br>
+                                                            To do this, the boxplot of heights is calculated, each boxplot element (min, q1, median, q3, max)</br>
+                                                            is a value of the domain and the image associates the range of height values. In this case the element</br>
+                                                            belongs to a set of boxplot will have height mapped to that associated value.</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td style="width: 40%" class="td-settings">
+                                                 <input value="color" onclick="filterClicked(this);" type="checkbox" class="checkbox-orange filled-in" id="activeColor" checked="checked"/>
+                                                 <label class="label-fonts" for="activeColor">Enable colors</label>
+                                            </td>
+                                            <td style="width: 40%" class="td-settings">
+                                                <input  value="sort" onclick="filterClicked(this);" type="checkbox" class="checkbox-orange filled-in" id="sorteBlocks" checked="checked"/>
+                                                <label class="label-fonts" for="sorteBlocks">Sort district's blocks</label>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table class="responsive-table center">
+                                    <p class="label-fonts" style="padding: 10px !important;"><strong>Related extensions to others types on:</strong></p>
+                                    <tbody>
+                                        <tr id="secondRow">
+                                            <td style="width: 50%" class="td-settings">
+                                                <input checked onclick="filterClicked(this);" class="radio-orange filled-in" type="radio" name="extensions" value="stack" id="stack"/>
+                                                <label class="label-fonts" for="stack">Stacking up blocks</label>
+                                            </td>
+                                            <td style="width: 50%" class="td-settings">
+                                                <input onclick="filterClicked(this);" class="radio-orange filled-in" type="radio" name="extensions" value="group" id="group"/>
+                                                <label class="label-fonts" for="group">Grouping by floor</label>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table class="responsive-table center">
+                                    <p class="label-fonts" style="padding: 10px !important;"><strong>Scale height of the blocks based on:</strong></p>
+                                    <tbody>
+                                        <tr id="thirdRow">
+                                            <td style="width: 25%" class="td-settings">
+                                                <input checked onclick="filterClicked(this);" class="radio-orange filled-in" type="radio" name="scale" value="linear" id="linear"/>
+                                                <label class="label-fonts" for="linear">Linear</label>
+                                            </td>
+                                            <td style="width: 25%" class="td-settings">
+                                                <input onclick="filterClicked(this);" class="radio-orange filled-in" type="radio" name="scale" value="log15" id="log15"/>
+                                                <label class="label-fonts" for="log15">Log1.5</label>
+                                            </td>
+                                            <td style="width: 25%" class="td-settings">
+                                                <input onclick="filterClicked(this);" class="radio-orange filled-in" type="radio" name="scale" value="sqrt" id="sqrt"/>
+                                                <label class="label-fonts" for="sqrt">Sqrt</label>
+                                            </td>
+                                            <td style="width: 25%" class="td-settings">
+                                                <input onclick="filterClicked(this);" class="radio-orange filled-in" type="radio" name="scale" value="boxplot" id="boxplot"/>
+                                                <label class="label-fonts" for="boxplot">Boxplot</label>
+                                            </td>
+                                         </tr>
+                                    </tbody>
+                                </table>
+                             </div>
+                        </li>
+                        <li>
+                             <div id="projectName" class="collapsible-header">
+                                 <i class="material-icons">info</i>
+                                 Project information
+                             </div>
+                             <div class="collapsible-body row white">
+                                 <table id="tableStats" class="responsive-table">
+                                     <tbody id="tableContent">
+                                     </tbody>
+                                 </table>
+                             </div>
+                        </li>
+                    </ul>
+                    <div class="card">
+                        <div class="row">
+                            <div class="col s12 m12 l12" style="overflow: scroll; padding: 10px; max-height: 350px;">
+                                <div class="valign-wrapper" style="padding-bottom: 5px">
+                                    <i class="col s1 m1 l1 material-icons valign">code</i>
+                                    <strong class="col s11 m11 l11"> Selected block information</strong>
+                                </div>
+                                <div class="divider"></div>
+                                <div id="blockDetails" style="padding: 10px;">
+                                    <p id="blockFile" class="details-row">Block file name here.</p>
+                                    <p id="blockName" class="details-row">Block name goes here.</p>
+                                    <p id="blockType" class="details-row">Block type goes here.</p>
+                                    <p id="blockLOC" class="details-row">Lines of code goes here.</p>
+                                    <p id="blockNOM" class="details-row">Number of methods goes here.</p>
+                                    <div id="blockMethods"class="details-row">
+                                        Methods details
+                                        <div class="divider"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="#secondLayer" class="row card" style="margin: 10px !important">
+            <div id ="controls" class="col s12 m12 l12">
+                <div id="content"></div>
+            </div>
+        </div>
+        <div id="examples" class="modal">
+            <div class="modal-content">
+                <h3 class="center">Swicity<sup><small>1.0</small></sup> examples!</h3>
+                <div class="divider"></div>
+                <br>
+                <div class="row">
+                    <div class="col s4 l4 m4">
+                        <img class="responsive-img" src="./imgs/cvcalendar.png" alt="CVCalendar" >
+                    </div>
+                    <div class="col s8 l8 m8">
+                        <h4>CVCalendar</h4>
+                        <p>The <a target="_blank" href="https://github.com/Mozharovsky/CVCalendar">CVCalendar</a>, created by Mozharovsky, is a calendar that allows visual customization for iOS 8 or higher written in Swift (2.0). It has 2,307 stars and 422 forks on GitHub. In the figure below we have an overview of the project loads in the application.</p>
+                        <a target="_blank" href="./data/cvcalendar-Output.json">Link to JSON sample of this project.</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s4 l4 m4">
+                        <img class="responsive-img" src="./imgs/alamofire.png" alt="CVCalendar" >
+                    </div>
+                    <div class="col s8 l8 m8">
+                        <h4>Alamofire</h4>
+                        <p>The <a target="_blank" href="https://github.com/Alamofire/Alamofire">Alamofire</a>, is a library for the management of HTTP requests written in Swift. It has 1117 commits, 20786 stars and 3589 forks on GitHub. 5434 Lines of Code.</p>
+                        <a target="_blank" href="./data/alamofire-Output.json">Link to JSON sample of this project.</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s4 l4 m4">
+                        <img class="responsive-img" src="./imgs/rxswift.png" alt="CVCalendar" >
+                    </div>
+                    <div class="col s8 l8 m8">
+                        <h4>RxSwift</h4>
+                        <p>The <a target="_blank" href="https://github.com/ReactiveX/RxSwift">RxSwift</a> is the Swift version of the Reactive Extensions59 library. Originally made to compose asynchronous and event-based programs using observable sequences, as well as query operators in LINQ style. On GitHub the project has 2064 commits, 6965 stars and 960 forks. It is a constantly updated project that has 12180 lines of code in total, 214 classes, 12 structs, 104 extensions, 21 protocols and 8 enumerations, totaling 359 blocks.</p>
+                        <a target="_blank" href="./data/rxswift-Output.json">Link to JSON sample of this project.</a>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+            </div>
+        </div>
+        <footer class="page-footer grey darken-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col l3 s12">
+                        <h5 class="white-text">News</h5>
+                        <ul>
+                            <li>
+                                <a href="#examples" class="orange-text modal-trigger">
+                                    <i class="material-icons orange-text">new_releases</i>
+                                    Examples!
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=MsC540hUNUM&feature=youtu.be" target="_blank" class="orange-text modal-trigger">
+                                    <i class="material-icons orange-text">new_releases</i>
+                                    Video example!
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="./files/guide.pdf" class="orange-text modal-trigger">
+                                    <i class="material-icons orange-text">new_releases</i>
+                                    Usability Guide!
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l3 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li>
+                                <a target="_blank" class="grey-text text-lighten-3" href="http://www.github.com/peaonunes/swiftcity">
+                                    <i class="material-icons">description</i>
+                                    Github
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" class="grey-text text-lighten-3" href="http://github.io/peaonunes">
+                                    <i class="material-icons">person_pin</i>
+                                    Contact the developer
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l6 s12">
+                        <h5 class="white-text">About the project</h5>
+                        <p class="grey-text text-lighten-4">This application was built by <a href="http://github.io/peaonunes" target="_blank">Rafael Nunes</a> as the graduation project under the tutorship of Professor <a href="https://sites.google.com/a/cin.ufpe.br/castor/" target="_blank">Fernando Castor</a>. The goal is to colaborate to the professor and Marcel Rebouças, masters student, research about Swift and its usage. However, it is an open-source platform to visualize software systems written in Swift.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright grey darken-4">
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize/materialize.min.js"></script>
+        <script type="text/javascript" src="js/three/OrbitControls.js"></script>
+        <script type="text/javascript" src="js/KeyboardControls.js"></script>
+        <script type="text/javascript" src="js/UXFunctions.js"></script>
+        <script type="text/javascript" src="js/RenderCityModule.js"></script>
+        <script type="text/javascript" src="js/AppConfiguration.js"></script>
+        <script type="text/javascript" src="js/ReaderModule.js"></script>
+        <script type="text/javascript" src="js/RenderUIInformation.js"></script>
+        <script type="text/javascript" src="js/CityGenerator.js"></script>
+        <script type="text/javascript" src="js/Filters.js"></script>
+        <script type="text/javascript" src="js/Boxplot.js"></script>
+        <script type="text/javascript" src="js/Selection.js"></script>
+        <script type="text/javascript" src="js/Main.js"></script>
+    </body>
+</html>

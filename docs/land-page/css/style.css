@@ -1,0 +1,33 @@
+.img-container {
+    display: inline-block;
+}
+
+.img-slider {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.img-size {
+    height: 275px ;
+    width: 325px ;
+}
+
+.app-view {
+    border-style: solid;
+    border-width: 15px;
+    border-radius: 5px;
+    padding: 0px !important;
+}
+
+.iframe-view {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.nav-style {
+    opacity: 0.9;
+}
+
+.mouse-hover {
+    cursor: pointer;
+}
