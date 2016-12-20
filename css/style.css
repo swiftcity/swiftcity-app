@@ -2,6 +2,10 @@
     text-overflow: ellipsis !important;
 }
 
+.icon-align {
+    vertical-align: middle; padding-bottom: 3px
+}
+
 .checkbox-orange[type="checkbox"].filled-in:checked + label:after{
      border: 2px solid #9e9e9e;
      background-color: #ff9800;
@@ -52,4 +56,8 @@
 .details-row {
     margin-top: 7.5px !important;
     margin-bottom: 7.5px !important;
+}
+
+.justify-text {
+    text-align: justify !important;
 }
