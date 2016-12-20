@@ -1,0 +1,369 @@
+{
+  "project": {
+    "number_of_lets_with_optional_type": 1,
+    "number_of_ifs": 2,
+    "structs": [
+      {
+        "number_of_instance_variables": 4,
+        "number_of_lets_with_optional_type": 1,
+        "number_of_ifs": 2,
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "Out?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 136,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 138
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "cancel()",
+            "start_line": 398,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 400
+          }
+        ],
+        "start_line": 124,
+        "number_of_vars": 1,
+        "type": "AsyncBlock.Type",
+        "number_of_lines": 331,
+        "end_line": 454,
+        "node_type": "struct",
+        "number_of_if_lets": 2,
+        "number_of_constructors": 1,
+        "name": "AsyncBlock",
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 11,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Async-master/Sources/Async.swift",
+        "number_of_nil_coalescing": 1,
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_instance_variables": 0,
+        "node_type": "struct",
+        "number_of_methods": 5,
+        "number_of_constructors": 1,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Int",
+              "(Int) -> ()"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "userInteractive(_:block:)",
+            "start_line": 485,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 489
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Int",
+              "(Int) -> ()"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "userInitiated(_:block:)",
+            "start_line": 498,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 502
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Int",
+              "(Int) -> ()"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "utility(_:block:)",
+            "start_line": 511,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 515
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Int",
+              "(Int) -> ()"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "background(_:block:)",
+            "start_line": 524,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 528
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "DispatchQueue",
+              "Int",
+              "(Int) -> ()"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 3,
+            "name": "custom(queue:iterations:block:)",
+            "start_line": 537,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 541
+          }
+        ],
+        "name": "Apply",
+        "start_line": 476,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Async-master/Sources/Async.swift",
+        "type": "Apply.Type",
+        "number_of_lines": 67,
+        "end_line": 542
+      },
+      {
+        "number_of_instance_variables": 1,
+        "number_of_methods": 9,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "@convention(block) () -> Void",
+              "GCD"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "async(block:queue:)",
+            "start_line": 615,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 617
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "enter()",
+            "start_line": 624,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 626
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "leave()",
+            "start_line": 633,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 635
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "@convention(block) () -> Void"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "main(_:)",
+            "start_line": 646,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 648
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "@convention(block) () -> Void"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "userInteractive(_:)",
+            "start_line": 656,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 658
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "@convention(block) () -> Void"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "userInitiated(_:)",
+            "start_line": 666,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 668
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "@convention(block) () -> Void"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "utility(_:)",
+            "start_line": 677,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 679
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "@convention(block) () -> Void"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "background(_:)",
+            "start_line": 687,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 689
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "DispatchQueue",
+              "@convention(block) () -> Void"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "custom(queue:block:)",
+            "start_line": 698,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 700
+          }
+        ],
+        "start_line": 589,
+        "number_of_vars": 1,
+        "type": "AsyncGroup.Type",
+        "number_of_lines": 130,
+        "end_line": 718,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "AsyncGroup",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Async-master/Sources/Async.swift",
+        "number_of_nil_coalescing": 1
+      }
+    ],
+    "number_of_methods": 19,
+    "classes": [
+      {
+        "number_of_instance_variables": 1,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 118,
+        "number_of_vars": 1,
+        "type": "Reference.Type",
+        "number_of_lines": 3,
+        "end_line": 120,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "name": "Reference",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Async-master/Sources/Async.swift",
+        "number_of_vars_with_optional_type": 1
+      }
+    ],
+    "number_of_vars": 6,
+    "enums": [
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 6,
+        "number_of_methods": 1,
+        "number_of_constructors": 0,
+        "methods": [
+          {
+            "return_type": "DispatchQueue",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 46,
+            "returns_optional_type": false,
+            "number_of_lines": 10,
+            "end_line": 55
+          }
+        ],
+        "name": "GCD",
+        "start_line": 43,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Async-master/Sources/Async.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 14,
+        "end_line": 56
+      }
+    ],
+    "extensions": [
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 732,
+            "returns_optional_type": false,
+            "number_of_lines": 12,
+            "end_line": 743
+          }
+        ],
+        "name": "qos_class_t",
+        "start_line": 726,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Async-master/Sources/Async.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 20,
+        "end_line": 745
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 756,
+            "returns_optional_type": false,
+            "number_of_lines": 11,
+            "end_line": 766
+          }
+        ],
+        "name": "DispatchQoS.QoSClass",
+        "start_line": 753,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Async-master/Sources/Async.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 16,
+        "end_line": 768
+      }
+    ],
+    "number_of_if_lets": 2,
+    "number_of_forced_unwrappings": 1,
+    "number_of_lets": 12,
+    "number_of_nil_coalescing": 2,
+    "protocols": [],
+    "number_of_vars_with_optional_type": 2
+  }
+}

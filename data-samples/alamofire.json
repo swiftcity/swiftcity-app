@@ -1,0 +1,5684 @@
+{
+  "project": {
+    "number_of_catches": 35,
+    "number_of_methods": 256,
+    "classes": [
+      {
+        "number_of_ifs": 2,
+        "number_of_instance_variables": 33,
+        "number_of_optional_type_casting": 4,
+        "number_of_methods": 11,
+        "methods": [
+          {
+            "return_type": "Void)?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_optional_type_casting": 1,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 113,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 115
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "((URLSession, URLSessionStreamTask) -> Void)?"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 116,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 118
+          },
+          {
+            "return_type": "Void)?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_optional_type_casting": 1,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 124,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 126
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "((URLSession, URLSessionStreamTask) -> Void)?"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 127,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 129
+          },
+          {
+            "return_type": "Void)?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_optional_type_casting": 1,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 135,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 137
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "((URLSession, URLSessionStreamTask) -> Void)?"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 138,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 140
+          },
+          {
+            "return_type": "Void)?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_optional_type_casting": 1,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 146,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 148
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "((URLSession, URLSessionStreamTask, InputStream, OutputStream) -> Void)?"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 149,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 151
+          },
+          {
+            "return_type": "Request?",
+            "parameter_types": [
+              "URLSessionTask"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 171,
+            "returns_optional_type": true,
+            "number_of_lines": 4,
+            "end_line": 174
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Request?",
+              "URLSessionTask"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "self",
+            "start_line": 175,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 178
+          },
+          {
+            "return_type": "Bool",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "Selector"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "responds(to:)",
+            "start_line": 198,
+            "returns_optional_type": false,
+            "number_of_lines": 37,
+            "end_line": 234
+          }
+        ],
+        "start_line": 28,
+        "number_of_vars": 32,
+        "type": "SessionDelegate.Type",
+        "number_of_lines": 208,
+        "end_line": 235,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "name": "SessionDelegate",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/SessionDelegate.swift",
+        "inherits": "NSObject",
+        "number_of_vars_with_optional_type": 31
+      },
+      {
+        "number_of_lets_with_optional_type": 1,
+        "number_of_ifs": 1,
+        "number_of_instance_variables": 12,
+        "number_of_optional_type_casting": 1,
+        "number_of_methods": 10,
+        "methods": [
+          {
+            "return_type": "TaskDelegate",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 91,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 94
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "TaskDelegate"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 95,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 98
+          },
+          {
+            "return_type": "URLSessionTask?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 102,
+            "returns_optional_type": true,
+            "number_of_lines": 1,
+            "end_line": 102
+          },
+          {
+            "return_type": "URLRequest?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 108,
+            "returns_optional_type": true,
+            "number_of_lines": 1,
+            "end_line": 108
+          },
+          {
+            "return_type": "HTTPURLResponse?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_optional_type_casting": 1,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 111,
+            "returns_optional_type": true,
+            "number_of_lines": 1,
+            "end_line": 111
+          },
+          {
+            "return_type": "Self",
+            "parameter_types": [
+              "URLCredential"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "authenticate(usingCredential:)",
+            "start_line": 176,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 179
+          },
+          {
+            "return_type": "String)?",
+            "number_of_guards": 1,
+            "parameter_types": [
+              "String",
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 2,
+            "name": "authorizationHeader(user:password:)",
+            "start_line": 187,
+            "returns_optional_type": true,
+            "number_of_lets": 1,
+            "number_of_lines": 7,
+            "end_line": 193
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "number_of_if_nil": 1,
+            "start_line": 198,
+            "returns_optional_type": false,
+            "number_of_lines": 13,
+            "end_line": 210,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 0,
+            "name": "resume()"
+          },
+          {
+            "return_type": "()",
+            "number_of_guards": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 0,
+            "name": "suspend()",
+            "start_line": 213,
+            "returns_optional_type": false,
+            "number_of_lines": 11,
+            "end_line": 223
+          },
+          {
+            "return_type": "()",
+            "number_of_guards": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 0,
+            "name": "cancel()",
+            "start_line": 226,
+            "returns_optional_type": false,
+            "number_of_lines": 11,
+            "end_line": 236
+          }
+        ],
+        "number_of_if_nil": 1,
+        "start_line": 73,
+        "number_of_vars": 10,
+        "type": "Request.Type",
+        "number_of_lines": 165,
+        "end_line": 237,
+        "number_of_guards": 4,
+        "node_type": "class",
+        "number_of_guard_lets": 4,
+        "number_of_constructors": 1,
+        "name": "Request",
+        "number_of_lets": 4,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Request.swift",
+        "number_of_vars_with_optional_type": 5
+      },
+      {
+        "number_of_instance_variables": 3,
+        "number_of_ifs": 2,
+        "number_of_catches": 1,
+        "number_of_optional_type_casting": 1,
+        "number_of_methods": 5,
+        "methods": [
+          {
+            "return_type": "URLRequest?",
+            "number_of_ifs": 2,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_optional_type_casting": 1,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 369,
+            "returns_optional_type": true,
+            "number_of_lines": 6,
+            "end_line": 374
+          },
+          {
+            "return_type": "Progress",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 377,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 377
+          },
+          {
+            "return_type": "DataTaskDelegate",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 379,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 379,
+            "number_of_forced_type_casting": 1
+          },
+          {
+            "return_type": "Self",
+            "parameter_types": [
+              "DispatchQueue",
+              "Request.ProgressHandler"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "downloadProgress(queue:closure:)",
+            "start_line": 407,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 410
+          }
+        ],
+        "start_line": 349,
+        "number_of_generic_catches": 1,
+        "number_of_vars": 3,
+        "type": "DataRequest.Type",
+        "number_of_lines": 63,
+        "number_of_try": 1,
+        "end_line": 411,
+        "number_of_throws": 1,
+        "number_of_forced_type_casting": 1,
+        "node_type": "class",
+        "number_of_if_lets": 2,
+        "number_of_constructors": 1,
+        "name": "DataRequest",
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Request.swift",
+        "inherits": "TaskConver",
+        "number_of_vars_with_optional_type": 1,
+        "number_of_do_blocks": 1
+      },
+      {
+        "number_of_catches": 1,
+        "number_of_methods": 7,
+        "methods": [
+          {
+            "return_type": "URLRequest?",
+            "number_of_ifs": 2,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_optional_type_casting": 1,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 477,
+            "returns_optional_type": true,
+            "number_of_lines": 9,
+            "end_line": 485
+          },
+          {
+            "return_type": "Data?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 488,
+            "returns_optional_type": true,
+            "number_of_lines": 1,
+            "end_line": 488
+          },
+          {
+            "return_type": "Progress",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 491,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 491
+          },
+          {
+            "return_type": "DownloadTaskDelegate",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 493,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 493,
+            "number_of_forced_type_casting": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "cancel()",
+            "start_line": 498,
+            "returns_optional_type": false,
+            "number_of_lines": 9,
+            "end_line": 506
+          },
+          {
+            "return_type": "Self",
+            "parameter_types": [
+              "DispatchQueue",
+              "Request.ProgressHandler"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "downloadProgress(queue:closure:)",
+            "start_line": 517,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 520
+          }
+        ],
+        "start_line": 416,
+        "number_of_generic_catches": 1,
+        "type": "DownloadRequest.Type",
+        "end_line": 546,
+        "number_of_throws": 1,
+        "node_type": "class",
+        "number_of_if_lets": 2,
+        "number_of_constructors": 1,
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 6,
+        "inherits": "TaskConver",
+        "number_of_do_blocks": 1,
+        "number_of_instance_variables": 4,
+        "number_of_ifs": 3,
+        "number_of_optional_type_casting": 1,
+        "number_of_vars": 4,
+        "number_of_lines": 131,
+        "number_of_try": 1,
+        "number_of_forced_type_casting": 1,
+        "name": "DownloadRequest",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Request.swift",
+        "number_of_vars_with_optional_type": 2
+      },
+      {
+        "number_of_catches": 1,
+        "number_of_methods": 5,
+        "methods": [
+          {
+            "return_type": "URLRequest?",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "number_of_optional_type_casting": 1,
+            "start_line": 586,
+            "returns_optional_type": true,
+            "number_of_lines": 10,
+            "end_line": 595,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_if_lets": 1,
+            "number_of_parameters": 0,
+            "name": "self"
+          },
+          {
+            "return_type": "Progress",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 598,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 598
+          },
+          {
+            "return_type": "UploadTaskDelegate",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 600,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 600,
+            "number_of_forced_type_casting": 1
+          },
+          {
+            "return_type": "Self",
+            "parameter_types": [
+              "DispatchQueue",
+              "Request.ProgressHandler"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "uploadProgress(queue:closure:)",
+            "start_line": 615,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 618
+          }
+        ],
+        "start_line": 551,
+        "number_of_generic_catches": 1,
+        "type": "UploadRequest.Type",
+        "end_line": 619,
+        "number_of_throws": 1,
+        "number_of_guards": 1,
+        "node_type": "class",
+        "number_of_if_lets": 1,
+        "number_of_guard_lets": 1,
+        "number_of_constructors": 1,
+        "number_of_lets": 4,
+        "inherits": "TaskConver",
+        "number_of_do_blocks": 1,
+        "number_of_instance_variables": 3,
+        "number_of_ifs": 1,
+        "number_of_optional_type_casting": 1,
+        "number_of_vars": 3,
+        "number_of_lines": 69,
+        "number_of_try": 3,
+        "number_of_forced_type_casting": 1,
+        "name": "UploadRequest",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Request.swift",
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_instance_variables": 0,
+        "number_of_methods": 1,
+        "methods": [],
+        "start_line": 627,
+        "type": "StreamRequest.Type",
+        "number_of_lines": 19,
+        "end_line": 645,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "name": "StreamRequest",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Request.swift",
+        "inherits": "TaskConver"
+      },
+      {
+        "number_of_catches": 19,
+        "number_of_methods": 16,
+        "methods": [
+          {
+            "return_type": "RequestRetrier?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 137,
+            "returns_optional_type": true,
+            "number_of_lines": 1,
+            "end_line": 137
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "RequestRetrier?"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 138,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 138
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "ServerTrustPolicyManager?"
+            ],
+            "start_line": 198,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 10,
+            "end_line": 207,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 1,
+            "name": "commonInit(serverTrustPolicyManager:)",
+            "number_of_vars_with_optional_type": 1
+          },
+          {
+            "return_type": "DataRequest",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "URLRequestConvertible"
+            ],
+            "number_of_catches": 1,
+            "start_line": 252,
+            "returns_optional_type": false,
+            "number_of_generic_catches": 1,
+            "number_of_vars": 1,
+            "number_of_lines": 19,
+            "number_of_try": 2,
+            "end_line": 270,
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "request(_:)",
+            "number_of_forced_unwrappings": 1,
+            "number_of_lets": 3,
+            "number_of_vars_with_optional_type": 1,
+            "number_of_do_blocks": 1
+          },
+          {
+            "return_type": "DataRequest",
+            "number_of_ifs": 3,
+            "parameter_types": [
+              "URLRequest?",
+              "Error"
+            ],
+            "start_line": 274,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 19,
+            "end_line": 292,
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_parameters": 2,
+            "name": "request(_:failedWith:)",
+            "number_of_lets": 3,
+            "number_of_nil_coalescing": 1
+          },
+          {
+            "return_type": "DownloadRequest",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "DownloadRequest.Downloadable",
+              "DownloadRequest.DownloadFileDestination?"
+            ],
+            "number_of_catches": 1,
+            "start_line": 393,
+            "returns_optional_type": false,
+            "number_of_generic_catches": 1,
+            "number_of_lines": 20,
+            "number_of_try": 1,
+            "end_line": 412,
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "download(_:to:)",
+            "number_of_lets": 2,
+            "number_of_do_blocks": 1
+          },
+          {
+            "return_type": "DownloadRequest",
+            "number_of_ifs": 3,
+            "parameter_types": [
+              "DownloadRequest.Downloadable?",
+              "DownloadRequest.DownloadFileDestination?",
+              "Error"
+            ],
+            "start_line": 414,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 25,
+            "end_line": 438,
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_parameters": 3,
+            "name": "download(_:to:failedWith:)",
+            "number_of_lets": 2,
+            "number_of_nil_coalescing": 1
+          },
+          {
+            "return_type": "UploadRequest",
+            "parameter_types": [
+              "URL",
+              "URLRequestConvertible"
+            ],
+            "number_of_catches": 1,
+            "start_line": 479,
+            "returns_optional_type": false,
+            "number_of_generic_catches": 1,
+            "number_of_lines": 8,
+            "number_of_try": 1,
+            "end_line": 486,
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "upload(_:with:)",
+            "number_of_lets": 1,
+            "number_of_do_blocks": 1
+          },
+          {
+            "return_type": "UploadRequest",
+            "parameter_types": [
+              "Data",
+              "URLRequestConvertible"
+            ],
+            "number_of_catches": 1,
+            "start_line": 525,
+            "returns_optional_type": false,
+            "number_of_generic_catches": 1,
+            "number_of_lines": 8,
+            "number_of_try": 1,
+            "end_line": 532,
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "upload(_:with:)",
+            "number_of_lets": 1,
+            "number_of_do_blocks": 1
+          },
+          {
+            "return_type": "UploadRequest",
+            "parameter_types": [
+              "InputStream",
+              "URLRequestConvertible"
+            ],
+            "number_of_catches": 1,
+            "start_line": 571,
+            "returns_optional_type": false,
+            "number_of_generic_catches": 1,
+            "number_of_lines": 8,
+            "number_of_try": 1,
+            "end_line": 578,
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "upload(_:with:)",
+            "number_of_lets": 1,
+            "number_of_do_blocks": 1
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 3,
+            "parameter_types": [
+              "(MultipartFormData) -> Void",
+              "UInt64",
+              "URLRequestConvertible",
+              "((SessionManager.MultipartFormDataEncodingResult) -> Void)?"
+            ],
+            "number_of_empty_catches": 2,
+            "number_of_catches": 4,
+            "start_line": 652,
+            "returns_optional_type": false,
+            "number_of_generic_catches": 4,
+            "number_of_vars": 3,
+            "number_of_lines": 87,
+            "number_of_try": 6,
+            "end_line": 738,
+            "number_of_throws": 1,
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_parameters": 4,
+            "name": "upload(multipartFormData:usingThreshold:with:encodingCompletion:)",
+            "number_of_lets": 11,
+            "number_of_vars_with_optional_type": 2,
+            "number_of_do_blocks": 4
+          },
+          {
+            "return_type": "UploadRequest",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "UploadRequest.Uploadable"
+            ],
+            "number_of_catches": 1,
+            "start_line": 742,
+            "returns_optional_type": false,
+            "number_of_generic_catches": 1,
+            "number_of_lines": 18,
+            "number_of_try": 1,
+            "end_line": 759,
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "upload(_:)",
+            "number_of_lets": 2,
+            "number_of_do_blocks": 1
+          },
+          {
+            "return_type": "UploadRequest",
+            "number_of_ifs": 3,
+            "parameter_types": [
+              "UploadRequest.Uploadable?",
+              "Error"
+            ],
+            "start_line": 761,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 18,
+            "end_line": 778,
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_parameters": 2,
+            "name": "upload(_:failedWith:)",
+            "number_of_lets": 2,
+            "number_of_nil_coalescing": 1
+          },
+          {
+            "return_type": "StreamRequest",
+            "parameter_types": [
+              "String",
+              "Int"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "stream(withHostName:port:)",
+            "start_line": 796,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 798
+          },
+          {
+            "return_type": "StreamRequest",
+            "parameter_types": [
+              "NetService"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "stream(with:)",
+            "start_line": 811,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 813
+          },
+          {
+            "return_type": "StreamRequest",
+            "number_of_lets_with_optional_type": 7,
+            "number_of_ifs": 5,
+            "parameter_types": [
+              "StreamRequest.Streamable"
+            ],
+            "number_of_catches": 2,
+            "number_of_methods": 0,
+            "start_line": 818,
+            "returns_optional_type": false,
+            "number_of_generic_catches": 2,
+            "number_of_vars": 3,
+            "number_of_lines": 14,
+            "number_of_try": 2,
+            "end_line": 831,
+            "number_of_guards": 4,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_guard_lets": 3,
+            "number_of_parameters": 1,
+            "name": "stream(_:)",
+            "number_of_lets": 15,
+            "number_of_nil_coalescing": 1,
+            "number_of_vars_with_optional_type": 3,
+            "number_of_do_blocks": 2
+          }
+        ],
+        "start_line": 28,
+        "number_of_generic_catches": 19,
+        "type": "SessionManager.Type",
+        "end_line": 887,
+        "number_of_throws": 1,
+        "number_of_guards": 7,
+        "node_type": "class",
+        "number_of_if_lets": 10,
+        "number_of_guard_lets": 5,
+        "number_of_constructors": 3,
+        "number_of_forced_unwrappings": 2,
+        "number_of_lets": 71,
+        "number_of_nil_coalescing": 8,
+        "number_of_do_blocks": 19,
+        "number_of_instance_variables": 10,
+        "number_of_lets_with_optional_type": 7,
+        "number_of_ifs": 22,
+        "number_of_empty_catches": 2,
+        "number_of_optional_type_casting": 4,
+        "number_of_vars": 16,
+        "number_of_lines": 860,
+        "number_of_try": 24,
+        "name": "SessionManager",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/SessionManager.swift",
+        "number_of_vars_with_optional_type": 11
+      },
+      {
+        "number_of_ifs": 5,
+        "number_of_instance_variables": 9,
+        "number_of_methods": 9,
+        "methods": [
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 74,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 74
+          },
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 77,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 77
+          },
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 80,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 80
+          },
+          {
+            "return_type": "NetworkReachabilityManager.NetworkReachabilityStatus",
+            "number_of_guards": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 83,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 86
+          },
+          {
+            "return_type": "SCNetworkReachabilityFlags?",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 94,
+            "returns_optional_type": true,
+            "number_of_vars": 1,
+            "number_of_lines": 9,
+            "end_line": 102
+          },
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "start_line": 154,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 22,
+            "end_line": 175,
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "startListening()",
+            "number_of_forced_unwrappings": 1,
+            "number_of_lets": 3,
+            "number_of_nil_coalescing": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "stopListening()",
+            "start_line": 178,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 181
+          },
+          {
+            "return_type": "()",
+            "number_of_guards": 1,
+            "parameter_types": [
+              "SCNetworkReachabilityFlags"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "notifyListener(_:)",
+            "start_line": 185,
+            "returns_optional_type": false,
+            "number_of_lines": 6,
+            "end_line": 190
+          },
+          {
+            "return_type": "NetworkReachabilityManager.NetworkReachabilityStatus",
+            "number_of_ifs": 4,
+            "number_of_guards": 1,
+            "parameter_types": [
+              "SCNetworkReachabilityFlags"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "networkReachabilityStatusForFlags(_:)",
+            "start_line": 194,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 17,
+            "end_line": 210
+          }
+        ],
+        "start_line": 36,
+        "number_of_vars": 12,
+        "type": "NetworkReachabilityManager.Type",
+        "number_of_lines": 176,
+        "end_line": 211,
+        "number_of_guards": 5,
+        "node_type": "class",
+        "number_of_guard_lets": 3,
+        "number_of_constructors": 3,
+        "name": "NetworkReachabilityManager",
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 4,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/NetworkReachabilityManager.swift",
+        "number_of_nil_coalescing": 1,
+        "number_of_vars_with_optional_type": 2
+      },
+      {
+        "number_of_instance_variables": 1,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "ServerTrustPolicy?",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "serverTrustPolicy(forHost:)",
+            "start_line": 54,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 56
+          }
+        ],
+        "start_line": 28,
+        "type": "ServerTrustPolicyManager.Type",
+        "number_of_lines": 30,
+        "end_line": 57,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "name": "ServerTrustPolicyManager",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ServerTrustPolicy.swift"
+      },
+      {
+        "number_of_catches": 2,
+        "number_of_methods": 28,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 95,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 95
+          },
+          {
+            "return_type": "UInt64",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 98,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 98
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Data",
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "append(_:withName:)",
+            "start_line": 137,
+            "returns_optional_type": false,
+            "number_of_lets": 3,
+            "number_of_lines": 7,
+            "end_line": 143
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Data",
+              "String",
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 3,
+            "name": "append(_:withName:mimeType:)",
+            "start_line": 157,
+            "returns_optional_type": false,
+            "number_of_lets": 3,
+            "number_of_lines": 7,
+            "end_line": 163
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Data",
+              "String",
+              "String",
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 4,
+            "name": "append(_:withName:fileName:mimeType:)",
+            "start_line": 178,
+            "returns_optional_type": false,
+            "number_of_lets": 3,
+            "number_of_lines": 7,
+            "end_line": 184
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "URL",
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "append(_:withName:)",
+            "start_line": 201,
+            "returns_optional_type": false,
+            "number_of_lets": 3,
+            "number_of_lines": 11,
+            "end_line": 211
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "URL",
+              "String",
+              "String",
+              "String"
+            ],
+            "number_of_catches": 2,
+            "number_of_optional_type_casting": 1,
+            "start_line": 226,
+            "returns_optional_type": false,
+            "number_of_generic_catches": 2,
+            "number_of_vars": 1,
+            "number_of_lines": 70,
+            "number_of_try": 2,
+            "end_line": 295,
+            "number_of_guards": 5,
+            "node_type": "method",
+            "number_of_guard_lets": 2,
+            "number_of_parameters": 4,
+            "name": "append(_:withName:fileName:mimeType:)",
+            "number_of_lets": 4,
+            "number_of_do_blocks": 2
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "InputStream",
+              "UInt64",
+              "String",
+              "String",
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 5,
+            "name": "append(_:withLength:name:fileName:mimeType:)",
+            "start_line": 311,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 10,
+            "end_line": 320
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "InputStream",
+              "UInt64",
+              "HTTPHeaders"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 3,
+            "name": "append(_:withLength:headers:)",
+            "start_line": 333,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 4,
+            "end_line": 336
+          },
+          {
+            "return_type": "Data",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "start_line": 349,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 17,
+            "number_of_try": 1,
+            "end_line": 365,
+            "number_of_throws": 1,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 0,
+            "name": "encode()",
+            "number_of_lets": 1
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 3,
+            "parameter_types": [
+              "URL"
+            ],
+            "start_line": 375,
+            "returns_optional_type": false,
+            "number_of_lines": 25,
+            "number_of_try": 1,
+            "end_line": 399,
+            "number_of_throws": 4,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "writeEncodedData(to:)"
+          },
+          {
+            "return_type": "Data",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "MultipartFormData.BodyPart"
+            ],
+            "start_line": 403,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 18,
+            "number_of_try": 1,
+            "end_line": 420,
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "encode(_:)",
+            "number_of_lets": 3
+          },
+          {
+            "return_type": "Data",
+            "parameter_types": [
+              "MultipartFormData.BodyPart"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "encodeHeaders(for:)",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 422,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 10,
+            "end_line": 431
+          },
+          {
+            "return_type": "Data",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "MultipartFormData.BodyPart"
+            ],
+            "start_line": 433,
+            "returns_optional_type": false,
+            "number_of_vars": 2,
+            "number_of_lines": 24,
+            "end_line": 456,
+            "number_of_throws": 1,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "encodeBodyStream(for:)",
+            "number_of_lets": 2
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "MultipartFormData.BodyPart",
+              "OutputStream"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "write(_:to:)",
+            "start_line": 460,
+            "returns_optional_type": false,
+            "number_of_lines": 6,
+            "number_of_try": 4,
+            "end_line": 465
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "MultipartFormData.BodyPart",
+              "OutputStream"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "writeInitialBoundaryData(for:to:)",
+            "start_line": 467,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 4,
+            "number_of_try": 1,
+            "end_line": 470
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "MultipartFormData.BodyPart",
+              "OutputStream"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "writeHeaderData(for:to:)",
+            "start_line": 472,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 4,
+            "number_of_try": 1,
+            "end_line": 475
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 3,
+            "parameter_types": [
+              "MultipartFormData.BodyPart",
+              "OutputStream"
+            ],
+            "start_line": 477,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 25,
+            "number_of_try": 1,
+            "end_line": 501,
+            "number_of_throws": 1,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 2,
+            "name": "writeBodyStream(for:to:)",
+            "number_of_lets": 2
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "MultipartFormData.BodyPart",
+              "OutputStream"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "writeFinalBoundaryData(for:to:)",
+            "start_line": 503,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "number_of_try": 1,
+            "end_line": 507
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Data",
+              "OutputStream"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "write(_:to:)",
+            "start_line": 511,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 6,
+            "number_of_try": 1,
+            "end_line": 516
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "inout [UInt8]",
+              "OutputStream"
+            ],
+            "start_line": 518,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 17,
+            "end_line": 534,
+            "number_of_throws": 1,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 2,
+            "name": "write(_:to:)",
+            "number_of_lets": 1
+          },
+          {
+            "return_type": "String",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "mimeType(forPathExtension:)",
+            "start_line": 538,
+            "returns_optional_type": false,
+            "number_of_lines": 10,
+            "end_line": 547
+          },
+          {
+            "return_type": "Data",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "initialBoundaryData()",
+            "start_line": 563,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 565
+          },
+          {
+            "return_type": "Data",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "encapsulatedBoundaryData()",
+            "start_line": 567,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 569
+          },
+          {
+            "return_type": "Data",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "finalBoundaryData()",
+            "start_line": 571,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 573
+          },
+          {
+            "return_type": "()",
+            "number_of_guards": 1,
+            "parameter_types": [
+              "AFError.MultipartEncodingFailureReason"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "number_of_if_nil": 1,
+            "name": "setBodyPartError(withReason:)",
+            "start_line": 577,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 580
+          }
+        ],
+        "start_line": 45,
+        "number_of_generic_catches": 2,
+        "type": "MultipartFormData.Type",
+        "end_line": 581,
+        "number_of_throws": 8,
+        "number_of_guards": 7,
+        "node_type": "class",
+        "number_of_if_lets": 8,
+        "number_of_guard_lets": 3,
+        "number_of_constructors": 1,
+        "number_of_forced_unwrappings": 2,
+        "number_of_lets": 36,
+        "number_of_do_blocks": 2,
+        "number_of_instance_variables": 6,
+        "number_of_ifs": 17,
+        "number_of_optional_type_casting": 1,
+        "number_of_if_nil": 1,
+        "number_of_vars": 17,
+        "number_of_lines": 537,
+        "number_of_try": 14,
+        "name": "MultipartFormData",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/MultipartFormData.swift",
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_instance_variables": 5,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 78,
+        "number_of_vars": 2,
+        "type": "MultipartFormData.BodyPart.Type",
+        "number_of_lines": 13,
+        "end_line": 90,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "name": "BodyPart",
+        "number_of_lets": 3,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/MultipartFormData.swift"
+      },
+      {
+        "number_of_lets_with_optional_type": 1,
+        "number_of_ifs": 12,
+        "number_of_instance_variables": 11,
+        "number_of_optional_type_casting": 2,
+        "number_of_methods": 7,
+        "methods": [
+          {
+            "return_type": "Data?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 37,
+            "returns_optional_type": true,
+            "number_of_lines": 1,
+            "end_line": 37
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "URLSessionTask?"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 43,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 43
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "reset()",
+            "start_line": 66,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 69
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "URLSession",
+              "URLSessionTask",
+              "HTTPURLResponse",
+              "URLRequest",
+              "(URLRequest?) -> Void"
+            ],
+            "start_line": 79,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 15,
+            "end_line": 93,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 5,
+            "name": "urlSession(_:task:willPerformHTTPRedirection:newRequest:completionHandler:)",
+            "number_of_vars_with_optional_type": 1
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 6,
+            "parameter_types": [
+              "URLSession",
+              "URLSessionTask",
+              "URLAuthenticationChallenge",
+              "(URLSession.AuthChallengeDisposition, URLCredential?) -> Void"
+            ],
+            "number_of_if_nil": 1,
+            "start_line": 96,
+            "returns_optional_type": false,
+            "number_of_vars": 2,
+            "number_of_lines": 39,
+            "end_line": 134,
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_parameters": 4,
+            "name": "urlSession(_:task:didReceive:completionHandler:)",
+            "number_of_lets": 1,
+            "number_of_nil_coalescing": 1,
+            "number_of_vars_with_optional_type": 1
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "URLSession",
+              "URLSessionTask",
+              "(InputStream?) -> Void"
+            ],
+            "start_line": 137,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 13,
+            "end_line": 149,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 3,
+            "name": "urlSession(_:task:needNewBodyStream:)",
+            "number_of_vars_with_optional_type": 1
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 4,
+            "parameter_types": [
+              "URLSession",
+              "URLSessionTask",
+              "Error?"
+            ],
+            "number_of_optional_type_casting": 2,
+            "number_of_if_nil": 1,
+            "start_line": 152,
+            "returns_optional_type": false,
+            "number_of_lines": 18,
+            "end_line": 169,
+            "node_type": "method",
+            "number_of_if_lets": 3,
+            "number_of_parameters": 3,
+            "name": "urlSession(_:task:didCompleteWithError:)"
+          }
+        ],
+        "number_of_if_nil": 2,
+        "start_line": 29,
+        "number_of_vars": 14,
+        "type": "TaskDelegate.Type",
+        "number_of_lines": 142,
+        "end_line": 170,
+        "node_type": "class",
+        "number_of_if_lets": 7,
+        "number_of_constructors": 2,
+        "name": "TaskDelegate",
+        "number_of_lets": 4,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/TaskDelegate.swift",
+        "number_of_nil_coalescing": 1,
+        "inherits": "NSObject",
+        "number_of_vars_with_optional_type": 13
+      },
+      {
+        "number_of_ifs": 7,
+        "number_of_instance_variables": 12,
+        "number_of_methods": 7,
+        "methods": [
+          {
+            "return_type": "URLSessionDataTask",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 178,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 178,
+            "number_of_forced_type_casting": 1
+          },
+          {
+            "return_type": "Data?",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "number_of_if_nil": 1,
+            "name": "self",
+            "start_line": 180,
+            "returns_optional_type": true,
+            "number_of_lines": 7,
+            "end_line": 186
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "reset()",
+            "start_line": 207,
+            "returns_optional_type": false,
+            "number_of_lines": 8,
+            "end_line": 214
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "URLSession",
+              "URLSessionDataTask",
+              "URLResponse",
+              "(URLSession.ResponseDisposition) -> Void"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 4,
+            "name": "urlSession(_:dataTask:didReceive:completionHandler:)",
+            "start_line": 223,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 16,
+            "end_line": 238
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "URLSession",
+              "URLSessionDataTask",
+              "URLSessionDownloadTask"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 3,
+            "name": "urlSession(_:dataTask:didBecome:)",
+            "start_line": 240,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 246
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 4,
+            "parameter_types": [
+              "URLSession",
+              "URLSessionDataTask",
+              "Data"
+            ],
+            "number_of_if_nil": 1,
+            "start_line": 248,
+            "returns_optional_type": false,
+            "number_of_lines": 24,
+            "end_line": 271,
+            "node_type": "method",
+            "number_of_if_lets": 3,
+            "number_of_parameters": 3,
+            "name": "urlSession(_:dataTask:didReceive:)",
+            "number_of_lets": 2,
+            "number_of_nil_coalescing": 1
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "URLSession",
+              "URLSessionDataTask",
+              "CachedURLResponse",
+              "(CachedURLResponse?) -> Void"
+            ],
+            "start_line": 273,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 14,
+            "end_line": 286,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 4,
+            "name": "urlSession(_:dataTask:willCacheResponse:completionHandler:)",
+            "number_of_vars_with_optional_type": 1
+          }
+        ],
+        "number_of_if_nil": 2,
+        "start_line": 174,
+        "number_of_vars": 14,
+        "type": "DataTaskDelegate.Type",
+        "number_of_lines": 114,
+        "end_line": 287,
+        "number_of_forced_type_casting": 1,
+        "node_type": "class",
+        "number_of_if_lets": 5,
+        "number_of_constructors": 1,
+        "name": "DataTaskDelegate",
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/TaskDelegate.swift",
+        "number_of_nil_coalescing": 1,
+        "inherits": "TaskDelega",
+        "number_of_vars_with_optional_type": 9
+      },
+      {
+        "number_of_catches": 1,
+        "number_of_methods": 7,
+        "methods": [
+          {
+            "return_type": "URLSessionDownloadTask",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 295,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 295,
+            "number_of_forced_type_casting": 1
+          },
+          {
+            "return_type": "Data?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 301,
+            "returns_optional_type": true,
+            "number_of_lines": 1,
+            "end_line": 301
+          },
+          {
+            "return_type": "URL?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 308,
+            "returns_optional_type": true,
+            "number_of_lines": 1,
+            "end_line": 308
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "reset()",
+            "start_line": 317,
+            "returns_optional_type": false,
+            "number_of_lines": 6,
+            "end_line": 322
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "URLSession",
+              "URLSessionDownloadTask",
+              "URL"
+            ],
+            "number_of_catches": 1,
+            "number_of_optional_type_casting": 1,
+            "start_line": 330,
+            "returns_optional_type": false,
+            "number_of_generic_catches": 1,
+            "number_of_lines": 33,
+            "number_of_try": 3,
+            "end_line": 362,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 3,
+            "name": "urlSession(_:downloadTask:didFinishDownloadingTo:)",
+            "number_of_lets": 4,
+            "number_of_do_blocks": 1
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 3,
+            "parameter_types": [
+              "URLSession",
+              "URLSessionDownloadTask",
+              "Int64",
+              "Int64",
+              "Int64"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_parameters": 5,
+            "number_of_if_nil": 1,
+            "name": "urlSession(_:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:)",
+            "start_line": 364,
+            "returns_optional_type": false,
+            "number_of_lines": 26,
+            "end_line": 389
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "URLSession",
+              "URLSessionDownloadTask",
+              "Int64",
+              "Int64"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 4,
+            "name": "urlSession(_:downloadTask:didResumeAtOffset:expectedTotalBytes:)",
+            "start_line": 391,
+            "returns_optional_type": false,
+            "number_of_lines": 13,
+            "end_line": 403
+          }
+        ],
+        "start_line": 291,
+        "number_of_generic_catches": 1,
+        "type": "DownloadTaskDelegate.Type",
+        "end_line": 404,
+        "number_of_guards": 1,
+        "node_type": "class",
+        "number_of_if_lets": 3,
+        "number_of_guard_lets": 1,
+        "number_of_constructors": 1,
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 4,
+        "inherits": "TaskDelega",
+        "number_of_do_blocks": 1,
+        "number_of_instance_variables": 12,
+        "number_of_ifs": 6,
+        "number_of_optional_type_casting": 1,
+        "number_of_if_nil": 1,
+        "number_of_vars": 12,
+        "number_of_lines": 114,
+        "number_of_try": 3,
+        "number_of_forced_type_casting": 1,
+        "name": "DownloadTaskDelegate",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/TaskDelegate.swift",
+        "number_of_vars_with_optional_type": 10
+      },
+      {
+        "number_of_ifs": 3,
+        "number_of_instance_variables": 4,
+        "number_of_methods": 3,
+        "methods": [
+          {
+            "return_type": "URLSessionUploadTask",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 412,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 412,
+            "number_of_forced_type_casting": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "reset()",
+            "start_line": 424,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 427
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 3,
+            "parameter_types": [
+              "URLSession",
+              "URLSessionTask",
+              "Int64",
+              "Int64",
+              "Int64"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_parameters": 5,
+            "number_of_if_nil": 1,
+            "name": "URLSession(_:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:)",
+            "start_line": 433,
+            "returns_optional_type": false,
+            "number_of_lines": 20,
+            "end_line": 452
+          }
+        ],
+        "number_of_if_nil": 1,
+        "start_line": 408,
+        "number_of_vars": 4,
+        "type": "UploadTaskDelegate.Type",
+        "number_of_lines": 46,
+        "end_line": 453,
+        "number_of_forced_type_casting": 1,
+        "node_type": "class",
+        "number_of_if_lets": 2,
+        "number_of_constructors": 1,
+        "name": "UploadTaskDelegate",
+        "number_of_forced_unwrappings": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/TaskDelegate.swift",
+        "inherits": "DataTaskDe",
+        "number_of_vars_with_optional_type": 2
+      }
+    ],
+    "number_of_generic_catches": 35,
+    "number_of_throws": 18,
+    "number_of_guards": 65,
+    "enums": [
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 9,
+        "number_of_constructors": 0,
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "HTTPMethod",
+        "start_line": 30,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ParameterEncoding.swift",
+        "number_of_lines": 11,
+        "end_line": 40
+      },
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 3,
+        "number_of_constructors": 0,
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "Destination",
+        "start_line": 81,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ParameterEncoding.swift",
+        "number_of_lines": 3,
+        "end_line": 83
+      },
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 4,
+        "number_of_constructors": 0,
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "RequestTask",
+        "start_line": 80,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Request.swift",
+        "number_of_lines": 6,
+        "end_line": 85
+      },
+      {
+        "number_of_catches": 1,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "URLSessionTask",
+            "parameter_types": [
+              "URLSession",
+              "RequestAdapter?",
+              "DispatchQueue"
+            ],
+            "number_of_catches": 1,
+            "start_line": 455,
+            "returns_optional_type": false,
+            "number_of_generic_catches": 1,
+            "number_of_lines": 17,
+            "number_of_try": 1,
+            "end_line": 471,
+            "number_of_throws": 1,
+            "node_type": "method",
+            "number_of_parameters": 3,
+            "name": "task(session:adapter:queue:)",
+            "number_of_lets": 2,
+            "number_of_do_blocks": 1
+          }
+        ],
+        "start_line": 451,
+        "number_of_generic_catches": 1,
+        "number_of_lines": 22,
+        "number_of_try": 1,
+        "end_line": 472,
+        "number_of_throws": 1,
+        "node_type": "enum",
+        "number_of_enum_cases": 2,
+        "number_of_constructors": 0,
+        "name": "Downloadable",
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Request.swift",
+        "number_of_do_blocks": 1
+      },
+      {
+        "number_of_catches": 1,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "URLSessionTask",
+            "parameter_types": [
+              "URLSession",
+              "RequestAdapter?",
+              "DispatchQueue"
+            ],
+            "number_of_catches": 1,
+            "start_line": 560,
+            "returns_optional_type": false,
+            "number_of_generic_catches": 1,
+            "number_of_lines": 21,
+            "number_of_try": 3,
+            "end_line": 580,
+            "number_of_throws": 1,
+            "node_type": "method",
+            "number_of_parameters": 3,
+            "name": "task(session:adapter:queue:)",
+            "number_of_lets": 4,
+            "number_of_do_blocks": 1
+          }
+        ],
+        "start_line": 555,
+        "number_of_generic_catches": 1,
+        "number_of_lines": 27,
+        "number_of_try": 3,
+        "end_line": 581,
+        "number_of_throws": 1,
+        "node_type": "enum",
+        "number_of_enum_cases": 3,
+        "number_of_constructors": 0,
+        "name": "Uploadable",
+        "number_of_lets": 4,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Request.swift",
+        "number_of_do_blocks": 1
+      },
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 2,
+        "number_of_constructors": 0,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "URLSessionTask",
+            "parameter_types": [
+              "URLSession",
+              "RequestAdapter?",
+              "DispatchQueue"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 3,
+            "name": "task(session:adapter:queue:)",
+            "start_line": 632,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 12,
+            "end_line": 643
+          }
+        ],
+        "name": "Streamable",
+        "start_line": 628,
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Request.swift",
+        "number_of_lines": 17,
+        "end_line": 644
+      },
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 5,
+        "number_of_constructors": 0,
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "AFError",
+        "start_line": 35,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/AFError.swift",
+        "number_of_lines": 99,
+        "end_line": 133
+      },
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 3,
+        "number_of_constructors": 0,
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "ParameterEncodingFailureReason",
+        "start_line": 43,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/AFError.swift",
+        "number_of_lines": 5,
+        "end_line": 47
+      },
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 13,
+        "number_of_constructors": 0,
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "MultipartEncodingFailureReason",
+        "start_line": 74,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/AFError.swift",
+        "number_of_lines": 17,
+        "end_line": 90
+      },
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 5,
+        "number_of_constructors": 0,
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "ResponseValidationFailureReason",
+        "start_line": 101,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/AFError.swift",
+        "number_of_lines": 7,
+        "end_line": 107
+      },
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 7,
+        "number_of_constructors": 0,
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "ResponseSerializationFailureReason",
+        "start_line": 118,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/AFError.swift",
+        "number_of_lines": 9,
+        "end_line": 126
+      },
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 2,
+        "number_of_constructors": 0,
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "MultipartFormDataEncodingResult",
+        "start_line": 39,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/SessionManager.swift",
+        "number_of_lines": 4,
+        "end_line": 42
+      },
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 3,
+        "number_of_constructors": 0,
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "NetworkReachabilityStatus",
+        "start_line": 52,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/NetworkReachabilityManager.swift",
+        "number_of_lines": 5,
+        "end_line": 56
+      },
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 2,
+        "number_of_constructors": 0,
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "ConnectionType",
+        "start_line": 62,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/NetworkReachabilityManager.swift",
+        "number_of_lines": 4,
+        "end_line": 65
+      },
+      {
+        "number_of_ifs": 11,
+        "number_of_methods": 8,
+        "methods": [
+          {
+            "return_type": "[SecCertificate]",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "Bundle"
+            ],
+            "start_line": 122,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 18,
+            "end_line": 139,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "certificates(in:)",
+            "number_of_optional_try": 1,
+            "number_of_lets": 1
+          },
+          {
+            "return_type": "[SecKey]",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "Bundle"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "publicKeys(in:)",
+            "start_line": 146,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 11,
+            "end_line": 156
+          },
+          {
+            "return_type": "Bool",
+            "number_of_ifs": 5,
+            "parameter_types": [
+              "SecTrust",
+              "String"
+            ],
+            "start_line": 166,
+            "returns_optional_type": false,
+            "number_of_vars": 2,
+            "number_of_lines": 59,
+            "end_line": 224,
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "evaluate(_:forHost:)",
+            "number_of_forced_unwrappings": 1,
+            "number_of_lets": 5
+          },
+          {
+            "return_type": "Bool",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "SecTrust"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "trustIsValid(_:)",
+            "start_line": 228,
+            "returns_optional_type": false,
+            "number_of_lets": 3,
+            "number_of_vars": 2,
+            "number_of_lines": 16,
+            "end_line": 243
+          },
+          {
+            "return_type": "[Data]",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "SecTrust"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "certificateData(for:)",
+            "start_line": 247,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 11,
+            "end_line": 257
+          },
+          {
+            "return_type": "[Data]",
+            "parameter_types": [
+              "[SecCertificate]"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "certificateData(for:)",
+            "start_line": 259,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 261
+          },
+          {
+            "return_type": "[SecKey]",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "SecTrust"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "publicKeys(for:)",
+            "start_line": 265,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 14,
+            "end_line": 278
+          },
+          {
+            "return_type": "SecKey?",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "SecCertificate"
+            ],
+            "start_line": 280,
+            "returns_optional_type": true,
+            "number_of_vars": 2,
+            "number_of_lines": 13,
+            "end_line": 292,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "publicKey(for:)",
+            "number_of_lets": 2,
+            "number_of_vars_with_optional_type": 2
+          }
+        ],
+        "start_line": 108,
+        "number_of_vars": 10,
+        "number_of_lines": 186,
+        "end_line": 293,
+        "node_type": "enum",
+        "number_of_if_lets": 5,
+        "number_of_enum_cases": 5,
+        "number_of_constructors": 0,
+        "name": "ServerTrustPolicy",
+        "number_of_forced_unwrappings": 1,
+        "number_of_optional_try": 1,
+        "number_of_lets": 11,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ServerTrustPolicy.swift",
+        "number_of_vars_with_optional_type": 2
+      },
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 3,
+        "number_of_constructors": 0,
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "BoundaryType",
+        "start_line": 54,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/MultipartFormData.swift",
+        "number_of_lines": 3,
+        "end_line": 56
+      },
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 2,
+        "number_of_constructors": 0,
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "ValidationResult",
+        "start_line": 37,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Validation.swift",
+        "number_of_lines": 4,
+        "end_line": 40
+      },
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 2,
+        "number_of_constructors": 0,
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 39,
+            "returns_optional_type": false,
+            "number_of_lines": 8,
+            "end_line": 46
+          },
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 49,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 51
+          },
+          {
+            "return_type": "Value?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 54,
+            "returns_optional_type": true,
+            "number_of_lines": 8,
+            "end_line": 61
+          },
+          {
+            "return_type": "Error?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 64,
+            "returns_optional_type": true,
+            "number_of_lines": 8,
+            "end_line": 71
+          }
+        ],
+        "name": "Result",
+        "start_line": 34,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Result.swift",
+        "number_of_vars": 4,
+        "number_of_lines": 39,
+        "number_of_vars_with_optional_type": 2,
+        "end_line": 72
+      }
+    ],
+    "number_of_if_lets": 101,
+    "number_of_guard_lets": 41,
+    "number_of_forced_unwrappings": 28,
+    "number_of_optional_try": 2,
+    "number_of_lets": 251,
+    "number_of_nil_coalescing": 31,
+    "protocols": [
+      {
+        "node_type": "protocol",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "URLRequest",
+            "parameter_types": [
+              "URLRequestConvertible",
+              "Parameters?"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "encode(_:with:)",
+            "start_line": 57,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 57
+          }
+        ],
+        "name": "ParameterEncoding",
+        "start_line": 48,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ParameterEncoding.swift",
+        "number_of_lines": 11,
+        "end_line": 58
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "URLRequest",
+            "parameter_types": [
+              "URLRequest"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "adapt(_:)",
+            "start_line": 36,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 36
+          }
+        ],
+        "name": "RequestAdapter",
+        "start_line": 28,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Request.swift",
+        "number_of_lines": 10,
+        "end_line": 37
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "SessionManager",
+              "Request",
+              "Error",
+              "RequestRetryCompletion"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 4,
+            "name": "should(_:retry:with:completion:)",
+            "start_line": 57,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 57
+          }
+        ],
+        "name": "RequestRetrier",
+        "start_line": 46,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Request.swift",
+        "number_of_lines": 13,
+        "end_line": 58
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "URLSessionTask",
+            "parameter_types": [
+              "URLSession",
+              "RequestAdapter?",
+              "DispatchQueue"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 3,
+            "name": "task(session:adapter:queue:)",
+            "start_line": 63,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 63
+          }
+        ],
+        "name": "TaskConvertible",
+        "start_line": 62,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Request.swift",
+        "number_of_lines": 3,
+        "end_line": 64
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "Result<Self.SerializedObject>",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 33,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 33
+          }
+        ],
+        "name": "DataResponseSerializerProtocol",
+        "start_line": 28,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ResponseSerialization.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 7,
+        "end_line": 34
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "Result<Self.SerializedObject>",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 64,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 64
+          }
+        ],
+        "name": "DownloadResponseSerializerProtocol",
+        "start_line": 59,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ResponseSerialization.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 7,
+        "end_line": 65
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "URL",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "asURL()",
+            "start_line": 35,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 35
+          }
+        ],
+        "name": "URLConvertible",
+        "start_line": 29,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Alamofire.swift",
+        "number_of_lines": 8,
+        "end_line": 36
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "URLRequest",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "asURLRequest()",
+            "start_line": 76,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 76
+          }
+        ],
+        "name": "URLRequestConvertible",
+        "start_line": 70,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Alamofire.swift",
+        "number_of_lines": 8,
+        "end_line": 77
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 3,
+        "methods": [
+          {
+            "return_type": "AnyObject?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 258,
+            "returns_optional_type": true,
+            "number_of_lines": 1,
+            "end_line": 258
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject?"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 258,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 258
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject?"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "add(_:)",
+            "start_line": 259,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 259
+          }
+        ],
+        "name": "Response",
+        "start_line": 256,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/SessionManager.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 5,
+        "number_of_vars_with_optional_type": 1,
+        "end_line": 260
+      }
+    ],
+    "number_of_do_blocks": 35,
+    "number_of_lets_with_optional_type": 24,
+    "number_of_ifs": 163,
+    "number_of_empty_catches": 2,
+    "structs": [
+      {
+        "number_of_instance_variables": 5,
+        "number_of_ifs": 9,
+        "number_of_optional_type_casting": 4,
+        "number_of_methods": 9,
+        "methods": [
+          {
+            "return_type": "URLEncoding",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 88,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 88
+          },
+          {
+            "return_type": "URLEncoding",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 91,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 91
+          },
+          {
+            "return_type": "URLEncoding",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 94,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 94
+          },
+          {
+            "return_type": "URLEncoding",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 97,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 97
+          },
+          {
+            "return_type": "URLRequest",
+            "number_of_ifs": 3,
+            "parameter_types": [
+              "URLRequestConvertible",
+              "Parameters?"
+            ],
+            "number_of_if_nil": 1,
+            "start_line": 123,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 25,
+            "number_of_try": 1,
+            "end_line": 147,
+            "number_of_throws": 1,
+            "number_of_guards": 2,
+            "node_type": "method",
+            "number_of_guard_lets": 2,
+            "number_of_if_lets": 2,
+            "number_of_parameters": 2,
+            "name": "encode(_:with:)",
+            "number_of_lets": 1,
+            "number_of_nil_coalescing": 2
+          },
+          {
+            "return_type": "String)]",
+            "number_of_ifs": 5,
+            "parameter_types": [
+              "String",
+              "Any"
+            ],
+            "number_of_optional_type_casting": 4,
+            "start_line": 155,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 25,
+            "end_line": 179,
+            "node_type": "method",
+            "number_of_if_lets": 4,
+            "number_of_parameters": 2,
+            "name": "queryComponents(fromKey:value:)"
+          },
+          {
+            "return_type": "String",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "String"
+            ],
+            "start_line": 195,
+            "returns_optional_type": false,
+            "number_of_vars": 3,
+            "number_of_lines": 41,
+            "end_line": 235,
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "escape(_:)",
+            "number_of_lets": 7,
+            "number_of_nil_coalescing": 3
+          },
+          {
+            "return_type": "String",
+            "parameter_types": [
+              "[String : Any]"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "query(_:)",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 237,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_vars": 1,
+            "number_of_lines": 10,
+            "end_line": 246
+          },
+          {
+            "return_type": "Bool",
+            "parameter_types": [
+              "HTTPMethod"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "encodesParametersInURL(with:)",
+            "start_line": 248,
+            "returns_optional_type": false,
+            "number_of_lines": 17,
+            "end_line": 264
+          }
+        ],
+        "number_of_if_nil": 1,
+        "start_line": 70,
+        "number_of_vars": 10,
+        "type": "URLEncoding.Type",
+        "number_of_lines": 196,
+        "number_of_try": 1,
+        "end_line": 265,
+        "number_of_throws": 1,
+        "number_of_guards": 2,
+        "node_type": "struct",
+        "number_of_if_lets": 6,
+        "number_of_guard_lets": 2,
+        "number_of_constructors": 1,
+        "name": "URLEncoding",
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 10,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ParameterEncoding.swift",
+        "number_of_nil_coalescing": 5,
+        "inherits": "ParameterEn"
+      },
+      {
+        "number_of_instance_variables": 3,
+        "number_of_ifs": 2,
+        "number_of_catches": 2,
+        "number_of_methods": 3,
+        "methods": [
+          {
+            "return_type": "JSONEncoding",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 276,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 276
+          },
+          {
+            "return_type": "JSONEncoding",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 279,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 279
+          },
+          {
+            "return_type": "URLRequest",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "URLRequestConvertible",
+              "Parameters?"
+            ],
+            "number_of_catches": 1,
+            "number_of_if_nil": 1,
+            "start_line": 305,
+            "returns_optional_type": false,
+            "number_of_generic_catches": 1,
+            "number_of_vars": 1,
+            "number_of_lines": 19,
+            "number_of_try": 2,
+            "end_line": 323,
+            "number_of_throws": 1,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 2,
+            "name": "encode(_:with:)",
+            "number_of_lets": 1,
+            "number_of_do_blocks": 1
+          }
+        ],
+        "number_of_if_nil": 2,
+        "start_line": 271,
+        "number_of_generic_catches": 2,
+        "number_of_vars": 4,
+        "type": "JSONEncoding.Type",
+        "number_of_lines": 82,
+        "number_of_try": 4,
+        "end_line": 352,
+        "number_of_throws": 2,
+        "number_of_guards": 2,
+        "node_type": "struct",
+        "number_of_guard_lets": 2,
+        "number_of_constructors": 1,
+        "name": "JSONEncoding",
+        "number_of_lets": 3,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ParameterEncoding.swift",
+        "inherits": "ParameterEn",
+        "number_of_do_blocks": 2
+      },
+      {
+        "number_of_instance_variables": 5,
+        "number_of_ifs": 1,
+        "number_of_catches": 1,
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "PropertyListEncoding",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 364,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 364
+          },
+          {
+            "return_type": "PropertyListEncoding",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 367,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 367
+          },
+          {
+            "return_type": "PropertyListEncoding",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 370,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 370
+          },
+          {
+            "return_type": "URLRequest",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "URLRequestConvertible",
+              "Parameters?"
+            ],
+            "number_of_catches": 1,
+            "number_of_if_nil": 1,
+            "start_line": 404,
+            "returns_optional_type": false,
+            "number_of_generic_catches": 1,
+            "number_of_vars": 1,
+            "number_of_lines": 23,
+            "number_of_try": 2,
+            "end_line": 426,
+            "number_of_throws": 1,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 2,
+            "name": "encode(_:with:)",
+            "number_of_lets": 1,
+            "number_of_do_blocks": 1
+          }
+        ],
+        "number_of_if_nil": 1,
+        "start_line": 359,
+        "number_of_generic_catches": 1,
+        "number_of_vars": 4,
+        "type": "PropertyListEncoding.Type",
+        "number_of_lines": 69,
+        "number_of_try": 2,
+        "end_line": 427,
+        "number_of_throws": 1,
+        "number_of_guards": 1,
+        "node_type": "struct",
+        "number_of_guard_lets": 1,
+        "number_of_constructors": 1,
+        "name": "PropertyListEncoding",
+        "number_of_lets": 3,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ParameterEncoding.swift",
+        "inherits": "ParameterEn",
+        "number_of_do_blocks": 1
+      },
+      {
+        "number_of_instance_variables": 8,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 28,
+        "type": "Timeline.Type",
+        "number_of_lines": 52,
+        "end_line": 79,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "Timeline",
+        "number_of_lets": 8,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Timeline.swift"
+      },
+      {
+        "number_of_instance_variables": 1,
+        "number_of_catches": 1,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "URLSessionTask",
+            "parameter_types": [
+              "URLSession",
+              "RequestAdapter?",
+              "DispatchQueue"
+            ],
+            "number_of_catches": 1,
+            "start_line": 356,
+            "returns_optional_type": false,
+            "number_of_generic_catches": 1,
+            "number_of_lines": 8,
+            "number_of_try": 1,
+            "end_line": 363,
+            "number_of_throws": 1,
+            "node_type": "method",
+            "number_of_parameters": 3,
+            "name": "task(session:adapter:queue:)",
+            "number_of_lets": 1,
+            "number_of_do_blocks": 1
+          }
+        ],
+        "start_line": 353,
+        "number_of_generic_catches": 1,
+        "type": "DataRequest.Requestable.Type",
+        "number_of_lines": 12,
+        "number_of_try": 1,
+        "end_line": 364,
+        "number_of_throws": 1,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "Requestable",
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Request.swift",
+        "inherits": "TaskConvert",
+        "number_of_do_blocks": 1
+      },
+      {
+        "number_of_instance_variables": 3,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 422,
+        "type": "DownloadRequest.DownloadOptions.Type",
+        "number_of_lines": 19,
+        "end_line": 440,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "DownloadOptions",
+        "number_of_lets": 3,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Request.swift",
+        "inherits": "OptionSet"
+      },
+      {
+        "number_of_instance_variables": 1,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 39,
+        "number_of_vars": 1,
+        "type": "DataResponseSerializer.Type",
+        "number_of_lines": 16,
+        "end_line": 54,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "DataResponseSerializer",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ResponseSerialization.swift",
+        "inherits": "DataRespons"
+      },
+      {
+        "number_of_instance_variables": 1,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 70,
+        "number_of_vars": 1,
+        "type": "DownloadResponseSerializer.Type",
+        "number_of_lines": 16,
+        "end_line": 85,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "DownloadResponseSerializer",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ResponseSerialization.swift",
+        "inherits": "DownloadRes"
+      },
+      {
+        "number_of_instance_variables": 1,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 137,
+        "type": "AdaptError.Type",
+        "number_of_lines": 3,
+        "end_line": 139,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "AdaptError",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/AFError.swift",
+        "inherits": "Error\n    ("
+      },
+      {
+        "number_of_lets_with_optional_type": 4,
+        "number_of_instance_variables": 4,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 28,
+        "number_of_vars": 1,
+        "type": "DefaultDataResponse.Type",
+        "number_of_lines": 26,
+        "end_line": 53,
+        "node_type": "struct",
+        "number_of_constructors": 0,
+        "name": "DefaultDataResponse",
+        "number_of_lets": 5,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/SessionManager.swift",
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_lets_with_optional_type": 3,
+        "number_of_instance_variables": 6,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 58,
+        "number_of_vars": 1,
+        "type": "DataResponse.Type",
+        "number_of_lines": 41,
+        "end_line": 98,
+        "node_type": "struct",
+        "number_of_constructors": 0,
+        "name": "DataResponse",
+        "number_of_lets": 5,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/SessionManager.swift",
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_lets_with_optional_type": 6,
+        "number_of_instance_variables": 8,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 127,
+        "number_of_vars": 1,
+        "type": "DefaultDownloadResponse.Type",
+        "number_of_lines": 42,
+        "end_line": 168,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "DefaultDownloadResponse",
+        "number_of_lets": 7,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/SessionManager.swift",
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_lets_with_optional_type": 5,
+        "number_of_instance_variables": 8,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 173,
+        "number_of_vars": 1,
+        "type": "DownloadResponse.Type",
+        "number_of_lines": 53,
+        "end_line": 225,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "DownloadResponse",
+        "number_of_lets": 7,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/SessionManager.swift",
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_instance_variables": 1,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 62,
+        "number_of_vars": 1,
+        "type": "URLSession.AssociatedKeys.Type",
+        "number_of_lines": 3,
+        "end_line": 64,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "AssociatedKeys",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ServerTrustPolicy.swift"
+      },
+      {
+        "number_of_instance_variables": 1,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 49,
+        "type": "MultipartFormData.EncodingCharacters.Type",
+        "number_of_lines": 3,
+        "end_line": 51,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "EncodingCharacters",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/MultipartFormData.swift"
+      },
+      {
+        "number_of_instance_variables": 0,
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "randomBoundary()",
+            "start_line": 58,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 60
+          },
+          {
+            "return_type": "Data",
+            "parameter_types": [
+              "MultipartFormData.BoundaryGenerator.BoundaryType",
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "boundaryData(forBoundaryType:boundary:)",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 62,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 14,
+            "end_line": 75
+          }
+        ],
+        "start_line": 53,
+        "type": "MultipartFormData.BoundaryGenerator.Type",
+        "number_of_lines": 24,
+        "end_line": 76,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "BoundaryGenerator",
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/MultipartFormData.swift"
+      },
+      {
+        "number_of_ifs": 1,
+        "number_of_instance_variables": 3,
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 46,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 46
+          },
+          {
+            "return_type": "Bool",
+            "parameter_types": [
+              "Request.MIMEType"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "matches(_:)",
+            "start_line": 63,
+            "returns_optional_type": false,
+            "number_of_lines": 8,
+            "end_line": 70
+          }
+        ],
+        "start_line": 42,
+        "number_of_vars": 1,
+        "type": "Request.MIMEType.Type",
+        "number_of_lines": 30,
+        "end_line": 71,
+        "node_type": "struct",
+        "number_of_if_lets": 1,
+        "number_of_constructors": 1,
+        "name": "MIMEType",
+        "number_of_lets": 5,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Validation.swift",
+        "number_of_nil_coalescing": 1
+      },
+      {
+        "number_of_instance_variables": 4,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 29,
+        "type": "NSNotification.Name.Task.Type",
+        "number_of_lines": 13,
+        "end_line": 41,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "Task",
+        "number_of_lets": 4,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Notifications.swift"
+      },
+      {
+        "number_of_instance_variables": 1,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 48,
+        "type": "Notification.Key.Type",
+        "number_of_lines": 4,
+        "end_line": 51,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "Key",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Notifications.swift"
+      }
+    ],
+    "number_of_optional_type_casting": 33,
+    "number_of_if_nil": 30,
+    "number_of_vars": 252,
+    "number_of_try": 62,
+    "number_of_forced_type_casting": 6,
+    "extensions": [
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 432,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 432
+          }
+        ],
+        "name": "NSNumber",
+        "start_line": 431,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ParameterEncoding.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 3,
+        "end_line": 433
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 86,
+            "returns_optional_type": false,
+            "number_of_lets": 5,
+            "number_of_lines": 17,
+            "end_line": 102
+          }
+        ],
+        "name": "Timeline",
+        "start_line": 83,
+        "number_of_lets": 5,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Timeline.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 21,
+        "end_line": 103
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 111,
+            "returns_optional_type": false,
+            "number_of_lets": 9,
+            "number_of_lines": 25,
+            "end_line": 135
+          }
+        ],
+        "name": "Timeline",
+        "start_line": 107,
+        "number_of_lets": 9,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Timeline.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 30,
+        "end_line": 136
+      },
+      {
+        "number_of_ifs": 4,
+        "number_of_methods": 3,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "URLSession",
+              "Error?"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "urlSession(_:didBecomeInvalidWithError:)",
+            "start_line": 244,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 246
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 4,
+            "parameter_types": [
+              "URLSession",
+              "URLAuthenticationChallenge",
+              "(URLSession.AuthChallengeDisposition, URLCredential?) -> Void"
+            ],
+            "number_of_if_nil": 1,
+            "start_line": 255,
+            "returns_optional_type": false,
+            "number_of_vars": 2,
+            "number_of_lines": 33,
+            "end_line": 287,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_parameters": 3,
+            "name": "urlSession(_:didReceive:completionHandler:)",
+            "number_of_lets": 1,
+            "number_of_vars_with_optional_type": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "URLSession"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "urlSessionDidFinishEvents(forBackgroundURLSession:)",
+            "start_line": 294,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 296
+          }
+        ],
+        "number_of_if_nil": 1,
+        "start_line": 239,
+        "number_of_vars": 2,
+        "number_of_lines": 61,
+        "end_line": 299,
+        "number_of_guards": 1,
+        "node_type": "extension",
+        "number_of_if_lets": 2,
+        "name": "SessionDelegate",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/SessionDelegate.swift",
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_ifs": 12,
+        "number_of_optional_type_casting": 1,
+        "number_of_methods": 6,
+        "methods": [
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "URLSession",
+              "URLSessionTask",
+              "HTTPURLResponse",
+              "URLRequest",
+              "(URLRequest?) -> Void"
+            ],
+            "number_of_if_nil": 1,
+            "start_line": 313,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 20,
+            "end_line": 332,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 5,
+            "name": "urlSession(_:task:willPerformHTTPRedirection:newRequest:completionHandler:)",
+            "number_of_vars_with_optional_type": 1
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "URLSession",
+              "URLSessionTask",
+              "URLAuthenticationChallenge",
+              "(URLSession.AuthChallengeDisposition, URLCredential?) -> Void"
+            ],
+            "number_of_if_nil": 1,
+            "start_line": 341,
+            "returns_optional_type": false,
+            "number_of_lines": 25,
+            "end_line": 365,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_parameters": 4,
+            "name": "urlSession(_:task:didReceive:completionHandler:)",
+            "number_of_lets": 1
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "URLSession",
+              "URLSessionTask",
+              "(InputStream?) -> Void"
+            ],
+            "number_of_if_nil": 1,
+            "start_line": 372,
+            "returns_optional_type": false,
+            "number_of_lines": 16,
+            "end_line": 387,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_parameters": 3,
+            "name": "urlSession(_:task:needNewBodyStream:)"
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "URLSession",
+              "URLSessionTask",
+              "Int64",
+              "Int64",
+              "Int64"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_optional_type_casting": 1,
+            "number_of_parameters": 5,
+            "name": "urlSession(_:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:)",
+            "start_line": 396,
+            "returns_optional_type": false,
+            "number_of_lines": 19,
+            "end_line": 414
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "URLSession",
+              "URLSessionTask",
+              "URLSessionTaskMetrics"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 3,
+            "name": "urlSession(_:task:didFinishCollecting:)",
+            "start_line": 425,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 427
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 5,
+            "parameter_types": [
+              "URLSession",
+              "URLSessionTask",
+              "Error?"
+            ],
+            "number_of_if_nil": 1,
+            "start_line": 436,
+            "returns_optional_type": false,
+            "number_of_vars": 4,
+            "number_of_lines": 58,
+            "end_line": 493,
+            "number_of_guards": 4,
+            "node_type": "method",
+            "number_of_guard_lets": 3,
+            "number_of_if_lets": 5,
+            "number_of_parameters": 3,
+            "name": "urlSession(_:task:didCompleteWithError:)",
+            "number_of_lets": 2,
+            "number_of_nil_coalescing": 1,
+            "number_of_vars_with_optional_type": 4
+          }
+        ],
+        "number_of_if_nil": 4,
+        "start_line": 303,
+        "number_of_vars": 5,
+        "number_of_lines": 192,
+        "end_line": 494,
+        "number_of_guards": 7,
+        "node_type": "extension",
+        "number_of_guard_lets": 3,
+        "number_of_if_lets": 12,
+        "name": "SessionDelegate",
+        "number_of_lets": 3,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/SessionDelegate.swift",
+        "number_of_nil_coalescing": 1,
+        "number_of_vars_with_optional_type": 5
+      },
+      {
+        "number_of_ifs": 6,
+        "number_of_optional_type_casting": 2,
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "URLSession",
+              "URLSessionDataTask",
+              "URLResponse",
+              "(URLSession.ResponseDisposition) -> Void"
+            ],
+            "number_of_if_nil": 1,
+            "start_line": 507,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 19,
+            "end_line": 525,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 4,
+            "name": "urlSession(_:dataTask:didReceive:completionHandler:)"
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "URLSession",
+              "URLSessionDataTask",
+              "URLSessionDownloadTask"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 3,
+            "name": "urlSession(_:dataTask:didBecome:)",
+            "start_line": 532,
+            "returns_optional_type": false,
+            "number_of_lines": 11,
+            "end_line": 542
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "URLSession",
+              "URLSessionDataTask",
+              "Data"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_optional_type_casting": 1,
+            "number_of_parameters": 3,
+            "name": "urlSession(_:dataTask:didReceive:)",
+            "start_line": 549,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 555
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "URLSession",
+              "URLSessionDataTask",
+              "CachedURLResponse",
+              "(CachedURLResponse?) -> Void"
+            ],
+            "number_of_optional_type_casting": 1,
+            "number_of_if_nil": 1,
+            "start_line": 568,
+            "returns_optional_type": false,
+            "number_of_lines": 24,
+            "end_line": 591,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_parameters": 4,
+            "name": "urlSession(_:dataTask:willCacheResponse:completionHandler:)"
+          }
+        ],
+        "number_of_if_nil": 2,
+        "start_line": 498,
+        "number_of_vars": 1,
+        "number_of_lines": 95,
+        "end_line": 592,
+        "number_of_guards": 2,
+        "node_type": "extension",
+        "number_of_if_lets": 6,
+        "name": "SessionDelegate",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/SessionDelegate.swift"
+      },
+      {
+        "number_of_ifs": 6,
+        "node_type": "extension",
+        "number_of_if_lets": 6,
+        "number_of_optional_type_casting": 3,
+        "number_of_methods": 3,
+        "methods": [
+          {
+            "return_type": "()",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "URLSession",
+              "URLSessionDownloadTask",
+              "URL"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_optional_type_casting": 1,
+            "number_of_parameters": 3,
+            "name": "urlSession(_:downloadTask:didFinishDownloadingTo:)",
+            "start_line": 604,
+            "returns_optional_type": false,
+            "number_of_lines": 11,
+            "end_line": 614
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "URLSession",
+              "URLSessionDownloadTask",
+              "Int64",
+              "Int64",
+              "Int64"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_optional_type_casting": 1,
+            "number_of_parameters": 5,
+            "name": "urlSession(_:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:)",
+            "start_line": 626,
+            "returns_optional_type": false,
+            "number_of_lines": 19,
+            "end_line": 644
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "URLSession",
+              "URLSessionDownloadTask",
+              "Int64",
+              "Int64"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_optional_type_casting": 1,
+            "number_of_parameters": 4,
+            "name": "urlSession(_:downloadTask:didResumeAtOffset:expectedTotalBytes:)",
+            "start_line": 656,
+            "returns_optional_type": false,
+            "number_of_lines": 17,
+            "end_line": 672
+          }
+        ],
+        "name": "SessionDelegate",
+        "start_line": 596,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/SessionDelegate.swift",
+        "number_of_lines": 78,
+        "end_line": 673
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "URLSession",
+              "URLSessionStreamTask"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "urlSession(_:readClosedFor:)",
+            "start_line": 685,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 687
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "URLSession",
+              "URLSessionStreamTask"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "urlSession(_:writeClosedFor:)",
+            "start_line": 693,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 695
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "URLSession",
+              "URLSessionStreamTask"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "urlSession(_:betterRouteDiscoveredFor:)",
+            "start_line": 701,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 703
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "URLSession",
+              "URLSessionStreamTask",
+              "InputStream",
+              "OutputStream"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 4,
+            "name": "urlSession(_:streamTask:didBecome:outputStream:)",
+            "start_line": 711,
+            "returns_optional_type": false,
+            "number_of_lines": 8,
+            "end_line": 718
+          }
+        ],
+        "name": "SessionDelegate",
+        "start_line": 680,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/SessionDelegate.swift",
+        "number_of_lines": 40,
+        "end_line": 719
+      },
+      {
+        "number_of_ifs": 3,
+        "node_type": "extension",
+        "number_of_if_lets": 3,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "number_of_ifs": 3,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_if_lets": 3,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 244,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 17,
+            "end_line": 260
+          }
+        ],
+        "name": "Request",
+        "start_line": 241,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Request.swift",
+        "number_of_vars": 2,
+        "number_of_lines": 21,
+        "end_line": 261
+      },
+      {
+        "number_of_ifs": 9,
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 267,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 269
+          },
+          {
+            "return_type": "String",
+            "number_of_ifs": 9,
+            "parameter_types": [],
+            "start_line": 271,
+            "returns_optional_type": false,
+            "number_of_vars": 3,
+            "number_of_lines": 73,
+            "end_line": 343,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_if_lets": 8,
+            "number_of_parameters": 0,
+            "name": "cURLRepresentation()",
+            "number_of_forced_unwrappings": 4,
+            "number_of_lets": 2,
+            "number_of_nil_coalescing": 1
+          }
+        ],
+        "start_line": 265,
+        "number_of_vars": 4,
+        "number_of_lines": 80,
+        "end_line": 344,
+        "number_of_guards": 1,
+        "node_type": "extension",
+        "number_of_guard_lets": 1,
+        "number_of_if_lets": 8,
+        "name": "Request",
+        "number_of_forced_unwrappings": 4,
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Request.swift",
+        "number_of_nil_coalescing": 1
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "Timeline",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 90,
+            "returns_optional_type": false,
+            "number_of_lets": 2,
+            "number_of_nil_coalescing": 3,
+            "number_of_lines": 11,
+            "end_line": 100
+          }
+        ],
+        "name": "Request",
+        "start_line": 89,
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ResponseSerialization.swift",
+        "number_of_vars": 1,
+        "number_of_nil_coalescing": 3,
+        "number_of_lines": 13,
+        "end_line": 101
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "DataRequest",
+        "start_line": 105,
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ResponseSerialization.swift",
+        "number_of_vars": 2,
+        "number_of_nil_coalescing": 2,
+        "number_of_lines": 67,
+        "end_line": 171
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "DownloadRequest",
+        "start_line": 173,
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ResponseSerialization.swift",
+        "number_of_vars": 2,
+        "number_of_nil_coalescing": 2,
+        "number_of_lines": 75,
+        "end_line": 247
+      },
+      {
+        "number_of_ifs": 1,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "Result<Data>",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "HTTPURLResponse?",
+              "Data?",
+              "Error?"
+            ],
+            "number_of_if_nil": 1,
+            "start_line": 259,
+            "returns_optional_type": false,
+            "number_of_lines": 11,
+            "end_line": 269,
+            "number_of_guards": 2,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_if_lets": 1,
+            "number_of_parameters": 3,
+            "name": "serializeResponseData(response:data:error:)",
+            "number_of_forced_unwrappings": 1
+          }
+        ],
+        "number_of_if_nil": 1,
+        "start_line": 251,
+        "number_of_lines": 20,
+        "end_line": 270,
+        "number_of_guards": 2,
+        "node_type": "extension",
+        "number_of_guard_lets": 1,
+        "number_of_if_lets": 1,
+        "name": "Request",
+        "number_of_forced_unwrappings": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ResponseSerialization.swift"
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "DataResponseSerializer<Data>",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "dataResponseSerializer()",
+            "start_line": 276,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 280
+          }
+        ],
+        "name": "DataRequest",
+        "start_line": 272,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ResponseSerialization.swift",
+        "number_of_lines": 28,
+        "end_line": 299
+      },
+      {
+        "number_of_catches": 1,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "DownloadResponseSerializer<Data>",
+            "parameter_types": [],
+            "number_of_catches": 1,
+            "number_of_if_nil": 1,
+            "start_line": 305,
+            "returns_optional_type": false,
+            "number_of_generic_catches": 1,
+            "number_of_lines": 16,
+            "number_of_try": 1,
+            "end_line": 320,
+            "number_of_guards": 2,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 0,
+            "name": "dataResponseSerializer()",
+            "number_of_forced_unwrappings": 1,
+            "number_of_lets": 1,
+            "number_of_do_blocks": 1
+          }
+        ],
+        "number_of_if_nil": 1,
+        "start_line": 301,
+        "number_of_generic_catches": 1,
+        "number_of_lines": 39,
+        "number_of_try": 1,
+        "end_line": 339,
+        "number_of_guards": 2,
+        "node_type": "extension",
+        "number_of_guard_lets": 1,
+        "name": "DownloadRequest",
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ResponseSerialization.swift",
+        "number_of_do_blocks": 1
+      },
+      {
+        "number_of_ifs": 3,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "Result<String>",
+            "number_of_ifs": 3,
+            "parameter_types": [
+              "String.Encoding?",
+              "HTTPURLResponse?",
+              "Data?",
+              "Error?"
+            ],
+            "number_of_if_nil": 2,
+            "start_line": 353,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 31,
+            "end_line": 383,
+            "number_of_guards": 2,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_if_lets": 3,
+            "number_of_parameters": 4,
+            "name": "serializeResponseString(encoding:response:data:error:)",
+            "number_of_forced_unwrappings": 1,
+            "number_of_lets": 1,
+            "number_of_nil_coalescing": 1,
+            "number_of_vars_with_optional_type": 1
+          }
+        ],
+        "number_of_if_nil": 2,
+        "start_line": 343,
+        "number_of_vars": 1,
+        "number_of_lines": 42,
+        "end_line": 384,
+        "number_of_guards": 2,
+        "node_type": "extension",
+        "number_of_guard_lets": 1,
+        "number_of_if_lets": 3,
+        "name": "Request",
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ResponseSerialization.swift",
+        "number_of_nil_coalescing": 1,
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "DataRequest",
+        "start_line": 386,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ResponseSerialization.swift",
+        "number_of_lines": 36,
+        "end_line": 421
+      },
+      {
+        "number_of_catches": 1,
+        "number_of_methods": 0,
+        "methods": [],
+        "number_of_if_nil": 1,
+        "start_line": 423,
+        "number_of_generic_catches": 1,
+        "number_of_lines": 47,
+        "number_of_try": 1,
+        "end_line": 469,
+        "number_of_guards": 2,
+        "node_type": "extension",
+        "number_of_guard_lets": 1,
+        "name": "DownloadRequest",
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ResponseSerialization.swift",
+        "number_of_do_blocks": 1
+      },
+      {
+        "number_of_ifs": 1,
+        "number_of_catches": 1,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "Result<Any>",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "JSONSerialization.ReadingOptions",
+              "HTTPURLResponse?",
+              "Data?",
+              "Error?"
+            ],
+            "number_of_catches": 1,
+            "number_of_if_nil": 1,
+            "start_line": 483,
+            "returns_optional_type": false,
+            "number_of_generic_catches": 1,
+            "number_of_lines": 22,
+            "number_of_try": 1,
+            "end_line": 504,
+            "number_of_guards": 2,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_if_lets": 1,
+            "number_of_parameters": 4,
+            "name": "serializeResponseJSON(options:response:data:error:)",
+            "number_of_forced_unwrappings": 1,
+            "number_of_lets": 1,
+            "number_of_do_blocks": 1
+          }
+        ],
+        "number_of_if_nil": 1,
+        "start_line": 473,
+        "number_of_generic_catches": 1,
+        "number_of_lines": 33,
+        "number_of_try": 1,
+        "end_line": 505,
+        "number_of_guards": 2,
+        "node_type": "extension",
+        "number_of_guard_lets": 1,
+        "number_of_if_lets": 1,
+        "name": "Request",
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ResponseSerialization.swift",
+        "number_of_do_blocks": 1
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "DataRequest",
+        "start_line": 507,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ResponseSerialization.swift",
+        "number_of_lines": 36,
+        "end_line": 542
+      },
+      {
+        "number_of_catches": 1,
+        "number_of_methods": 0,
+        "methods": [],
+        "number_of_if_nil": 1,
+        "start_line": 544,
+        "number_of_generic_catches": 1,
+        "number_of_lines": 47,
+        "number_of_try": 1,
+        "end_line": 590,
+        "number_of_guards": 2,
+        "node_type": "extension",
+        "number_of_guard_lets": 1,
+        "name": "DownloadRequest",
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ResponseSerialization.swift",
+        "number_of_do_blocks": 1
+      },
+      {
+        "number_of_ifs": 1,
+        "number_of_catches": 1,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "Result<Any>",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "PropertyListSerialization.ReadOptions",
+              "HTTPURLResponse?",
+              "Data?",
+              "Error?"
+            ],
+            "number_of_catches": 1,
+            "number_of_if_nil": 1,
+            "start_line": 604,
+            "returns_optional_type": false,
+            "number_of_generic_catches": 1,
+            "number_of_lines": 22,
+            "number_of_try": 1,
+            "end_line": 625,
+            "number_of_guards": 2,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_if_lets": 1,
+            "number_of_parameters": 4,
+            "name": "serializeResponsePropertyList(options:response:data:error:)",
+            "number_of_forced_unwrappings": 1,
+            "number_of_lets": 1,
+            "number_of_do_blocks": 1
+          }
+        ],
+        "number_of_if_nil": 1,
+        "start_line": 594,
+        "number_of_generic_catches": 1,
+        "number_of_lines": 33,
+        "number_of_try": 1,
+        "end_line": 626,
+        "number_of_guards": 2,
+        "node_type": "extension",
+        "number_of_guard_lets": 1,
+        "number_of_if_lets": 1,
+        "name": "Request",
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ResponseSerialization.swift",
+        "number_of_do_blocks": 1
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "DataResponseSerializer<Any>",
+            "parameter_types": [
+              "PropertyListSerialization.ReadOptions"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "propertyListResponseSerializer(options:)",
+            "start_line": 635,
+            "returns_optional_type": false,
+            "number_of_lines": 8,
+            "end_line": 642
+          }
+        ],
+        "name": "DataRequest",
+        "start_line": 628,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ResponseSerialization.swift",
+        "number_of_lines": 36,
+        "end_line": 663
+      },
+      {
+        "number_of_catches": 1,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "DownloadResponseSerializer<Any>",
+            "parameter_types": [
+              "PropertyListSerialization.ReadOptions"
+            ],
+            "number_of_catches": 1,
+            "number_of_if_nil": 1,
+            "start_line": 672,
+            "returns_optional_type": false,
+            "number_of_generic_catches": 1,
+            "number_of_lines": 19,
+            "number_of_try": 1,
+            "end_line": 690,
+            "number_of_guards": 2,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 1,
+            "name": "propertyListResponseSerializer(options:)",
+            "number_of_forced_unwrappings": 1,
+            "number_of_lets": 1,
+            "number_of_do_blocks": 1
+          }
+        ],
+        "number_of_if_nil": 1,
+        "start_line": 665,
+        "number_of_generic_catches": 1,
+        "number_of_lines": 47,
+        "number_of_try": 1,
+        "end_line": 711,
+        "number_of_guards": 2,
+        "node_type": "extension",
+        "number_of_guard_lets": 1,
+        "name": "DownloadRequest",
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ResponseSerialization.swift",
+        "number_of_do_blocks": 1
+      },
+      {
+        "number_of_guards": 1,
+        "node_type": "extension",
+        "number_of_guard_lets": 1,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "URL",
+            "number_of_guards": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 0,
+            "name": "asURL()",
+            "start_line": 44,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 47,
+            "number_of_throws": 1
+          }
+        ],
+        "name": "String",
+        "start_line": 38,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Alamofire.swift",
+        "number_of_lines": 11,
+        "end_line": 48,
+        "number_of_throws": 1
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "URL",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "asURL()",
+            "start_line": 52,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 52
+          }
+        ],
+        "name": "URL",
+        "start_line": 50,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Alamofire.swift",
+        "number_of_lines": 4,
+        "end_line": 53
+      },
+      {
+        "number_of_guards": 1,
+        "node_type": "extension",
+        "number_of_guard_lets": 1,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "URL",
+            "number_of_guards": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 0,
+            "name": "asURL()",
+            "start_line": 61,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 64,
+            "number_of_throws": 1
+          }
+        ],
+        "name": "URLComponents",
+        "start_line": 55,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Alamofire.swift",
+        "number_of_lines": 11,
+        "end_line": 65,
+        "number_of_throws": 1
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "URLRequest?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 81,
+            "number_of_optional_try": 1,
+            "returns_optional_type": true,
+            "number_of_lines": 1,
+            "end_line": 81
+          }
+        ],
+        "name": "URLRequestConvertible",
+        "start_line": 79,
+        "number_of_optional_try": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Alamofire.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 4,
+        "number_of_vars_with_optional_type": 1,
+        "end_line": 82
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "URLRequest",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "asURLRequest()",
+            "start_line": 86,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 86
+          }
+        ],
+        "name": "URLRequest",
+        "start_line": 84,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Alamofire.swift",
+        "number_of_lines": 4,
+        "end_line": 87
+      },
+      {
+        "number_of_ifs": 1,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "URLRequest",
+            "number_of_guards": 1,
+            "parameter_types": [
+              "RequestAdapter?"
+            ],
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 1,
+            "name": "adapt(using:)",
+            "start_line": 113,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "number_of_try": 1,
+            "end_line": 116
+          }
+        ],
+        "start_line": 91,
+        "number_of_lines": 27,
+        "number_of_try": 2,
+        "end_line": 117,
+        "number_of_guards": 1,
+        "node_type": "extension",
+        "number_of_guard_lets": 1,
+        "number_of_if_lets": 1,
+        "name": "URLRequest",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Alamofire.swift"
+      },
+      {
+        "node_type": "extension",
+        "number_of_optional_type_casting": 1,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "Error?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_optional_type_casting": 1,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 142,
+            "returns_optional_type": true,
+            "number_of_lines": 1,
+            "end_line": 142
+          }
+        ],
+        "name": "Error",
+        "start_line": 141,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/AFError.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 3,
+        "number_of_vars_with_optional_type": 1,
+        "end_line": 143
+      },
+      {
+        "number_of_ifs": 5,
+        "node_type": "extension",
+        "number_of_methods": 5,
+        "methods": [
+          {
+            "return_type": "Bool",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 149,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 152
+          },
+          {
+            "return_type": "Bool",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 156,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 159
+          },
+          {
+            "return_type": "Bool",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 163,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 166
+          },
+          {
+            "return_type": "Bool",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 170,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 173
+          },
+          {
+            "return_type": "Bool",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 177,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 180
+          }
+        ],
+        "name": "AFError",
+        "start_line": 147,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/AFError.swift",
+        "number_of_vars": 5,
+        "number_of_lines": 35,
+        "end_line": 181
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 7,
+        "methods": [
+          {
+            "return_type": "URLConvertible?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 187,
+            "returns_optional_type": true,
+            "number_of_lines": 8,
+            "end_line": 194
+          },
+          {
+            "return_type": "URL?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 197,
+            "returns_optional_type": true,
+            "number_of_lines": 8,
+            "end_line": 204
+          },
+          {
+            "return_type": "Error?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 208,
+            "returns_optional_type": true,
+            "number_of_lines": 12,
+            "end_line": 219
+          },
+          {
+            "return_type": "[String]?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 222,
+            "returns_optional_type": true,
+            "number_of_lines": 8,
+            "end_line": 229
+          },
+          {
+            "return_type": "String?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 232,
+            "returns_optional_type": true,
+            "number_of_lines": 8,
+            "end_line": 239
+          },
+          {
+            "return_type": "Int?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 242,
+            "returns_optional_type": true,
+            "number_of_lines": 8,
+            "end_line": 249
+          },
+          {
+            "return_type": "String.Encoding?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 252,
+            "returns_optional_type": true,
+            "number_of_lines": 8,
+            "end_line": 259
+          }
+        ],
+        "name": "AFError",
+        "start_line": 185,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/AFError.swift",
+        "number_of_vars": 7,
+        "number_of_lines": 76,
+        "number_of_vars_with_optional_type": 7,
+        "end_line": 260
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "Error?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 263,
+            "returns_optional_type": true,
+            "number_of_lines": 8,
+            "end_line": 270
+          }
+        ],
+        "name": "AFError.ParameterEncodingFailureReason",
+        "start_line": 262,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/AFError.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 10,
+        "number_of_vars_with_optional_type": 1,
+        "end_line": 271
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "URL?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 274,
+            "returns_optional_type": true,
+            "number_of_lines": 12,
+            "end_line": 285
+          },
+          {
+            "return_type": "Error?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 287,
+            "returns_optional_type": true,
+            "number_of_lines": 9,
+            "end_line": 295
+          }
+        ],
+        "name": "AFError.MultipartEncodingFailureReason",
+        "start_line": 273,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/AFError.swift",
+        "number_of_vars": 2,
+        "number_of_lines": 24,
+        "number_of_vars_with_optional_type": 2,
+        "end_line": 296
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 3,
+        "methods": [
+          {
+            "return_type": "[String]?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 299,
+            "returns_optional_type": true,
+            "number_of_lines": 8,
+            "end_line": 306
+          },
+          {
+            "return_type": "String?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 308,
+            "returns_optional_type": true,
+            "number_of_lines": 8,
+            "end_line": 315
+          },
+          {
+            "return_type": "Int?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 317,
+            "returns_optional_type": true,
+            "number_of_lines": 8,
+            "end_line": 324
+          }
+        ],
+        "name": "AFError.ResponseValidationFailureReason",
+        "start_line": 298,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/AFError.swift",
+        "number_of_vars": 3,
+        "number_of_lines": 28,
+        "number_of_vars_with_optional_type": 3,
+        "end_line": 325
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "String.Encoding?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 328,
+            "returns_optional_type": true,
+            "number_of_lines": 8,
+            "end_line": 335
+          },
+          {
+            "return_type": "Error?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 337,
+            "returns_optional_type": true,
+            "number_of_lines": 8,
+            "end_line": 344
+          }
+        ],
+        "name": "AFError.ResponseSerializationFailureReason",
+        "start_line": 327,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/AFError.swift",
+        "number_of_vars": 2,
+        "number_of_lines": 19,
+        "number_of_vars_with_optional_type": 2,
+        "end_line": 345
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 350,
+            "returns_optional_type": true,
+            "number_of_lines": 14,
+            "end_line": 363
+          }
+        ],
+        "name": "AFError",
+        "start_line": 349,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/AFError.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 16,
+        "number_of_vars_with_optional_type": 1,
+        "end_line": 364
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 367,
+            "returns_optional_type": false,
+            "number_of_lines": 10,
+            "end_line": 376
+          }
+        ],
+        "name": "AFError.ParameterEncodingFailureReason",
+        "start_line": 366,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/AFError.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 12,
+        "end_line": 377
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 380,
+            "returns_optional_type": false,
+            "number_of_lines": 36,
+            "end_line": 415
+          }
+        ],
+        "name": "AFError.MultipartEncodingFailureReason",
+        "start_line": 379,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/AFError.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 38,
+        "end_line": 416
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 419,
+            "returns_optional_type": false,
+            "number_of_lines": 18,
+            "end_line": 436
+          }
+        ],
+        "name": "AFError.ResponseSerializationFailureReason",
+        "start_line": 418,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/AFError.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 20,
+        "end_line": 437
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 440,
+            "returns_optional_type": false,
+            "number_of_lines": 20,
+            "end_line": 459
+          }
+        ],
+        "name": "AFError.ResponseValidationFailureReason",
+        "start_line": 439,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/AFError.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 22,
+        "end_line": 460
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 105,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 107
+          },
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "number_of_forced_unwrappings": 2,
+            "start_line": 111,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_nil_coalescing": 1,
+            "number_of_lines": 11,
+            "end_line": 121
+          }
+        ],
+        "name": "DataResponse<Value>",
+        "number_of_forced_unwrappings": 2,
+        "start_line": 102,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/SessionManager.swift",
+        "number_of_vars": 3,
+        "number_of_nil_coalescing": 1,
+        "number_of_lines": 21,
+        "end_line": 122
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 232,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 234
+          },
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "number_of_forced_unwrappings": 2,
+            "start_line": 239,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_nil_coalescing": 3,
+            "number_of_lines": 13,
+            "end_line": 251
+          }
+        ],
+        "name": "DownloadResponse<Value>",
+        "number_of_forced_unwrappings": 2,
+        "start_line": 229,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/SessionManager.swift",
+        "number_of_vars": 3,
+        "number_of_nil_coalescing": 3,
+        "number_of_lines": 24,
+        "end_line": 252
+      },
+      {
+        "number_of_guards": 2,
+        "node_type": "extension",
+        "number_of_guard_lets": 1,
+        "number_of_optional_type_casting": 1,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "()",
+            "number_of_guards": 2,
+            "parameter_types": [
+              "AnyObject?"
+            ],
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_optional_type_casting": 1,
+            "number_of_parameters": 1,
+            "name": "add(_:)",
+            "start_line": 263,
+            "returns_optional_type": false,
+            "number_of_lines": 8,
+            "end_line": 270
+          }
+        ],
+        "name": "Response",
+        "start_line": 262,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/SessionManager.swift",
+        "number_of_lines": 10,
+        "end_line": 271
+      },
+      {
+        "node_type": "extension",
+        "number_of_optional_type_casting": 1,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "URLSessionTaskMetrics?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_optional_type_casting": 1,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 279,
+            "returns_optional_type": true,
+            "number_of_lines": 1,
+            "end_line": 279
+          }
+        ],
+        "name": "DefaultDataResponse",
+        "start_line": 276,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/SessionManager.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 6,
+        "number_of_vars_with_optional_type": 1,
+        "end_line": 281
+      },
+      {
+        "node_type": "extension",
+        "number_of_optional_type_casting": 1,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "URLSessionTaskMetrics?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_optional_type_casting": 1,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 287,
+            "returns_optional_type": true,
+            "number_of_lines": 1,
+            "end_line": 287
+          }
+        ],
+        "name": "DataResponse<Value>",
+        "start_line": 284,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/SessionManager.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 6,
+        "number_of_vars_with_optional_type": 1,
+        "end_line": 289
+      },
+      {
+        "node_type": "extension",
+        "number_of_optional_type_casting": 1,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "URLSessionTaskMetrics?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_optional_type_casting": 1,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 295,
+            "returns_optional_type": true,
+            "number_of_lines": 1,
+            "end_line": 295
+          }
+        ],
+        "name": "DefaultDownloadResponse",
+        "start_line": 292,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/SessionManager.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 6,
+        "number_of_vars_with_optional_type": 1,
+        "end_line": 297
+      },
+      {
+        "node_type": "extension",
+        "number_of_optional_type_casting": 1,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "URLSessionTaskMetrics?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_optional_type_casting": 1,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 303,
+            "returns_optional_type": true,
+            "number_of_lines": 1,
+            "end_line": 303
+          }
+        ],
+        "name": "DownloadResponse<Value>",
+        "start_line": 300,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/SessionManager.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 6,
+        "number_of_vars_with_optional_type": 1,
+        "end_line": 305
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 6,
+        "methods": [
+          {
+            "return_type": "DispatchQueue",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 29,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 29
+          },
+          {
+            "return_type": "DispatchQueue",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 30,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 30
+          },
+          {
+            "return_type": "DispatchQueue",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 31,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 31
+          },
+          {
+            "return_type": "DispatchQueue",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 32,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 32
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "TimeInterval",
+              "() -> Void"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "after(_:execute:)",
+            "start_line": 34,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 36
+          },
+          {
+            "return_type": "T",
+            "parameter_types": [
+              "() -> T"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "syncResult(_:)",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 38,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 5,
+            "end_line": 42
+          }
+        ],
+        "name": "DispatchQueue",
+        "number_of_forced_unwrappings": 1,
+        "start_line": 28,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/DispatchQueue+Alamofire.swift",
+        "number_of_vars": 5,
+        "number_of_lines": 16,
+        "end_line": 43
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "NetworkReachabilityManager.NetworkReachabilityStatus",
+        "start_line": 215,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/NetworkReachabilityManager.swift",
+        "number_of_lines": 1,
+        "end_line": 215
+      },
+      {
+        "node_type": "extension",
+        "number_of_optional_type_casting": 1,
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "ServerTrustPolicyManager?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_optional_type_casting": 1,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 67,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 69
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "ServerTrustPolicyManager?"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 70,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 72
+          }
+        ],
+        "name": "URLSession",
+        "start_line": 61,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/ServerTrustPolicy.swift",
+        "number_of_vars": 2,
+        "number_of_lines": 14,
+        "number_of_vars_with_optional_type": 1,
+        "end_line": 74
+      },
+      {
+        "number_of_ifs": 5,
+        "number_of_methods": 6,
+        "methods": [
+          {
+            "return_type": "[Int]",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 75,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 75
+          },
+          {
+            "return_type": "[String]",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 77,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 83
+          },
+          {
+            "return_type": "Request.ValidationResult",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "S",
+              "HTTPURLResponse"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "validate(statusCode:response:)",
+            "start_line": 87,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 13,
+            "end_line": 99
+          },
+          {
+            "return_type": "Request.ValidationResult",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "S",
+              "HTTPURLResponse",
+              "Data?"
+            ],
+            "start_line": 103,
+            "returns_optional_type": false,
+            "number_of_lines": 44,
+            "end_line": 146,
+            "number_of_guards": 2,
+            "node_type": "method",
+            "number_of_guard_lets": 2,
+            "number_of_if_lets": 2,
+            "number_of_parameters": 3,
+            "name": "validate(contentType:response:data:)",
+            "number_of_lets": 4
+          }
+        ],
+        "start_line": 27,
+        "number_of_vars": 3,
+        "number_of_lines": 121,
+        "end_line": 147,
+        "number_of_guards": 2,
+        "node_type": "extension",
+        "number_of_guard_lets": 2,
+        "number_of_if_lets": 4,
+        "name": "Request",
+        "number_of_lets": 10,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Validation.swift",
+        "number_of_nil_coalescing": 1
+      },
+      {
+        "number_of_ifs": 1,
+        "node_type": "extension",
+        "number_of_if_lets": 1,
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "Self",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "DataRequest.Validation"
+            ],
+            "number_of_if_nil": 1,
+            "start_line": 164,
+            "returns_optional_type": false,
+            "number_of_lines": 15,
+            "end_line": 178,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "validate(_:)",
+            "number_of_lets": 2
+          },
+          {
+            "return_type": "Self",
+            "parameter_types": [
+              "S"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "validate(statusCode:)",
+            "start_line": 188,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 5,
+            "end_line": 192
+          },
+          {
+            "return_type": "Self",
+            "parameter_types": [
+              "S"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "validate(contentType:)",
+            "start_line": 202,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 5,
+            "end_line": 206
+          },
+          {
+            "return_type": "Self",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "validate()",
+            "start_line": 215,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 217
+          }
+        ],
+        "number_of_if_nil": 1,
+        "name": "DataRequest",
+        "start_line": 151,
+        "number_of_lets": 4,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Validation.swift",
+        "number_of_lines": 68,
+        "end_line": 218
+      },
+      {
+        "number_of_lets_with_optional_type": 4,
+        "number_of_ifs": 1,
+        "number_of_catches": 1,
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "Self",
+            "number_of_lets_with_optional_type": 3,
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "DownloadRequest.Validation"
+            ],
+            "number_of_if_nil": 1,
+            "start_line": 240,
+            "returns_optional_type": false,
+            "number_of_lines": 19,
+            "end_line": 258,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "validate(_:)",
+            "number_of_lets": 5
+          },
+          {
+            "return_type": "Self",
+            "parameter_types": [
+              "S"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "validate(statusCode:)",
+            "start_line": 268,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 5,
+            "end_line": 272
+          },
+          {
+            "return_type": "Self",
+            "number_of_lets_with_optional_type": 1,
+            "parameter_types": [
+              "S"
+            ],
+            "number_of_catches": 1,
+            "start_line": 282,
+            "returns_optional_type": false,
+            "number_of_generic_catches": 1,
+            "number_of_lines": 16,
+            "number_of_try": 1,
+            "end_line": 297,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 1,
+            "name": "validate(contentType:)",
+            "number_of_lets": 3,
+            "number_of_do_blocks": 1
+          },
+          {
+            "return_type": "Self",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "validate()",
+            "start_line": 306,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 308
+          }
+        ],
+        "number_of_if_nil": 1,
+        "start_line": 222,
+        "number_of_generic_catches": 1,
+        "number_of_lines": 88,
+        "number_of_try": 1,
+        "end_line": 309,
+        "number_of_guards": 1,
+        "node_type": "extension",
+        "number_of_guard_lets": 1,
+        "number_of_if_lets": 1,
+        "name": "DownloadRequest",
+        "number_of_lets": 9,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Validation.swift",
+        "number_of_do_blocks": 1
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "Notification.Name",
+        "start_line": 27,
+        "number_of_lets": 4,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Notifications.swift",
+        "number_of_lines": 16,
+        "end_line": 42
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "Notification",
+        "start_line": 46,
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Notifications.swift",
+        "number_of_lines": 7,
+        "end_line": 52
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 79,
+            "returns_optional_type": false,
+            "number_of_lines": 8,
+            "end_line": 86
+          }
+        ],
+        "name": "Result<Value>",
+        "start_line": 76,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Result.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 12,
+        "end_line": 87
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 94,
+            "returns_optional_type": false,
+            "number_of_lines": 8,
+            "end_line": 101
+          }
+        ],
+        "name": "Result<Value>",
+        "start_line": 91,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Alamofire-master-2/Source/Result.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 12,
+        "end_line": 102
+      }
+    ],
+    "number_of_vars_with_optional_type": 125
+  }
+}

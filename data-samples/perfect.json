@@ -1,0 +1,2969 @@
+{
+  "project": {
+    "number_of_ifs": 115,
+    "number_of_lets_with_optional_type": 2,
+    "number_of_empty_catches": 1,
+    "number_of_catches": 1,
+    "structs": [
+      {
+        "number_of_ifs": 2,
+        "number_of_instance_variables": 8,
+        "number_of_optional_type_casting": 1,
+        "number_of_methods": 13,
+        "methods": [
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 43,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 45
+          },
+          {
+            "return_type": "()",
+            "number_of_guards": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "setAsWorkingDir()",
+            "start_line": 48,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 6,
+            "number_of_try": 1,
+            "end_line": 53
+          },
+          {
+            "return_type": "Dir",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 56,
+            "returns_optional_type": false,
+            "number_of_lets": 2,
+            "number_of_nil_coalescing": 1,
+            "number_of_lines": 6,
+            "end_line": 61
+          },
+          {
+            "return_type": "Bool",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "exists(_:)",
+            "start_line": 63,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 65
+          },
+          {
+            "return_type": "()",
+            "number_of_guards": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "delete()",
+            "start_line": 90,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 6,
+            "number_of_try": 1,
+            "end_line": 95
+          },
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 98,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 100
+          },
+          {
+            "return_type": "Dir?",
+            "number_of_guards": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 103,
+            "returns_optional_type": true,
+            "number_of_lines": 6,
+            "end_line": 108
+          },
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 111,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 113
+          },
+          {
+            "return_type": "Dir.PermissionMode",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 117,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 119
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Dir.PermissionMode"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 120,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 122
+          },
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 125,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 127
+          },
+          {
+            "return_type": "Int32",
+            "parameter_types": [
+              "UnsafeMutablePointer<DIR>",
+              "inout dirent",
+              "UnsafeMutablePointer<UnsafeMutablePointer<dirent>?>!"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 3,
+            "name": "readDir(_:_:_:)",
+            "start_line": 134,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 136
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "(String) throws -> ()"
+            ],
+            "number_of_optional_type_casting": 1,
+            "start_line": 142,
+            "returns_optional_type": false,
+            "number_of_vars": 2,
+            "number_of_lines": 42,
+            "number_of_try": 3,
+            "end_line": 183,
+            "number_of_guards": 3,
+            "node_type": "method",
+            "number_of_guard_lets": 3,
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "forEachEntry(closure:)",
+            "number_of_lets": 6
+          }
+        ],
+        "start_line": 30,
+        "number_of_vars": 11,
+        "type": "Dir.Type",
+        "number_of_lines": 155,
+        "number_of_try": 6,
+        "end_line": 184,
+        "number_of_guards": 8,
+        "node_type": "struct",
+        "number_of_guard_lets": 3,
+        "number_of_if_lets": 1,
+        "number_of_constructors": 1,
+        "name": "Dir",
+        "number_of_lets": 13,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/Dir.swift",
+        "number_of_nil_coalescing": 1,
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_instance_variables": 0,
+        "node_type": "struct",
+        "number_of_methods": 1,
+        "number_of_constructors": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "jsonEncodedString()",
+            "start_line": 135,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 137
+          }
+        ],
+        "name": "JSONConvertibleNull",
+        "start_line": 134,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/JSONConvertible.swift",
+        "type": "JSONConvertibleNull.Type",
+        "number_of_lines": 5,
+        "inherits": "JSONConvert",
+        "end_line": 138
+      },
+      {
+        "number_of_instance_variables": 0,
+        "node_type": "struct",
+        "number_of_methods": 1,
+        "number_of_constructors": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "jsonEncodedString()",
+            "start_line": 326,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 326
+          }
+        ],
+        "name": "EOF",
+        "start_line": 325,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/JSONConvertible.swift",
+        "type": "JSONDecodeState.EOF.Type",
+        "number_of_lines": 3,
+        "inherits": "JSONConvert",
+        "end_line": 327
+      },
+      {
+        "number_of_instance_variables": 14,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 183,
+        "type": "File.PermissionMode.Type",
+        "number_of_lines": 46,
+        "end_line": 228,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "PermissionMode",
+        "number_of_lets": 14,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/File.swift",
+        "inherits": "OptionSet"
+      },
+      {
+        "number_of_instance_variables": 0,
+        "number_of_methods": 21,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "initializeServices()",
+            "start_line": 31,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 33
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "number_of_methods": 19,
+            "start_line": 36,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 13,
+            "end_line": 48,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 1,
+            "name": "switchTo(userName:)",
+            "number_of_lets": 1
+          }
+        ],
+        "start_line": 28,
+        "number_of_vars": 1,
+        "type": "PerfectServer.Type",
+        "number_of_lines": 22,
+        "number_of_try": 1,
+        "end_line": 49,
+        "number_of_guards": 1,
+        "node_type": "struct",
+        "number_of_guard_lets": 1,
+        "number_of_constructors": 0,
+        "name": "PerfectServer",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/Log.swift",
+        "inherits": "Logger"
+      },
+      {
+        "number_of_instance_variables": 0,
+        "node_type": "struct",
+        "number_of_methods": 6,
+        "number_of_constructors": 1,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "debug(message:)",
+            "start_line": 40,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 42
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "info(message:)",
+            "start_line": 44,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 46
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "warning(message:)",
+            "start_line": 48,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 50
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "error(message:)",
+            "start_line": 52,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 54
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "critical(message:)",
+            "start_line": 56,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 58
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "terminal(message:)",
+            "start_line": 60,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 62
+          }
+        ],
+        "name": "ConsoleLogger",
+        "start_line": 37,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/Log.swift",
+        "type": "ConsoleLogger.Type",
+        "number_of_lines": 27,
+        "inherits": "Logger",
+        "end_line": 63
+      },
+      {
+        "number_of_instance_variables": 1,
+        "number_of_methods": 7,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Int32",
+              "[CVarArg]"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "syslog(priority:_:)",
+            "start_line": 69,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 73
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "debug(message:)",
+            "start_line": 75,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 81
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "info(message:)",
+            "start_line": 83,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 89
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "warning(message:)",
+            "start_line": 91,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 97
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "error(message:)",
+            "start_line": 99,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 105
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "critical(message:)",
+            "start_line": 107,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 113
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "terminal(message:)",
+            "start_line": 115,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 121
+          }
+        ],
+        "start_line": 65,
+        "type": "SysLogger.Type",
+        "number_of_lines": 58,
+        "end_line": 122,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "SysLogger",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/Log.swift",
+        "inherits": "Logger"
+      },
+      {
+        "number_of_instance_variables": 1,
+        "number_of_methods": 6,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "() -> String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "debug(message:)",
+            "start_line": 130,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 134
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "info(message:)",
+            "start_line": 136,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 138
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "warning(message:)",
+            "start_line": 140,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 142
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "error(message:)",
+            "start_line": 144,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 146
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "critical(message:)",
+            "start_line": 148,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 150
+          },
+          {
+            "return_type": "Never",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "terminal(message:)",
+            "start_line": 152,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 155
+          }
+        ],
+        "start_line": 125,
+        "number_of_vars": 1,
+        "type": "Log.Type",
+        "number_of_lines": 32,
+        "end_line": 156,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "Log",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/Log.swift"
+      },
+      {
+        "number_of_instance_variables": 3,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "T?",
+            "number_of_guards": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "next()",
+            "start_line": 44,
+            "returns_optional_type": true,
+            "number_of_lets": 1,
+            "number_of_lines": 9,
+            "end_line": 52
+          }
+        ],
+        "start_line": 29,
+        "number_of_vars": 3,
+        "type": "GenerateFromPointer.Type",
+        "number_of_lines": 25,
+        "end_line": 53,
+        "number_of_guards": 1,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "GenerateFromPointer",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/Utilities.swift",
+        "inherits": "IteratorPro"
+      },
+      {
+        "number_of_instance_variables": 0,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [
+              "D",
+              "G"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "encode(codec:generator:)",
+            "start_line": 59,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_vars": 4,
+            "number_of_lines": 19,
+            "end_line": 77
+          }
+        ],
+        "start_line": 56,
+        "number_of_vars": 4,
+        "type": "Encoding.Type",
+        "number_of_lines": 23,
+        "end_line": 78,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "Encoding",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/Utilities.swift"
+      },
+      {
+        "number_of_instance_variables": 0,
+        "node_type": "struct",
+        "number_of_methods": 4,
+        "number_of_constructors": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [
+              "G"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "encode(generator:)",
+            "start_line": 84,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 86
+          },
+          {
+            "return_type": "String",
+            "parameter_types": [
+              "S"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "encode(bytes:)",
+            "start_line": 89,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 91
+          },
+          {
+            "return_type": "String",
+            "parameter_types": [
+              "[UTF8.CodeUnit]"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "encode(bytes:)",
+            "start_line": 94,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 96
+          },
+          {
+            "return_type": "Array<UInt8>",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "decode(string:)",
+            "start_line": 99,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 101
+          }
+        ],
+        "name": "UTF8Encoding",
+        "start_line": 81,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/Utilities.swift",
+        "type": "UTF8Encoding.Type",
+        "number_of_lines": 22,
+        "end_line": 102
+      },
+      {
+        "number_of_instance_variables": 2,
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "uuid_t",
+            "parameter_types": [
+              "UnsafeMutablePointer<UInt8>"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "uuidFromPointer(_:)",
+            "start_line": 302,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 305
+          },
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 307,
+            "returns_optional_type": false,
+            "number_of_lets": 2,
+            "number_of_vars": 1,
+            "number_of_lines": 12,
+            "end_line": 318
+          }
+        ],
+        "start_line": 277,
+        "number_of_vars": 2,
+        "type": "UUID.Type",
+        "number_of_lines": 43,
+        "end_line": 319,
+        "node_type": "struct",
+        "number_of_constructors": 3,
+        "name": "UUID",
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 5,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/Utilities.swift"
+      }
+    ],
+    "number_of_optional_type_casting": 8,
+    "number_of_methods": 153,
+    "number_of_if_nil": 9,
+    "classes": [
+      {
+        "number_of_instance_variables": 2,
+        "number_of_methods": 3,
+        "number_of_optional_type_casting": 1,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String",
+              "JSONDecoding.JSONConvertibleObjectCreator"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "registerJSONDecodable(name:creator:)",
+            "start_line": 40,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 42
+          },
+          {
+            "return_type": "JSONConvertibleObject?",
+            "number_of_guards": 1,
+            "parameter_types": [
+              "[String : Any]"
+            ],
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 1,
+            "number_of_optional_type_casting": 1,
+            "name": "createJSONConvertibleObject(values:)",
+            "start_line": 46,
+            "returns_optional_type": true,
+            "number_of_lines": 6,
+            "end_line": 51
+          },
+          {
+            "return_type": "JSONConvertibleObject?",
+            "number_of_guards": 1,
+            "parameter_types": [
+              "String",
+              "[String : Any]"
+            ],
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 2,
+            "name": "createJSONConvertibleObject(name:values:)",
+            "start_line": 55,
+            "returns_optional_type": true,
+            "number_of_lets": 1,
+            "number_of_lines": 8,
+            "end_line": 62
+          }
+        ],
+        "start_line": 29,
+        "number_of_vars": 1,
+        "type": "JSONDecoding.Type",
+        "number_of_lines": 35,
+        "end_line": 63,
+        "number_of_guards": 2,
+        "node_type": "class",
+        "number_of_guard_lets": 2,
+        "number_of_constructors": 1,
+        "name": "JSONDecoding",
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/JSONConvertible.swift"
+      },
+      {
+        "number_of_instance_variables": 0,
+        "number_of_methods": 3,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "[String : Any]"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "setJSONValues(_:)",
+            "start_line": 78,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 78
+          },
+          {
+            "return_type": "Any]",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "getJSONValues()",
+            "start_line": 80,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 80
+          },
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "jsonEncodedString()",
+            "start_line": 82,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "number_of_try": 1,
+            "end_line": 84
+          }
+        ],
+        "start_line": 74,
+        "type": "JSONConvertibleObject.Type",
+        "number_of_lines": 12,
+        "number_of_try": 1,
+        "end_line": 85,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "name": "JSONConvertibleObject",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/JSONConvertible.swift",
+        "inherits": "JSONConver"
+      },
+      {
+        "number_of_ifs": 40,
+        "number_of_instance_variables": 2,
+        "number_of_optional_type_casting": 2,
+        "number_of_methods": 9,
+        "methods": [
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "movePastWhite()",
+            "start_line": 332,
+            "returns_optional_type": false,
+            "number_of_lines": 8,
+            "end_line": 339
+          },
+          {
+            "return_type": "JSONConvertible",
+            "number_of_ifs": 13,
+            "parameter_types": [],
+            "number_of_optional_type_casting": 2,
+            "start_line": 341,
+            "returns_optional_type": false,
+            "number_of_vars": 2,
+            "number_of_lines": 90,
+            "number_of_try": 8,
+            "end_line": 430,
+            "number_of_throws": 10,
+            "number_of_guards": 8,
+            "node_type": "method",
+            "number_of_guard_lets": 7,
+            "number_of_if_lets": 2,
+            "number_of_parameters": 0,
+            "name": "readObject()"
+          },
+          {
+            "return_type": "UnicodeScalar?",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "number_of_if_nil": 1,
+            "start_line": 432,
+            "returns_optional_type": true,
+            "number_of_lines": 8,
+            "end_line": 439,
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "next()",
+            "number_of_forced_unwrappings": 1,
+            "number_of_lets": 1
+          },
+          {
+            "return_type": "String",
+            "number_of_ifs": 6,
+            "parameter_types": [],
+            "start_line": 442,
+            "returns_optional_type": false,
+            "number_of_vars": 6,
+            "number_of_lines": 82,
+            "end_line": 523,
+            "number_of_throws": 8,
+            "number_of_guards": 6,
+            "node_type": "method",
+            "number_of_guard_lets": 2,
+            "number_of_if_lets": 1,
+            "number_of_parameters": 0,
+            "name": "readString()",
+            "number_of_lets": 2,
+            "number_of_vars_with_optional_type": 1
+          },
+          {
+            "return_type": "JSONConvertible",
+            "number_of_ifs": 9,
+            "parameter_types": [
+              "UnicodeScalar"
+            ],
+            "number_of_if_nil": 1,
+            "start_line": 525,
+            "returns_optional_type": false,
+            "number_of_vars": 5,
+            "number_of_lines": 47,
+            "end_line": 571,
+            "number_of_throws": 1,
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "readNumber(firstChar:)",
+            "number_of_forced_unwrappings": 6,
+            "number_of_vars_with_optional_type": 1
+          },
+          {
+            "return_type": "Bool",
+            "number_of_ifs": 3,
+            "parameter_types": [],
+            "number_of_if_nil": 1,
+            "start_line": 573,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 20,
+            "end_line": 592,
+            "number_of_throws": 4,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "readTrue()",
+            "number_of_forced_unwrappings": 1,
+            "number_of_vars_with_optional_type": 1
+          },
+          {
+            "return_type": "Bool",
+            "number_of_ifs": 4,
+            "parameter_types": [],
+            "number_of_if_nil": 1,
+            "start_line": 594,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 24,
+            "end_line": 617,
+            "number_of_throws": 5,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "readFalse()",
+            "number_of_forced_unwrappings": 1,
+            "number_of_vars_with_optional_type": 1
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 3,
+            "parameter_types": [],
+            "number_of_if_nil": 1,
+            "start_line": 619,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 19,
+            "end_line": 637,
+            "number_of_throws": 4,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "readNull()",
+            "number_of_forced_unwrappings": 1,
+            "number_of_vars_with_optional_type": 1
+          }
+        ],
+        "number_of_if_nil": 5,
+        "start_line": 324,
+        "number_of_vars": 18,
+        "type": "JSONDecodeState.Type",
+        "number_of_lines": 315,
+        "number_of_try": 8,
+        "end_line": 638,
+        "number_of_throws": 32,
+        "number_of_guards": 17,
+        "node_type": "class",
+        "number_of_guard_lets": 9,
+        "number_of_if_lets": 3,
+        "number_of_constructors": 1,
+        "name": "JSONDecodeState",
+        "number_of_forced_unwrappings": 10,
+        "number_of_lets": 3,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/JSONConvertible.swift",
+        "inherits": "JSONConver",
+        "number_of_vars_with_optional_type": 6
+      },
+      {
+        "number_of_ifs": 3,
+        "number_of_instance_variables": 7,
+        "number_of_methods": 8,
+        "methods": [
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 67,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 69
+          },
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 72,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 74
+          },
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 77,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 77
+          },
+          {
+            "return_type": "String",
+            "number_of_guards": 3,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 80,
+            "returns_optional_type": false,
+            "number_of_lets": 5,
+            "number_of_vars": 1,
+            "number_of_lines": 19,
+            "end_line": 98
+          },
+          {
+            "return_type": "Int",
+            "number_of_guards": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 102,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_vars": 1,
+            "number_of_lines": 12,
+            "end_line": 113
+          },
+          {
+            "return_type": "String",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "String"
+            ],
+            "start_line": 115,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 16,
+            "end_line": 130,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "resolveTilde(inPath:)"
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "close()",
+            "start_line": 141,
+            "returns_optional_type": false,
+            "number_of_lines": 10,
+            "end_line": 150
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "abandon()",
+            "start_line": 153,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 155
+          }
+        ],
+        "start_line": 59,
+        "number_of_vars": 10,
+        "type": "File.Type",
+        "number_of_lines": 98,
+        "end_line": 156,
+        "number_of_guards": 5,
+        "node_type": "class",
+        "number_of_guard_lets": 1,
+        "number_of_if_lets": 1,
+        "number_of_constructors": 1,
+        "name": "File",
+        "number_of_lets": 6,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/File.swift"
+      },
+      {
+        "number_of_instance_variables": 0,
+        "node_type": "class",
+        "number_of_methods": 1,
+        "number_of_constructors": 1,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "close()",
+            "start_line": 548,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 550
+          }
+        ],
+        "name": "UnclosableFile",
+        "start_line": 544,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/File.swift",
+        "type": "UnclosableFile.Type",
+        "number_of_lines": 8,
+        "inherits": "File\n    (",
+        "end_line": 551
+      },
+      {
+        "number_of_instance_variables": 0,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 554,
+        "number_of_vars": 1,
+        "type": "TemporaryFile.Type",
+        "number_of_lines": 22,
+        "end_line": 575,
+        "node_type": "class",
+        "number_of_constructors": 2,
+        "name": "TemporaryFile",
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 5,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/File.swift",
+        "inherits": "File\n    ("
+      },
+      {
+        "number_of_instance_variables": 3,
+        "number_of_methods": 13,
+        "methods": [
+          {
+            "return_type": "Int",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 31,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 31
+          },
+          {
+            "return_type": "Bytes",
+            "parameter_types": [
+              "UInt8"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "import8Bits(from:)",
+            "start_line": 47,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 50
+          },
+          {
+            "return_type": "Bytes",
+            "parameter_types": [
+              "UInt16"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "import16Bits(from:)",
+            "start_line": 55,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 59
+          },
+          {
+            "return_type": "Bytes",
+            "parameter_types": [
+              "UInt32"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "import32Bits(from:)",
+            "start_line": 64,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 70
+          },
+          {
+            "return_type": "Bytes",
+            "parameter_types": [
+              "UInt64"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "import64Bits(from:)",
+            "start_line": 75,
+            "returns_optional_type": false,
+            "number_of_lines": 11,
+            "end_line": 85
+          },
+          {
+            "return_type": "Bytes",
+            "parameter_types": [
+              "[UInt8]"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "importBytes(from:)",
+            "start_line": 90,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 93
+          },
+          {
+            "return_type": "Bytes",
+            "parameter_types": [
+              "Bytes"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "importBytes(from:)",
+            "start_line": 98,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 101
+          },
+          {
+            "return_type": "Bytes",
+            "parameter_types": [
+              "ArraySlice<UInt8>"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "importBytes(from:)",
+            "start_line": 106,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 109
+          },
+          {
+            "return_type": "UInt8",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "export8Bits()",
+            "start_line": 115,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 5,
+            "end_line": 119
+          },
+          {
+            "return_type": "UInt16",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "export16Bits()",
+            "start_line": 123,
+            "returns_optional_type": false,
+            "number_of_lets": 2,
+            "number_of_lines": 9,
+            "end_line": 131
+          },
+          {
+            "return_type": "UInt32",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "export32Bits()",
+            "start_line": 135,
+            "returns_optional_type": false,
+            "number_of_lets": 4,
+            "number_of_lines": 12,
+            "end_line": 146
+          },
+          {
+            "return_type": "UInt64",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "export64Bits()",
+            "start_line": 150,
+            "returns_optional_type": false,
+            "number_of_lets": 8,
+            "number_of_lines": 20,
+            "end_line": 169
+          },
+          {
+            "return_type": "[UInt8]",
+            "parameter_types": [
+              "Int"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "exportBytes(count:)",
+            "start_line": 172,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_vars": 1,
+            "number_of_lines": 9,
+            "end_line": 180
+          }
+        ],
+        "start_line": 23,
+        "number_of_vars": 4,
+        "type": "Bytes.Type",
+        "number_of_lines": 159,
+        "end_line": 181,
+        "node_type": "class",
+        "number_of_constructors": 2,
+        "name": "Bytes",
+        "number_of_lets": 16,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/Bytes.swift"
+      },
+      {
+        "number_of_catches": 1,
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "isOpen()",
+            "start_line": 144,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 146
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 4,
+            "parameter_types": [],
+            "number_of_empty_catches": 1,
+            "number_of_catches": 1,
+            "number_of_if_nil": 3,
+            "start_line": 149,
+            "returns_optional_type": false,
+            "number_of_generic_catches": 1,
+            "number_of_lines": 22,
+            "number_of_try": 1,
+            "end_line": 170,
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "close()",
+            "number_of_forced_unwrappings": 3,
+            "number_of_do_blocks": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "detach()",
+            "start_line": 173,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 175
+          },
+          {
+            "return_type": "Int32",
+            "number_of_guards": 1,
+            "parameter_types": [
+              "Int32"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "kill(signal:)",
+            "start_line": 195,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 11,
+            "number_of_try": 2,
+            "end_line": 205
+          }
+        ],
+        "start_line": 31,
+        "number_of_generic_catches": 1,
+        "type": "SysProcess.Type",
+        "end_line": 206,
+        "number_of_guards": 2,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "number_of_forced_unwrappings": 6,
+        "number_of_lets": 7,
+        "number_of_nil_coalescing": 2,
+        "number_of_do_blocks": 1,
+        "number_of_ifs": 6,
+        "number_of_instance_variables": 4,
+        "number_of_empty_catches": 1,
+        "number_of_if_nil": 3,
+        "number_of_vars": 10,
+        "number_of_lines": 176,
+        "number_of_try": 5,
+        "name": "SysProcess",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/SysProcess.swift",
+        "number_of_vars_with_optional_type": 4
+      }
+    ],
+    "number_of_generic_catches": 1,
+    "number_of_vars": 132,
+    "number_of_try": 61,
+    "number_of_throws": 42,
+    "number_of_guards": 69,
+    "enums": [
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 3,
+        "number_of_methods": 0,
+        "number_of_constructors": 0,
+        "methods": [],
+        "name": "JSONConversionError",
+        "start_line": 100,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/JSONConvertible.swift",
+        "number_of_lines": 8,
+        "end_line": 107
+      },
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 5,
+        "number_of_methods": 1,
+        "number_of_constructors": 0,
+        "methods": [
+          {
+            "return_type": "Int",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 172,
+            "returns_optional_type": false,
+            "number_of_lines": 9,
+            "end_line": 180
+          }
+        ],
+        "name": "OpenMode",
+        "start_line": 160,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/File.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 22,
+        "end_line": 181
+      },
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 4,
+        "number_of_methods": 0,
+        "number_of_constructors": 0,
+        "methods": [],
+        "name": "PerfectError",
+        "start_line": 31,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/PerfectError.swift",
+        "number_of_lines": 10,
+        "end_line": 40
+      }
+    ],
+    "extensions": [
+      {
+        "number_of_lets_with_optional_type": 1,
+        "number_of_ifs": 1,
+        "number_of_methods": 1,
+        "number_of_optional_type_casting": 1,
+        "methods": [
+          {
+            "return_type": "T",
+            "number_of_lets_with_optional_type": 1,
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "String",
+              "[String : Any]",
+              "T"
+            ],
+            "number_of_optional_type_casting": 1,
+            "start_line": 90,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 96,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 3,
+            "name": "getJSONValue(named:from:defaultValue:)",
+            "number_of_lets": 1
+          }
+        ],
+        "start_line": 88,
+        "number_of_lines": 10,
+        "end_line": 97,
+        "node_type": "extension",
+        "number_of_if_lets": 1,
+        "name": "JSONConvertibleObject",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/JSONConvertible.swift"
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "jsonEncodedString()",
+            "start_line": 142,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 25,
+            "end_line": 166
+          }
+        ],
+        "name": "String",
+        "start_line": 140,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/JSONConvertible.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 28,
+        "end_line": 167
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "jsonEncodedString()",
+            "start_line": 171,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 173
+          }
+        ],
+        "name": "Int",
+        "start_line": 169,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/JSONConvertible.swift",
+        "number_of_lines": 6,
+        "end_line": 174
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "jsonEncodedString()",
+            "start_line": 178,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 180
+          }
+        ],
+        "name": "UInt",
+        "start_line": 176,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/JSONConvertible.swift",
+        "number_of_lines": 6,
+        "end_line": 181
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "jsonEncodedString()",
+            "start_line": 185,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 187
+          }
+        ],
+        "name": "Int32",
+        "start_line": 183,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/JSONConvertible.swift",
+        "number_of_lines": 6,
+        "end_line": 188
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "jsonEncodedString()",
+            "start_line": 192,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 194
+          }
+        ],
+        "name": "Int64",
+        "start_line": 190,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/JSONConvertible.swift",
+        "number_of_lines": 6,
+        "end_line": 195
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "jsonEncodedString()",
+            "start_line": 199,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 201
+          }
+        ],
+        "name": "UInt32",
+        "start_line": 197,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/JSONConvertible.swift",
+        "number_of_lines": 6,
+        "end_line": 202
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "jsonEncodedString()",
+            "start_line": 206,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 208
+          }
+        ],
+        "name": "UInt64",
+        "start_line": 204,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/JSONConvertible.swift",
+        "number_of_lines": 6,
+        "end_line": 209
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "jsonEncodedString()",
+            "start_line": 213,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 215
+          }
+        ],
+        "name": "Double",
+        "start_line": 211,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/JSONConvertible.swift",
+        "number_of_lines": 6,
+        "end_line": 216
+      },
+      {
+        "number_of_ifs": 2,
+        "number_of_methods": 1,
+        "number_of_optional_type_casting": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "number_of_ifs": 2,
+            "parameter_types": [],
+            "number_of_optional_type_casting": 1,
+            "number_of_if_nil": 1,
+            "start_line": 220,
+            "returns_optional_type": false,
+            "number_of_lines": 8,
+            "number_of_try": 1,
+            "end_line": 227,
+            "number_of_throws": 1,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 0,
+            "name": "jsonEncodedString()",
+            "number_of_forced_unwrappings": 1
+          }
+        ],
+        "number_of_if_nil": 1,
+        "start_line": 218,
+        "number_of_lines": 11,
+        "number_of_try": 1,
+        "end_line": 228,
+        "number_of_throws": 1,
+        "node_type": "extension",
+        "number_of_if_lets": 1,
+        "name": "Optional<Wrapped>",
+        "number_of_forced_unwrappings": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/JSONConvertible.swift"
+      },
+      {
+        "number_of_ifs": 1,
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "jsonEncodedString()",
+            "start_line": 232,
+            "returns_optional_type": false,
+            "number_of_lines": 6,
+            "end_line": 237
+          }
+        ],
+        "name": "Bool",
+        "start_line": 230,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/JSONConvertible.swift",
+        "number_of_lines": 9,
+        "end_line": 238
+      },
+      {
+        "number_of_ifs": 1,
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "jsonEncodedString()",
+            "start_line": 271,
+            "returns_optional_type": false,
+            "number_of_vars": 2,
+            "number_of_lines": 14,
+            "number_of_try": 1,
+            "end_line": 284
+          }
+        ],
+        "name": "Array<Element>",
+        "start_line": 269,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/JSONConvertible.swift",
+        "number_of_vars": 2,
+        "number_of_lines": 17,
+        "number_of_try": 1,
+        "end_line": 285
+      },
+      {
+        "number_of_ifs": 1,
+        "number_of_methods": 1,
+        "number_of_optional_type_casting": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "number_of_optional_type_casting": 1,
+            "start_line": 289,
+            "returns_optional_type": false,
+            "number_of_vars": 2,
+            "number_of_lines": 19,
+            "number_of_try": 2,
+            "end_line": 307,
+            "number_of_throws": 1,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 0,
+            "name": "jsonEncodedString()"
+          }
+        ],
+        "start_line": 287,
+        "number_of_vars": 2,
+        "number_of_lines": 22,
+        "number_of_try": 2,
+        "end_line": 308,
+        "number_of_throws": 1,
+        "number_of_guards": 1,
+        "node_type": "extension",
+        "number_of_guard_lets": 1,
+        "name": "Dictionary<Key,",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/JSONConvertible.swift"
+      },
+      {
+        "number_of_ifs": 1,
+        "number_of_methods": 1,
+        "number_of_optional_type_casting": 1,
+        "methods": [
+          {
+            "return_type": "JSONConvertible",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "number_of_optional_type_casting": 1,
+            "start_line": 312,
+            "returns_optional_type": false,
+            "number_of_lines": 10,
+            "number_of_try": 1,
+            "end_line": 321,
+            "number_of_throws": 1,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 0,
+            "name": "jsonDecode()",
+            "number_of_lets": 2
+          }
+        ],
+        "start_line": 310,
+        "number_of_lines": 13,
+        "number_of_try": 1,
+        "end_line": 322,
+        "number_of_throws": 1,
+        "node_type": "extension",
+        "number_of_if_lets": 1,
+        "name": "String",
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/JSONConvertible.swift"
+      },
+      {
+        "number_of_ifs": 1,
+        "number_of_methods": 1,
+        "methods": [],
+        "start_line": 158,
+        "number_of_vars": 1,
+        "number_of_lines": 89,
+        "number_of_try": 1,
+        "end_line": 246,
+        "number_of_guards": 1,
+        "node_type": "extension",
+        "name": "File",
+        "number_of_lets": 15,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/File.swift"
+      },
+      {
+        "number_of_ifs": 1,
+        "node_type": "extension",
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "Int",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 252,
+            "returns_optional_type": false,
+            "number_of_lines": 6,
+            "end_line": 257
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Int"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 259,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 261
+          }
+        ],
+        "name": "File",
+        "start_line": 248,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/File.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 16,
+        "end_line": 263
+      },
+      {
+        "number_of_ifs": 6,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "delete()",
+            "start_line": 268,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 271
+          }
+        ],
+        "start_line": 265,
+        "number_of_vars": 1,
+        "number_of_lines": 75,
+        "number_of_try": 7,
+        "end_line": 339,
+        "number_of_throws": 2,
+        "number_of_guards": 2,
+        "node_type": "extension",
+        "name": "File",
+        "number_of_lets": 5,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/File.swift"
+      },
+      {
+        "number_of_guards": 3,
+        "node_type": "extension",
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "Int",
+            "number_of_guards": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 344,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_vars": 1,
+            "number_of_lines": 8,
+            "end_line": 351
+          },
+          {
+            "return_type": "Bool",
+            "number_of_guards": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 354,
+            "returns_optional_type": false,
+            "number_of_lets": 2,
+            "number_of_vars": 1,
+            "number_of_lines": 9,
+            "end_line": 362
+          },
+          {
+            "return_type": "File.PermissionMode",
+            "number_of_guards": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 366,
+            "returns_optional_type": false,
+            "number_of_lets": 2,
+            "number_of_vars": 1,
+            "number_of_lines": 9,
+            "end_line": 374
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "File.PermissionMode"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 375,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 377
+          }
+        ],
+        "name": "File",
+        "start_line": 341,
+        "number_of_lets": 5,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/File.swift",
+        "number_of_vars": 6,
+        "number_of_lines": 39,
+        "end_line": 379
+      },
+      {
+        "number_of_ifs": 2,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "Bool",
+            "number_of_guards": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 383,
+            "returns_optional_type": false,
+            "number_of_lets": 2,
+            "number_of_vars": 1,
+            "number_of_lines": 9,
+            "end_line": 391
+          }
+        ],
+        "start_line": 381,
+        "number_of_vars": 2,
+        "number_of_lines": 28,
+        "number_of_try": 1,
+        "end_line": 408,
+        "number_of_throws": 1,
+        "number_of_guards": 2,
+        "node_type": "extension",
+        "name": "File",
+        "number_of_lets": 4,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/File.swift"
+      },
+      {
+        "number_of_ifs": 3,
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "[UInt8]",
+            "number_of_ifs": 3,
+            "parameter_types": [
+              "Int"
+            ],
+            "start_line": 416,
+            "returns_optional_type": false,
+            "number_of_vars": 2,
+            "number_of_lines": 30,
+            "number_of_try": 2,
+            "end_line": 445,
+            "number_of_guards": 2,
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "readSomeBytes(count:)",
+            "number_of_lets": 4
+          },
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "readString()",
+            "start_line": 448,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 4,
+            "number_of_try": 1,
+            "end_line": 451
+          }
+        ],
+        "start_line": 410,
+        "number_of_vars": 2,
+        "number_of_lines": 43,
+        "number_of_try": 3,
+        "end_line": 452,
+        "number_of_guards": 2,
+        "node_type": "extension",
+        "name": "File",
+        "number_of_lets": 5,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/File.swift"
+      },
+      {
+        "number_of_guards": 1,
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "Int",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "write(string:)",
+            "start_line": 461,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "number_of_try": 1,
+            "end_line": 463
+          }
+        ],
+        "name": "File",
+        "start_line": 454,
+        "number_of_lets": 3,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/File.swift",
+        "number_of_lines": 31,
+        "number_of_try": 2,
+        "end_line": 484
+      },
+      {
+        "number_of_guards": 4,
+        "number_of_ifs": 4,
+        "node_type": "extension",
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "Int"
+            ],
+            "start_line": 491,
+            "returns_optional_type": false,
+            "number_of_lines": 9,
+            "number_of_try": 2,
+            "end_line": 499,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "lock(byteCount:)",
+            "number_of_lets": 1
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "Int"
+            ],
+            "start_line": 504,
+            "returns_optional_type": false,
+            "number_of_lines": 9,
+            "number_of_try": 2,
+            "end_line": 512,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "unlock(byteCount:)",
+            "number_of_lets": 1
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "Int"
+            ],
+            "start_line": 517,
+            "returns_optional_type": false,
+            "number_of_lines": 9,
+            "number_of_try": 2,
+            "end_line": 525,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "tryLock(byteCount:)",
+            "number_of_lets": 1
+          },
+          {
+            "return_type": "Bool",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "Int"
+            ],
+            "start_line": 531,
+            "returns_optional_type": false,
+            "number_of_lines": 10,
+            "number_of_try": 2,
+            "end_line": 540,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "testLock(byteCount:)",
+            "number_of_lets": 1
+          }
+        ],
+        "name": "File",
+        "start_line": 486,
+        "number_of_lets": 4,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/File.swift",
+        "number_of_lines": 56,
+        "number_of_try": 8,
+        "end_line": 541
+      },
+      {
+        "number_of_ifs": 2,
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "String",
+        "start_line": 9,
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/SwiftCompatibility.swift",
+        "number_of_vars": 3,
+        "number_of_lines": 25,
+        "end_line": 33
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 105,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 10,
+            "end_line": 114
+          },
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 118,
+            "returns_optional_type": false,
+            "number_of_lets": 2,
+            "number_of_vars": 1,
+            "number_of_lines": 8,
+            "end_line": 125
+          }
+        ],
+        "name": "UInt8",
+        "start_line": 104,
+        "number_of_lets": 3,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/Utilities.swift",
+        "number_of_vars": 3,
+        "number_of_lines": 23,
+        "end_line": 126
+      },
+      {
+        "number_of_ifs": 20,
+        "number_of_methods": 5,
+        "methods": [
+          {
+            "return_type": "String",
+            "number_of_ifs": 11,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 130,
+            "returns_optional_type": false,
+            "number_of_vars": 3,
+            "number_of_lines": 43,
+            "end_line": 172
+          },
+          {
+            "return_type": "String",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 175,
+            "returns_optional_type": false,
+            "number_of_vars": 2,
+            "number_of_lines": 13,
+            "end_line": 187
+          },
+          {
+            "return_type": "UInt8?",
+            "number_of_ifs": 6,
+            "parameter_types": [
+              "UInt8",
+              "UInt8"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "byteFromHexDigits(one:two:)",
+            "start_line": 190,
+            "returns_optional_type": true,
+            "number_of_lets": 6,
+            "number_of_vars": 1,
+            "number_of_lines": 34,
+            "end_line": 223
+          },
+          {
+            "return_type": "String?",
+            "number_of_ifs": 2,
+            "parameter_types": [],
+            "start_line": 226,
+            "returns_optional_type": true,
+            "number_of_vars": 2,
+            "number_of_lines": 29,
+            "end_line": 254,
+            "number_of_guards": 3,
+            "node_type": "method",
+            "number_of_guard_lets": 3,
+            "number_of_parameters": 0,
+            "name": "self",
+            "number_of_lets": 3
+          },
+          {
+            "return_type": "[UInt8]?",
+            "number_of_guards": 2,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_guard_lets": 2,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 257,
+            "returns_optional_type": true,
+            "number_of_vars": 2,
+            "number_of_lines": 18,
+            "end_line": 274
+          }
+        ],
+        "start_line": 128,
+        "number_of_vars": 14,
+        "number_of_lines": 148,
+        "end_line": 275,
+        "number_of_guards": 5,
+        "node_type": "extension",
+        "number_of_guard_lets": 5,
+        "number_of_if_lets": 1,
+        "name": "String",
+        "number_of_lets": 9,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/Utilities.swift",
+        "number_of_vars_with_optional_type": 2
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "uuid_t",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "asUUID()",
+            "start_line": 324,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 326
+          },
+          {
+            "return_type": "String",
+            "parameter_types": [
+              "uuid_t"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "fromUUID(uuid:)",
+            "start_line": 329,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 331
+          }
+        ],
+        "name": "String",
+        "start_line": 321,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/Utilities.swift",
+        "number_of_lines": 12,
+        "end_line": 332
+      },
+      {
+        "number_of_ifs": 5,
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "String]",
+            "number_of_ifs": 2,
+            "parameter_types": [],
+            "start_line": 342,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 13,
+            "end_line": 354,
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_parameters": 0,
+            "name": "parseAuthentication()",
+            "number_of_lets": 1
+          },
+          {
+            "return_type": "String?",
+            "number_of_ifs": 3,
+            "parameter_types": [
+              "String",
+              "String"
+            ],
+            "start_line": 356,
+            "returns_optional_type": true,
+            "number_of_vars": 2,
+            "number_of_lines": 30,
+            "end_line": 385,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 2,
+            "name": "extractField(from:named:)",
+            "number_of_lets": 3
+          }
+        ],
+        "start_line": 339,
+        "number_of_vars": 3,
+        "number_of_lines": 48,
+        "end_line": 386,
+        "number_of_guards": 1,
+        "node_type": "extension",
+        "number_of_guard_lets": 1,
+        "number_of_if_lets": 2,
+        "name": "String",
+        "number_of_lets": 4,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/Utilities.swift"
+      },
+      {
+        "number_of_guards": 2,
+        "number_of_ifs": 2,
+        "node_type": "extension",
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "String",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "String",
+              "String"
+            ],
+            "start_line": 391,
+            "returns_optional_type": false,
+            "number_of_vars": 4,
+            "number_of_lines": 36,
+            "end_line": 426,
+            "number_of_guards": 2,
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "stringByReplacing(string:withString:)",
+            "number_of_lets": 2
+          },
+          {
+            "return_type": "Bool",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "contains(string:)",
+            "start_line": 429,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 431
+          }
+        ],
+        "name": "String",
+        "start_line": 388,
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/Utilities.swift",
+        "number_of_vars": 4,
+        "number_of_lines": 45,
+        "end_line": 432
+      },
+      {
+        "number_of_guards": 1,
+        "node_type": "extension",
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "Bool",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "begins(with:)",
+            "start_line": 435,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 437
+          },
+          {
+            "return_type": "Bool",
+            "number_of_guards": 1,
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "ends(with:)",
+            "start_line": 439,
+            "returns_optional_type": false,
+            "number_of_lets": 2,
+            "number_of_lines": 10,
+            "end_line": 448
+          }
+        ],
+        "name": "String",
+        "start_line": 434,
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/Utilities.swift",
+        "number_of_lines": 16,
+        "end_line": 449
+      },
+      {
+        "number_of_ifs": 1,
+        "node_type": "extension",
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "isWhiteSpace()",
+            "start_line": 496,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 498
+          },
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "isDigit()",
+            "start_line": 500,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 502
+          },
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "isAlphaNum()",
+            "start_line": 504,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 506
+          },
+          {
+            "return_type": "Bool",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "isHexDigit()",
+            "start_line": 508,
+            "returns_optional_type": false,
+            "number_of_lines": 11,
+            "end_line": 518
+          }
+        ],
+        "name": "UnicodeScalar",
+        "start_line": 493,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/Utilities.swift",
+        "number_of_lines": 27,
+        "end_line": 519
+      },
+      {
+        "number_of_ifs": 9,
+        "number_of_methods": 13,
+        "methods": [
+          {
+            "return_type": "UnicodeScalar",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 566,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 568
+          },
+          {
+            "return_type": "UnicodeScalar",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 570,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 572
+          },
+          {
+            "return_type": "Bool",
+            "number_of_guards": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 574,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 7,
+            "end_line": 580
+          },
+          {
+            "return_type": "Bool",
+            "number_of_guards": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 582,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 7,
+            "end_line": 588
+          },
+          {
+            "return_type": "[String]",
+            "number_of_ifs": 3,
+            "parameter_types": [
+              "Bool"
+            ],
+            "start_line": 590,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 20,
+            "end_line": 609,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "filePathComponents(addFirstLast:)",
+            "number_of_lets": 1
+          },
+          {
+            "return_type": "[String]",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 611,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 613
+          },
+          {
+            "return_type": "String",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 615,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_nil_coalescing": 1,
+            "number_of_lines": 7,
+            "end_line": 621
+          },
+          {
+            "return_type": "String",
+            "number_of_ifs": 2,
+            "parameter_types": [],
+            "start_line": 623,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 15,
+            "end_line": 637,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "number_of_lets": 1
+          },
+          {
+            "return_type": "String.CharacterView.Index",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "String.CharacterView"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "lastPathSeparator(in:)",
+            "start_line": 639,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_vars": 1,
+            "number_of_lines": 11,
+            "end_line": 649
+          },
+          {
+            "return_type": "String.CharacterView.Index",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "String.CharacterView",
+              "String.CharacterView.Index"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "lastExtensionSeparator(in:endIndex:)",
+            "start_line": 651,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 10,
+            "end_line": 660
+          },
+          {
+            "return_type": "String",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "start_line": 662,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 14,
+            "end_line": 675,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "number_of_lets": 3
+          },
+          {
+            "return_type": "String",
+            "number_of_guards": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 677,
+            "returns_optional_type": false,
+            "number_of_lets": 3,
+            "number_of_vars": 1,
+            "number_of_lines": 11,
+            "end_line": 687
+          },
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 689,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 691
+          }
+        ],
+        "start_line": 564,
+        "number_of_vars": 16,
+        "number_of_lines": 129,
+        "end_line": 692,
+        "number_of_guards": 6,
+        "node_type": "extension",
+        "name": "String",
+        "number_of_lets": 12,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/Utilities.swift",
+        "number_of_nil_coalescing": 1
+      }
+    ],
+    "number_of_guard_lets": 23,
+    "number_of_if_lets": 11,
+    "number_of_forced_unwrappings": 40,
+    "number_of_lets": 171,
+    "number_of_nil_coalescing": 4,
+    "protocols": [
+      {
+        "node_type": "protocol",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "jsonEncodedString()",
+            "start_line": 68,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 68
+          }
+        ],
+        "name": "JSONConvertible",
+        "start_line": 66,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/JSONConvertible.swift",
+        "number_of_lines": 4,
+        "end_line": 69
+      },
+      {
+        "number_of_methods": 27,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "debug(message:)",
+            "start_line": 29,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 29
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "info(message:)",
+            "start_line": 30,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 30
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "warning(message:)",
+            "start_line": 31,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 31
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "error(message:)",
+            "start_line": 32,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 32
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "critical(message:)",
+            "start_line": 33,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 33
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "number_of_methods": 21,
+            "start_line": 34,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 1,
+            "number_of_try": 3,
+            "end_line": 34,
+            "number_of_guards": 3,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 0,
+            "name": "terminal(message:)",
+            "number_of_lets": 3
+          }
+        ],
+        "start_line": 28,
+        "number_of_vars": 1,
+        "number_of_lines": 8,
+        "number_of_try": 3,
+        "end_line": 35,
+        "number_of_guards": 3,
+        "node_type": "protocol",
+        "number_of_guard_lets": 1,
+        "name": "Logger",
+        "number_of_lets": 3,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Perfect-master/Sources/PerfectLib/Log.swift"
+      }
+    ],
+    "number_of_vars_with_optional_type": 13,
+    "number_of_do_blocks": 1
+  }
+}

@@ -1,0 +1,805 @@
+{
+  "project": {
+    "number_of_ifs": 8,
+    "number_of_lets_with_optional_type": 3,
+    "structs": [
+      {
+        "number_of_ifs": 1,
+        "number_of_instance_variables": 29,
+        "number_of_methods": 27,
+        "methods": [
+          {
+            "return_type": "Dimension",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 13,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 15
+          },
+          {
+            "return_type": "Dimension",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 18,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 20
+          },
+          {
+            "return_type": "Size",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 23,
+            "returns_optional_type": false,
+            "number_of_lines": 6,
+            "end_line": 28
+          },
+          {
+            "return_type": "Edge",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 31,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 33
+          },
+          {
+            "return_type": "Edge",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 36,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 38
+          },
+          {
+            "return_type": "Edge",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 41,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 43
+          },
+          {
+            "return_type": "Edge",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 46,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 48
+          },
+          {
+            "return_type": "Edges",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 52,
+            "returns_optional_type": false,
+            "number_of_lines": 8,
+            "end_line": 59
+          },
+          {
+            "return_type": "Edge",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 62,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 64
+          },
+          {
+            "return_type": "Edge",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 67,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 69
+          },
+          {
+            "return_type": "Edge",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 72,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 74
+          },
+          {
+            "return_type": "Edge",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 77,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 79
+          },
+          {
+            "return_type": "Point",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 83,
+            "returns_optional_type": false,
+            "number_of_lines": 6,
+            "end_line": 88
+          },
+          {
+            "return_type": "Edge",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 91,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 93
+          },
+          {
+            "return_type": "Edge",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 96,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 98
+          },
+          {
+            "return_type": "Edge",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 103,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 105
+          },
+          {
+            "return_type": "Edges",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 111,
+            "returns_optional_type": false,
+            "number_of_lines": 8,
+            "end_line": 118
+          },
+          {
+            "return_type": "Edge",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 122,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 124
+          },
+          {
+            "return_type": "Edge",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 128,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 130
+          },
+          {
+            "return_type": "Edge",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 134,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 136
+          },
+          {
+            "return_type": "Edge",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 140,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 142
+          },
+          {
+            "return_type": "Edge",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 146,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 148
+          },
+          {
+            "return_type": "Edge",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 152,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 154
+          },
+          {
+            "return_type": "Edge",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 158,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 160
+          },
+          {
+            "return_type": "Edge",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 164,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 166
+          },
+          {
+            "return_type": "Point",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 171,
+            "returns_optional_type": false,
+            "number_of_lines": 6,
+            "end_line": 176
+          },
+          {
+            "return_type": "LayoutProxy?",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 184,
+            "returns_optional_type": true,
+            "number_of_lines": 7,
+            "end_line": 190
+          }
+        ],
+        "start_line": 11,
+        "number_of_vars": 27,
+        "type": "LayoutProxy.Type",
+        "number_of_lines": 186,
+        "end_line": 196,
+        "node_type": "struct",
+        "number_of_if_lets": 1,
+        "number_of_constructors": 1,
+        "name": "LayoutProxy",
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/LayoutProxy.swift",
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_instance_variables": 2,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 15,
+        "type": "Edges.Type",
+        "number_of_lines": 9,
+        "end_line": 23,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "Edges",
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/Edges.swift",
+        "inherits": "Compound, R"
+      },
+      {
+        "number_of_instance_variables": 3,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 15,
+        "type": "Dimension.Type",
+        "number_of_lines": 11,
+        "end_line": 25,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "Dimension",
+        "number_of_lets": 3,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/Dimension.swift",
+        "inherits": "Property, N"
+      },
+      {
+        "number_of_instance_variables": 3,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 15,
+        "type": "Edge.Type",
+        "number_of_lines": 11,
+        "end_line": 25,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "Edge",
+        "number_of_lets": 3,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/Edge.swift",
+        "inherits": "Property, R"
+      },
+      {
+        "number_of_instance_variables": 2,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 15,
+        "type": "Point.Type",
+        "number_of_lines": 9,
+        "end_line": 23,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "Point",
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/Point.swift",
+        "inherits": "Compound, R"
+      },
+      {
+        "number_of_instance_variables": 2,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 15,
+        "type": "Size.Type",
+        "number_of_lines": 9,
+        "end_line": 23,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "Size",
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/Size.swift",
+        "inherits": "Compound, R"
+      },
+      {
+        "number_of_instance_variables": 2,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 14,
+        "number_of_vars": 2,
+        "type": "Coefficients.Type",
+        "number_of_lines": 11,
+        "end_line": 24,
+        "node_type": "struct",
+        "number_of_constructors": 2,
+        "name": "Coefficients",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/Coefficients.swift"
+      },
+      {
+        "number_of_instance_variables": 2,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 14,
+        "type": "LayoutSupport.Type",
+        "number_of_lines": 4,
+        "end_line": 17,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "LayoutSupport",
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/LayoutSupport.swift"
+      },
+      {
+        "number_of_instance_variables": 2,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 11,
+        "number_of_vars": 1,
+        "type": "Expression.Type",
+        "number_of_lines": 11,
+        "end_line": 21,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "Expression",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/Expression.swift"
+      }
+    ],
+    "number_of_methods": 41,
+    "classes": [
+      {
+        "number_of_instance_variables": 2,
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "install()",
+            "start_line": 20,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 22
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "uninstall()",
+            "start_line": 24,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 26
+          }
+        ],
+        "start_line": 15,
+        "number_of_vars": 1,
+        "type": "Constraint.Type",
+        "number_of_lines": 18,
+        "end_line": 32,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "name": "Constraint",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/Constraint.swift",
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_ifs": 2,
+        "number_of_instance_variables": 1,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 15,
+        "number_of_vars": 3,
+        "type": "Context.Type",
+        "number_of_lines": 64,
+        "end_line": 78,
+        "node_type": "class",
+        "number_of_if_lets": 2,
+        "number_of_constructors": 1,
+        "name": "Context",
+        "number_of_lets": 3,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/Context.swift",
+        "number_of_nil_coalescing": 2
+      },
+      {
+        "number_of_instance_variables": 2,
+        "number_of_methods": 3,
+        "methods": [
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 17,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 21
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Bool"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 22,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 26
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "[Constraint]"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "replaceConstraints(_:)",
+            "start_line": 33,
+            "returns_optional_type": false,
+            "number_of_lines": 11,
+            "end_line": 43
+          }
+        ],
+        "start_line": 11,
+        "number_of_vars": 2,
+        "type": "ConstraintGroup.Type",
+        "number_of_lines": 34,
+        "end_line": 44,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "name": "ConstraintGroup",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/ConstraintGroup.swift"
+      }
+    ],
+    "number_of_vars": 46,
+    "enums": [],
+    "extensions": [
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "Dictionary<Key,",
+        "start_line": 15,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/Extensions.swift",
+        "number_of_lines": 9,
+        "end_line": 23
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 17,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 17
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Bool"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 18,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 18
+          }
+        ],
+        "name": "View",
+        "start_line": 15,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/View.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 6,
+        "end_line": 20
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "LayoutSupport",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 22,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 24
+          },
+          {
+            "return_type": "LayoutSupport",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 28,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 30
+          }
+        ],
+        "name": "UIViewController",
+        "start_line": 19,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/LayoutSupport.swift",
+        "number_of_vars": 2,
+        "number_of_lines": 14,
+        "end_line": 32
+      }
+    ],
+    "number_of_if_lets": 3,
+    "number_of_lets": 42,
+    "number_of_nil_coalescing": 9,
+    "protocols": [
+      {
+        "node_type": "protocol",
+        "number_of_methods": 3,
+        "methods": [
+          {
+            "return_type": "NSLayoutAttribute",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 16,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 16
+          },
+          {
+            "return_type": "Context",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 17,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 17
+          },
+          {
+            "return_type": "View",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 18,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 18
+          }
+        ],
+        "name": "Property",
+        "start_line": 15,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/Property.swift",
+        "number_of_vars": 3,
+        "number_of_lines": 5,
+        "end_line": 19
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "NumericalEquality",
+        "start_line": 25,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/Property.swift",
+        "number_of_lines": 1,
+        "end_line": 25
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "RelativeEquality",
+        "start_line": 41,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/Property.swift",
+        "number_of_lines": 1,
+        "end_line": 41
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "NumericalInequality",
+        "start_line": 69,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/Property.swift",
+        "number_of_lines": 1,
+        "end_line": 69
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "RelativeInequality",
+        "start_line": 97,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/Property.swift",
+        "number_of_lines": 1,
+        "end_line": 97
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "Addition",
+        "start_line": 149,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/Property.swift",
+        "number_of_lines": 1,
+        "end_line": 149
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "Multiplication",
+        "start_line": 196,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/Property.swift",
+        "number_of_lines": 1,
+        "end_line": 196
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "Context",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 16,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 16
+          },
+          {
+            "return_type": "[Property]",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 17,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 17
+          }
+        ],
+        "name": "Compound",
+        "start_line": 15,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/Compound.swift",
+        "number_of_vars": 2,
+        "number_of_lines": 4,
+        "end_line": 18
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "RelativeCompoundEquality",
+        "start_line": 22,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/Compound.swift",
+        "number_of_lines": 1,
+        "end_line": 22
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "RelativeCompoundInequality",
+        "start_line": 48,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Cartography-master/Cartography/Compound.swift",
+        "number_of_lines": 1,
+        "end_line": 48
+      }
+    ],
+    "number_of_vars_with_optional_type": 3
+  }
+}

@@ -1,0 +1,4193 @@
+{
+  "project": {
+    "number_of_ifs": 80,
+    "number_of_lets_with_optional_type": 25,
+    "number_of_catches": 1,
+    "structs": [
+      {
+        "number_of_instance_variables": 1,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 47,
+        "type": "UIView.LoadingViewConstants.Type",
+        "number_of_lines": 3,
+        "end_line": 49,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "LoadingViewConstants",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift"
+      },
+      {
+        "number_of_instance_variables": 2,
+        "number_of_ifs": 3,
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "()",
+            "number_of_ifs": 3,
+            "parameter_types": [
+              "String"
+            ],
+            "start_line": 35,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 21,
+            "end_line": 55,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "playSound(soundFile:)",
+            "number_of_nil_coalescing": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "play(file:)",
+            "start_line": 57,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 59
+          }
+        ],
+        "start_line": 26,
+        "number_of_vars": 4,
+        "type": "SoundPlayer.Type",
+        "number_of_lines": 35,
+        "end_line": 60,
+        "node_type": "struct",
+        "number_of_if_lets": 1,
+        "number_of_constructors": 1,
+        "name": "SoundPlayer",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "number_of_nil_coalescing": 1,
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_instance_variables": 1,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 31,
+        "number_of_vars": 1,
+        "type": "SoundPlayer.Internal.Type",
+        "number_of_lines": 3,
+        "end_line": 33,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "Internal",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift"
+      },
+      {
+        "number_of_instance_variables": 1,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 32,
+        "type": "Static.Type",
+        "number_of_lines": 3,
+        "end_line": 34,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "Static",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift"
+      }
+    ],
+    "number_of_methods": 264,
+    "number_of_optional_type_casting": 8,
+    "number_of_if_nil": 6,
+    "classes": [
+      {
+        "number_of_instance_variables": 18,
+        "number_of_lets_with_optional_type": 1,
+        "number_of_ifs": 1,
+        "number_of_methods": 6,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "awakeFromNib()",
+            "start_line": 46,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 49
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "layoutSubviews()",
+            "start_line": 51,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 54
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "animate()",
+            "start_line": 56,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 58
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "() -> ()"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "animateNext(completion:)",
+            "start_line": 60,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 62
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "animateTo()",
+            "start_line": 64,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 66
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "() -> ()"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "animateToNext(completion:)",
+            "start_line": 68,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 70
+          }
+        ],
+        "start_line": 25,
+        "number_of_vars": 19,
+        "type": "SpringTextView.Type",
+        "number_of_lines": 48,
+        "end_line": 72,
+        "node_type": "class",
+        "number_of_constructors": 0,
+        "name": "SpringTextView",
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "UITextView",
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_instance_variables": 18,
+        "number_of_lets_with_optional_type": 1,
+        "number_of_ifs": 1,
+        "number_of_methods": 6,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "awakeFromNib()",
+            "start_line": 46,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 49
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "layoutSubviews()",
+            "start_line": 51,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 54
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "animate()",
+            "start_line": 56,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 58
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "() -> ()"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "animateNext(completion:)",
+            "start_line": 60,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 62
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "animateTo()",
+            "start_line": 64,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 66
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "() -> ()"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "animateToNext(completion:)",
+            "start_line": 68,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 70
+          }
+        ],
+        "start_line": 25,
+        "number_of_vars": 19,
+        "type": "SpringImageView.Type",
+        "number_of_lines": 48,
+        "end_line": 72,
+        "node_type": "class",
+        "number_of_constructors": 0,
+        "name": "SpringImageView",
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "UIImageVie",
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_instance_variables": 4,
+        "number_of_lets_with_optional_type": 2,
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIColor"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 28,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 30
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 34,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 36
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 40,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 42
+          },
+          {
+            "return_type": "()",
+            "number_of_lets_with_optional_type": 2,
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "number_of_forced_unwrappings": 4,
+            "start_line": 46,
+            "returns_optional_type": false,
+            "number_of_lets": 4,
+            "number_of_lines": 13,
+            "end_line": 58
+          }
+        ],
+        "start_line": 25,
+        "number_of_vars": 4,
+        "type": "DesignableTextView.Type",
+        "number_of_lines": 37,
+        "end_line": 61,
+        "node_type": "class",
+        "number_of_constructors": 2,
+        "name": "DesignableTextView",
+        "number_of_forced_unwrappings": 4,
+        "number_of_lets": 8,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "SpringText"
+      },
+      {
+        "number_of_instance_variables": 1,
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "awakeFromNib()",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 29,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 9,
+            "end_line": 37
+          },
+          {
+            "return_type": "UIView",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "designCodeLoadingView()",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 39,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 42,
+            "number_of_forced_type_casting": 1
+          }
+        ],
+        "start_line": 25,
+        "number_of_vars": 1,
+        "type": "LoadingView.Type",
+        "number_of_lines": 19,
+        "end_line": 43,
+        "number_of_forced_type_casting": 1,
+        "node_type": "class",
+        "number_of_constructors": 2,
+        "name": "LoadingView",
+        "number_of_forced_unwrappings": 2,
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "UIView"
+      },
+      {
+        "number_of_instance_variables": 3,
+        "number_of_methods": 3,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIColor"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 28,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 30
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 34,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 36
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 40,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 42
+          }
+        ],
+        "start_line": 25,
+        "number_of_vars": 3,
+        "type": "DesignableImageView.Type",
+        "number_of_lines": 21,
+        "end_line": 45,
+        "node_type": "class",
+        "number_of_constructors": 4,
+        "name": "DesignableImageView",
+        "number_of_lets": 3,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "SpringImag"
+      },
+      {
+        "number_of_instance_variables": 8,
+        "number_of_lets_with_optional_type": 2,
+        "number_of_methods": 8,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIColor"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 28,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 32
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 36,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 9,
+            "end_line": 44
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 48,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 6,
+            "end_line": 53
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 57,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 6,
+            "end_line": 62
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIColor"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 66,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 68
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 72,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 74
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 78,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 80
+          },
+          {
+            "return_type": "()",
+            "number_of_lets_with_optional_type": 2,
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "number_of_forced_unwrappings": 4,
+            "start_line": 84,
+            "returns_optional_type": false,
+            "number_of_lets": 4,
+            "number_of_lines": 13,
+            "end_line": 96
+          }
+        ],
+        "start_line": 25,
+        "number_of_vars": 8,
+        "type": "DesignableTextField.Type",
+        "number_of_lines": 75,
+        "end_line": 99,
+        "node_type": "class",
+        "number_of_constructors": 2,
+        "name": "DesignableTextField",
+        "number_of_forced_unwrappings": 5,
+        "number_of_lets": 15,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "SpringText"
+      },
+      {
+        "number_of_instance_variables": 23,
+        "number_of_ifs": 11,
+        "number_of_methods": 53,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "commonInit()",
+            "start_line": 67,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 69
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "NSNotification"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "didBecomeActiveNotification(_:)",
+            "start_line": 71,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 77
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Bool"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 83,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 83
+          },
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 83,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 83
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Bool"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 84,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 84
+          },
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 84,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 84
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 85,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 85
+          },
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 85,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 85
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 86,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 86
+          },
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 86,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 86
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 87,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 87
+          },
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 87,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 87
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 88,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 88
+          },
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 88,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 88
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 89,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 89
+          },
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 89,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 89
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 90,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 90
+          },
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 90,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 90
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Float"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 91,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 91
+          },
+          {
+            "return_type": "Float",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 91,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 91
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 92,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 92
+          },
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 92,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 92
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 93,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 93
+          },
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 93,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 93
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 94,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 94
+          },
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 94,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 94
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 95,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 95
+          },
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 95,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 95
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 96,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 96
+          },
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 96,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 96
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 97,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 97
+          },
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 97,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 97
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Bool"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 98,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 98
+          },
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 98,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 98
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 99,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 99
+          },
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 99,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 99
+          },
+          {
+            "return_type": "CALayer",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 102,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 102
+          },
+          {
+            "return_type": "CGAffineTransform",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 103,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 103
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGAffineTransform"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 103,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 103
+          },
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 104,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 104
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 104,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 104
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "start_line": 168,
+            "returns_optional_type": false,
+            "number_of_vars": 2,
+            "number_of_lines": 198,
+            "end_line": 365,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 0,
+            "name": "animatePreset()",
+            "number_of_lets": 13
+          },
+          {
+            "return_type": "CAMediaTimingFunction",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "getTimingFunction(curve:)",
+            "start_line": 367,
+            "returns_optional_type": false,
+            "number_of_lines": 36,
+            "end_line": 402
+          },
+          {
+            "return_type": "UIViewAnimationOptions",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "getAnimationOptions(curve:)",
+            "start_line": 404,
+            "returns_optional_type": false,
+            "number_of_lines": 11,
+            "end_line": 414
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "animate()",
+            "start_line": 416,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 420
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "() -> ()"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "animateNext(completion:)",
+            "start_line": 422,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 428
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "animateTo()",
+            "start_line": 430,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 434
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "() -> ()"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "animateToNext(completion:)",
+            "start_line": 436,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 442
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "customAwakeFromNib()",
+            "start_line": 444,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 448
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 3,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "customLayoutSubviews()",
+            "start_line": 450,
+            "returns_optional_type": false,
+            "number_of_lines": 13,
+            "end_line": 462
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 3,
+            "parameter_types": [
+              "() -> ()"
+            ],
+            "start_line": 464,
+            "returns_optional_type": false,
+            "number_of_vars": 2,
+            "number_of_lines": 43,
+            "end_line": 506,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "setView(completion:)",
+            "number_of_lets": 8,
+            "number_of_vars_with_optional_type": 2
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "reset()",
+            "start_line": 508,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 512
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "resetAll()",
+            "start_line": 514,
+            "returns_optional_type": false,
+            "number_of_lines": 14,
+            "end_line": 527
+          }
+        ],
+        "start_line": 55,
+        "number_of_vars": 27,
+        "type": "Spring.Type",
+        "number_of_lines": 475,
+        "end_line": 529,
+        "node_type": "class",
+        "number_of_if_lets": 4,
+        "number_of_constructors": 2,
+        "name": "Spring",
+        "number_of_lets": 21,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "String",
+        "number_of_vars_with_optional_type": 2
+      },
+      {
+        "number_of_instance_variables": 2,
+        "number_of_ifs": 1,
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "UIViewControllerContextTransitioning"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "animateTransition(using:)",
+            "number_of_forced_unwrappings": 2,
+            "start_line": 30,
+            "returns_optional_type": false,
+            "number_of_lets": 4,
+            "number_of_lines": 42,
+            "end_line": 71
+          },
+          {
+            "return_type": "TimeInterval",
+            "parameter_types": [
+              "UIViewControllerContextTransitioning?"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "transitionDuration(using:)",
+            "start_line": 73,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 75
+          },
+          {
+            "return_type": "UIViewControllerAnimatedTransitioning?",
+            "parameter_types": [
+              "UIViewController",
+              "UIViewController",
+              "UIViewController"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 3,
+            "name": "animationController(forPresentedController:presenting:sourceController:)",
+            "start_line": 77,
+            "returns_optional_type": true,
+            "number_of_lines": 4,
+            "end_line": 80
+          },
+          {
+            "return_type": "UIViewControllerAnimatedTransitioning?",
+            "parameter_types": [
+              "UIViewController"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "animationController(forDismissed:)",
+            "start_line": 82,
+            "returns_optional_type": true,
+            "number_of_lines": 4,
+            "end_line": 85
+          }
+        ],
+        "start_line": 25,
+        "number_of_vars": 2,
+        "type": "TransitionManager.Type",
+        "number_of_lines": 62,
+        "end_line": 86,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "name": "TransitionManager",
+        "number_of_forced_unwrappings": 2,
+        "number_of_lets": 4,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "NSObject,"
+      },
+      {
+        "number_of_instance_variables": 2,
+        "number_of_lets_with_optional_type": 2,
+        "number_of_ifs": 6,
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "ImageLoader",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_methods": 0,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 31,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 6,
+            "end_line": 36
+          },
+          {
+            "return_type": "()",
+            "number_of_lets_with_optional_type": 2,
+            "number_of_ifs": 6,
+            "parameter_types": [
+              "String",
+              "(UIImage?, String) -> ()"
+            ],
+            "number_of_if_nil": 4,
+            "start_line": 38,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 48,
+            "end_line": 85,
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_parameters": 2,
+            "name": "imageForUrl(urlString:completionHandler:)",
+            "number_of_forced_unwrappings": 4,
+            "number_of_lets": 3,
+            "number_of_vars_with_optional_type": 1
+          }
+        ],
+        "number_of_if_nil": 4,
+        "start_line": 27,
+        "number_of_vars": 3,
+        "type": "ImageLoader.Type",
+        "number_of_lines": 60,
+        "end_line": 86,
+        "node_type": "class",
+        "number_of_if_lets": 2,
+        "number_of_constructors": 1,
+        "name": "ImageLoader",
+        "number_of_forced_unwrappings": 4,
+        "number_of_lets": 4,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_instance_variables": 2,
+        "number_of_ifs": 3,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "()",
+            "number_of_ifs": 3,
+            "parameter_types": [
+              "NSURL?",
+              "UIImage?",
+              "UIControlState"
+            ],
+            "start_line": 31,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 19,
+            "end_line": 49,
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_parameters": 3,
+            "name": "setImageURL(url:placeholderImage:forState:)",
+            "number_of_vars_with_optional_type": 1
+          }
+        ],
+        "start_line": 25,
+        "number_of_vars": 3,
+        "type": "AsyncButton.Type",
+        "number_of_lines": 27,
+        "end_line": 51,
+        "node_type": "class",
+        "number_of_if_lets": 2,
+        "number_of_constructors": 2,
+        "name": "AsyncButton",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "UIButton",
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_instance_variables": 18,
+        "number_of_lets_with_optional_type": 1,
+        "number_of_ifs": 1,
+        "number_of_methods": 6,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "awakeFromNib()",
+            "start_line": 46,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 49
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "layoutSubviews()",
+            "start_line": 51,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 54
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "animate()",
+            "start_line": 56,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 58
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "() -> ()"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "animateNext(completion:)",
+            "start_line": 60,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 62
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "animateTo()",
+            "start_line": 64,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 66
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "() -> ()"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "animateToNext(completion:)",
+            "start_line": 68,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 70
+          }
+        ],
+        "start_line": 25,
+        "number_of_vars": 19,
+        "type": "SpringButton.Type",
+        "number_of_lines": 47,
+        "end_line": 71,
+        "node_type": "class",
+        "number_of_constructors": 0,
+        "name": "SpringButton",
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "UIButton,",
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_instance_variables": 1,
+        "number_of_lets_with_optional_type": 2,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "()",
+            "number_of_lets_with_optional_type": 2,
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "number_of_forced_unwrappings": 4,
+            "start_line": 28,
+            "returns_optional_type": false,
+            "number_of_lets": 4,
+            "number_of_lines": 13,
+            "end_line": 40
+          }
+        ],
+        "start_line": 25,
+        "number_of_vars": 1,
+        "type": "DesignableLabel.Type",
+        "number_of_lines": 19,
+        "end_line": 43,
+        "node_type": "class",
+        "number_of_constructors": 2,
+        "name": "DesignableLabel",
+        "number_of_forced_unwrappings": 4,
+        "number_of_lets": 5,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "SpringLabe"
+      },
+      {
+        "number_of_instance_variables": 18,
+        "number_of_lets_with_optional_type": 1,
+        "number_of_ifs": 1,
+        "number_of_methods": 6,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "awakeFromNib()",
+            "start_line": 46,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 49
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "layoutSubviews()",
+            "start_line": 51,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 54
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "animate()",
+            "start_line": 56,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 58
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "() -> ()"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "animateNext(completion:)",
+            "start_line": 60,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 62
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "animateTo()",
+            "start_line": 64,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 66
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "() -> ()"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "animateToNext(completion:)",
+            "start_line": 68,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 70
+          }
+        ],
+        "start_line": 25,
+        "number_of_vars": 19,
+        "type": "SpringTextField.Type",
+        "number_of_lines": 47,
+        "end_line": 71,
+        "node_type": "class",
+        "number_of_constructors": 0,
+        "name": "SpringTextField",
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "UITextFiel",
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_instance_variables": 8,
+        "number_of_lets_with_optional_type": 5,
+        "number_of_ifs": 6,
+        "number_of_methods": 9,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIColor"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 28,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 31
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIColor"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 35,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 38
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 42,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 44
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "UIImage?"
+            ],
+            "start_line": 48,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 6,
+            "end_line": 53,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "self",
+            "number_of_vars_with_optional_type": 1
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "UIImage?"
+            ],
+            "start_line": 57,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 6,
+            "end_line": 62,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "self",
+            "number_of_vars_with_optional_type": 1
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "UIImage?"
+            ],
+            "start_line": 66,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 6,
+            "end_line": 71,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "self",
+            "number_of_vars_with_optional_type": 1
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "UIImage?"
+            ],
+            "start_line": 75,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 6,
+            "end_line": 80,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "self",
+            "number_of_vars_with_optional_type": 1
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "UIImage?"
+            ],
+            "start_line": 84,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 6,
+            "end_line": 89,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "self",
+            "number_of_vars_with_optional_type": 1
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 0,
+            "name": "viewDidLoad()",
+            "number_of_forced_unwrappings": 2,
+            "start_line": 92,
+            "returns_optional_type": false,
+            "number_of_lines": 9,
+            "end_line": 100
+          }
+        ],
+        "start_line": 25,
+        "number_of_vars": 13,
+        "type": "DesignableTabBarController.Type",
+        "number_of_lines": 77,
+        "end_line": 101,
+        "node_type": "class",
+        "number_of_if_lets": 6,
+        "number_of_constructors": 2,
+        "name": "DesignableTabBarController",
+        "number_of_forced_unwrappings": 3,
+        "number_of_lets": 8,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "UITabBarCo",
+        "number_of_vars_with_optional_type": 10
+      },
+      {
+        "number_of_instance_variables": 0,
+        "number_of_methods": 7,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "TimeInterval",
+              "() -> Void"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "spring(duration:animations:)",
+            "start_line": 26,
+            "returns_optional_type": false,
+            "number_of_lines": 13,
+            "end_line": 38
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "TimeInterval",
+              "(() -> Void)!"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "springEaseIn(duration:animations:)",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 40,
+            "returns_optional_type": false,
+            "number_of_lines": 11,
+            "end_line": 50
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "TimeInterval",
+              "(() -> Void)!"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "springEaseOut(duration:animations:)",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 52,
+            "returns_optional_type": false,
+            "number_of_lines": 10,
+            "end_line": 61
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "TimeInterval",
+              "(() -> Void)!"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "springEaseInOut(duration:animations:)",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 63,
+            "returns_optional_type": false,
+            "number_of_lines": 10,
+            "end_line": 72
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "TimeInterval",
+              "(() -> Void)!"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "springLinear(duration:animations:)",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 74,
+            "returns_optional_type": false,
+            "number_of_lines": 10,
+            "end_line": 83
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "TimeInterval",
+              "TimeInterval",
+              "(() -> Void)!"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 3,
+            "name": "springWithDelay(duration:delay:animations:)",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 85,
+            "returns_optional_type": false,
+            "number_of_lines": 12,
+            "end_line": 96
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "TimeInterval",
+              "(() -> Void)!",
+              "((Bool) -> Void)!"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 3,
+            "name": "springWithCompletion(duration:animations:completion:)",
+            "number_of_forced_unwrappings": 2,
+            "start_line": 98,
+            "returns_optional_type": false,
+            "number_of_lines": 14,
+            "end_line": 111
+          }
+        ],
+        "start_line": 25,
+        "type": "SpringAnimation.Type",
+        "number_of_lines": 88,
+        "end_line": 112,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "name": "SpringAnimation",
+        "number_of_forced_unwrappings": 7,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "NSObject"
+      },
+      {
+        "number_of_instance_variables": 2,
+        "number_of_lets_with_optional_type": 1,
+        "number_of_ifs": 3,
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "()",
+            "number_of_ifs": 3,
+            "parameter_types": [
+              "NSURL?"
+            ],
+            "start_line": 30,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 14,
+            "end_line": 43,
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_parameters": 1,
+            "name": "self",
+            "number_of_nil_coalescing": 1,
+            "number_of_vars_with_optional_type": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "NSURL?",
+              "UIImage?"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "setURL(url:placeholderImage:)",
+            "start_line": 46,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 49
+          }
+        ],
+        "start_line": 25,
+        "number_of_vars": 3,
+        "type": "AsyncImageView.Type",
+        "number_of_lines": 27,
+        "end_line": 51,
+        "node_type": "class",
+        "number_of_if_lets": 2,
+        "number_of_constructors": 4,
+        "name": "AsyncImageView",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "number_of_nil_coalescing": 1,
+        "inherits": "UIImageVie",
+        "number_of_vars_with_optional_type": 3
+      },
+      {
+        "number_of_instance_variables": 2,
+        "number_of_ifs": 3,
+        "number_of_optional_type_casting": 5,
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "awakeFromNib()",
+            "start_line": 30,
+            "returns_optional_type": false,
+            "number_of_lines": 8,
+            "end_line": 37
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "Notification"
+            ],
+            "number_of_optional_type_casting": 3,
+            "start_line": 45,
+            "returns_optional_type": false,
+            "number_of_lines": 30,
+            "end_line": 74,
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_parameters": 1,
+            "name": "keyboardWillShowNotification(_:)",
+            "number_of_lets": 2
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "NSNotification"
+            ],
+            "number_of_optional_type_casting": 2,
+            "start_line": 76,
+            "returns_optional_type": false,
+            "number_of_lines": 25,
+            "end_line": 100,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "keyboardWillHideNotification(_:)",
+            "number_of_lets": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "updateConstant()",
+            "start_line": 102,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 104
+          }
+        ],
+        "start_line": 25,
+        "number_of_vars": 2,
+        "type": "KeyboardLayoutConstraint.Type",
+        "number_of_lines": 82,
+        "end_line": 106,
+        "node_type": "class",
+        "number_of_if_lets": 3,
+        "number_of_constructors": 1,
+        "name": "KeyboardLayoutConstraint",
+        "number_of_lets": 3,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "NSLayoutCo"
+      },
+      {
+        "number_of_instance_variables": 18,
+        "number_of_lets_with_optional_type": 1,
+        "number_of_ifs": 1,
+        "number_of_methods": 6,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "awakeFromNib()",
+            "start_line": 46,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 49
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "layoutSubviews()",
+            "start_line": 51,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 54
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "animate()",
+            "start_line": 56,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 58
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "() -> ()"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "animateNext(completion:)",
+            "start_line": 60,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 62
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "animateTo()",
+            "start_line": 64,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 66
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "() -> ()"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "animateToNext(completion:)",
+            "start_line": 68,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 70
+          }
+        ],
+        "start_line": 25,
+        "number_of_vars": 19,
+        "type": "SpringView.Type",
+        "number_of_lines": 47,
+        "end_line": 71,
+        "node_type": "class",
+        "number_of_constructors": 0,
+        "name": "SpringView",
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "UIView, Sp",
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_instance_variables": 2,
+        "number_of_ifs": 1,
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "UIViewControllerContextTransitioning"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "animateTransition(using:)",
+            "number_of_forced_unwrappings": 2,
+            "start_line": 30,
+            "returns_optional_type": false,
+            "number_of_lets": 3,
+            "number_of_lines": 35,
+            "end_line": 64
+          },
+          {
+            "return_type": "TimeInterval",
+            "parameter_types": [
+              "UIViewControllerContextTransitioning?"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "transitionDuration(using:)",
+            "start_line": 66,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 68
+          },
+          {
+            "return_type": "UIViewControllerAnimatedTransitioning?",
+            "parameter_types": [
+              "UIViewController",
+              "UIViewController",
+              "UIViewController"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 3,
+            "name": "animationController(forPresentedController:presenting:sourceController:)",
+            "start_line": 70,
+            "returns_optional_type": true,
+            "number_of_lines": 4,
+            "end_line": 73
+          },
+          {
+            "return_type": "UIViewControllerAnimatedTransitioning?",
+            "parameter_types": [
+              "UIViewController"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "animationController(forDismissed:)",
+            "start_line": 75,
+            "returns_optional_type": true,
+            "number_of_lines": 4,
+            "end_line": 78
+          }
+        ],
+        "start_line": 25,
+        "number_of_vars": 2,
+        "type": "TransitionZoom.Type",
+        "number_of_lines": 55,
+        "end_line": 79,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "name": "TransitionZoom",
+        "number_of_forced_unwrappings": 2,
+        "number_of_lets": 3,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "NSObject,"
+      },
+      {
+        "number_of_instance_variables": 18,
+        "number_of_lets_with_optional_type": 1,
+        "number_of_ifs": 1,
+        "number_of_methods": 6,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "awakeFromNib()",
+            "start_line": 46,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 49
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "layoutSubviews()",
+            "start_line": 51,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 54
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "animate()",
+            "start_line": 56,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 58
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "() -> ()"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "animateNext(completion:)",
+            "start_line": 60,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 62
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "animateTo()",
+            "start_line": 64,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 66
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "() -> ()"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "animateToNext(completion:)",
+            "start_line": 68,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 70
+          }
+        ],
+        "start_line": 25,
+        "number_of_vars": 19,
+        "type": "SpringLabel.Type",
+        "number_of_lines": 48,
+        "end_line": 72,
+        "node_type": "class",
+        "number_of_constructors": 0,
+        "name": "SpringLabel",
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "UILabel, S",
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_instance_variables": 7,
+        "number_of_methods": 7,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIColor"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 28,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 30
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 34,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 36
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 40,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 42
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIColor"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 46,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 48
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 52,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 54
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 58,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 60
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 64,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 66
+          }
+        ],
+        "start_line": 25,
+        "number_of_vars": 7,
+        "type": "DesignableButton.Type",
+        "number_of_lines": 45,
+        "end_line": 69,
+        "node_type": "class",
+        "number_of_constructors": 2,
+        "name": "DesignableButton",
+        "number_of_lets": 7,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "SpringButt"
+      },
+      {
+        "number_of_instance_variables": 7,
+        "number_of_methods": 7,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIColor"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 28,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 30
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 34,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 36
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 40,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 42
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIColor"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 46,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 48
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 52,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 54
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 58,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 60
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 64,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 66
+          }
+        ],
+        "start_line": 25,
+        "number_of_vars": 7,
+        "type": "DesignableView.Type",
+        "number_of_lines": 44,
+        "end_line": 68,
+        "node_type": "class",
+        "number_of_constructors": 2,
+        "name": "DesignableView",
+        "number_of_lets": 7,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "SpringView"
+      },
+      {
+        "number_of_instance_variables": 1,
+        "number_of_methods": 6,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIApplication"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "applicationDidFinishLaunching(_:)",
+            "start_line": 17,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 19
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIApplication"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "applicationWillResignActive(_:)",
+            "start_line": 21,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 24
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIApplication"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "applicationDidEnterBackground(_:)",
+            "start_line": 26,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 29
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIApplication"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "applicationWillEnterForeground(_:)",
+            "start_line": 31,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 33
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIApplication"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "applicationDidBecomeActive(_:)",
+            "start_line": 35,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 37
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIApplication"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "applicationWillTerminate(_:)",
+            "start_line": 39,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 41
+          }
+        ],
+        "start_line": 12,
+        "number_of_vars": 1,
+        "type": "AppDelegate.Type",
+        "number_of_lines": 33,
+        "end_line": 44,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "name": "AppDelegate",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "UIResponde",
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_instance_variables": 22,
+        "number_of_ifs": 2,
+        "number_of_optional_type_casting": 2,
+        "number_of_methods": 23,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "forceSliderChanged(_:)",
+            "number_of_forced_unwrappings": 3,
+            "start_line": 37,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 41,
+            "number_of_forced_type_casting": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "durationSliderChanged(_:)",
+            "number_of_forced_unwrappings": 3,
+            "start_line": 42,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 46,
+            "number_of_forced_type_casting": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "delaySliderChanged(_:)",
+            "number_of_forced_unwrappings": 3,
+            "start_line": 47,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 51,
+            "number_of_forced_type_casting": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "dampingSliderChanged(_:)",
+            "number_of_forced_unwrappings": 2,
+            "start_line": 53,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 56,
+            "number_of_forced_type_casting": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "velocitySliderChanged(_:)",
+            "number_of_forced_unwrappings": 2,
+            "start_line": 58,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 61,
+            "number_of_forced_type_casting": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "scaleSliderChanged(_:)",
+            "number_of_forced_unwrappings": 2,
+            "start_line": 63,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 66,
+            "number_of_forced_type_casting": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "xSliderChanged(_:)",
+            "number_of_forced_unwrappings": 2,
+            "start_line": 68,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 71,
+            "number_of_forced_type_casting": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "ySliderChanged(_:)",
+            "number_of_forced_unwrappings": 2,
+            "start_line": 73,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 76,
+            "number_of_forced_type_casting": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "rotateSliderChanged(_:)",
+            "number_of_forced_unwrappings": 2,
+            "start_line": 78,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 81,
+            "number_of_forced_type_casting": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "animateView()",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 83,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 86
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "setOptions()",
+            "number_of_forced_unwrappings": 12,
+            "start_line": 88,
+            "returns_optional_type": false,
+            "number_of_lines": 16,
+            "end_line": 103
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "minimizeView(_:)",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 105,
+            "returns_optional_type": false,
+            "number_of_lines": 6,
+            "end_line": 110
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "maximizeView(_:)",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 112,
+            "returns_optional_type": false,
+            "number_of_lines": 6,
+            "end_line": 117
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "viewDidLoad()",
+            "number_of_forced_unwrappings": 3,
+            "start_line": 180,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 186
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "ballButtonPressed(_:)",
+            "number_of_forced_unwrappings": 2,
+            "start_line": 188,
+            "returns_optional_type": false,
+            "number_of_lines": 12,
+            "end_line": 199
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "changeBall()",
+            "number_of_forced_unwrappings": 3,
+            "start_line": 202,
+            "returns_optional_type": false,
+            "number_of_lets": 3,
+            "number_of_lines": 12,
+            "end_line": 213
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "shapeButtonPressed(_:)",
+            "start_line": 215,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 217
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "resetButtonPressed(_:)",
+            "number_of_forced_unwrappings": 6,
+            "start_line": 219,
+            "returns_optional_type": false,
+            "number_of_lines": 20,
+            "end_line": 238
+          },
+          {
+            "return_type": "Int",
+            "parameter_types": [
+              "UIPickerView"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "numberOfComponents(in:)",
+            "start_line": 240,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 242
+          },
+          {
+            "return_type": "Int",
+            "parameter_types": [
+              "UIPickerView",
+              "Int"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "pickerView(_:numberOfRowsInComponent:)",
+            "start_line": 244,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 246
+          },
+          {
+            "return_type": "String?",
+            "parameter_types": [
+              "UIPickerView",
+              "Int",
+              "Int"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 3,
+            "name": "pickerView(_:titleForRow:forComponent:)",
+            "start_line": 248,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 250
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIPickerView",
+              "Int",
+              "Int"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 3,
+            "name": "pickerView(_:didSelectRow:inComponent:)",
+            "start_line": 252,
+            "returns_optional_type": false,
+            "number_of_lines": 10,
+            "end_line": 261
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "UIStoryboardSegue",
+              "Any?"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_optional_type_casting": 2,
+            "number_of_parameters": 2,
+            "name": "prepare(for:sender:)",
+            "start_line": 263,
+            "returns_optional_type": false,
+            "number_of_lines": 11,
+            "end_line": 273
+          }
+        ],
+        "start_line": 12,
+        "number_of_vars": 21,
+        "type": "SpringViewController.Type",
+        "number_of_lines": 263,
+        "end_line": 274,
+        "number_of_forced_type_casting": 9,
+        "node_type": "class",
+        "number_of_if_lets": 2,
+        "number_of_constructors": 2,
+        "name": "SpringViewController",
+        "number_of_forced_unwrappings": 50,
+        "number_of_lets": 4,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "UIViewCont"
+      },
+      {
+        "number_of_instance_variables": 5,
+        "number_of_ifs": 10,
+        "number_of_methods": 3,
+        "methods": [
+          {
+            "return_type": "()",
+            "number_of_ifs": 10,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "viewDidLoad()",
+            "number_of_forced_unwrappings": 22,
+            "start_line": 20,
+            "returns_optional_type": false,
+            "number_of_lines": 39,
+            "end_line": 58
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "closeButtonPressed(_:)",
+            "number_of_forced_unwrappings": 3,
+            "start_line": 60,
+            "returns_optional_type": false,
+            "number_of_lines": 9,
+            "end_line": 68
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Bool"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "viewDidAppear(_:)",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 70,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 76
+          }
+        ],
+        "start_line": 12,
+        "number_of_vars": 5,
+        "type": "CodeViewController.Type",
+        "number_of_lines": 66,
+        "end_line": 77,
+        "node_type": "class",
+        "number_of_constructors": 2,
+        "name": "CodeViewController",
+        "number_of_forced_unwrappings": 26,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "UIViewCont"
+      },
+      {
+        "number_of_instance_variables": 21,
+        "number_of_methods": 11,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "viewDidLoad()",
+            "number_of_forced_unwrappings": 25,
+            "start_line": 50,
+            "returns_optional_type": false,
+            "number_of_lines": 19,
+            "end_line": 68
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "dampingSliderChanged(_:)",
+            "number_of_forced_unwrappings": 3,
+            "start_line": 70,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 74,
+            "number_of_forced_type_casting": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "velocitySliderChanged(_:)",
+            "number_of_forced_unwrappings": 3,
+            "start_line": 76,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 80,
+            "number_of_forced_type_casting": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "scaleSliderChanged(_:)",
+            "number_of_forced_unwrappings": 3,
+            "start_line": 82,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 86,
+            "number_of_forced_type_casting": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "xSliderChanged(_:)",
+            "number_of_forced_unwrappings": 3,
+            "start_line": 88,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 92,
+            "number_of_forced_type_casting": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "ySliderChanged(_:)",
+            "number_of_forced_unwrappings": 3,
+            "start_line": 94,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 98,
+            "number_of_forced_type_casting": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "rotateSliderChanged(_:)",
+            "number_of_forced_unwrappings": 3,
+            "start_line": 100,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 104,
+            "number_of_forced_type_casting": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "resetButtonPressed(_:)",
+            "start_line": 106,
+            "returns_optional_type": false,
+            "number_of_lines": 6,
+            "end_line": 111
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "closeButtonPressed(_:)",
+            "start_line": 113,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 117
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Bool"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "viewDidAppear(_:)",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 119,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 125
+          },
+          {
+            "return_type": "String",
+            "parameter_types": [
+              "String",
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "getString(_:value:)",
+            "start_line": 127,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 129
+          }
+        ],
+        "start_line": 22,
+        "number_of_vars": 21,
+        "type": "OptionsViewController.Type",
+        "number_of_lines": 109,
+        "end_line": 130,
+        "number_of_forced_type_casting": 6,
+        "node_type": "class",
+        "number_of_constructors": 2,
+        "name": "OptionsViewController",
+        "number_of_forced_unwrappings": 44,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "UIViewCont",
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_instance_variables": 1,
+        "number_of_ifs": 1,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "CGSize",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 14,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 12,
+            "end_line": 25
+          }
+        ],
+        "start_line": 11,
+        "number_of_vars": 2,
+        "type": "AutoTextView.Type",
+        "number_of_lines": 17,
+        "end_line": 27,
+        "node_type": "class",
+        "number_of_constructors": 2,
+        "name": "AutoTextView",
+        "number_of_forced_unwrappings": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "inherits": "UITextView"
+      },
+      {
+        "number_of_instance_variables": 0,
+        "node_type": "class",
+        "number_of_methods": 4,
+        "number_of_constructors": 3,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "setUp()",
+            "start_line": 14,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 17
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "tearDown()",
+            "start_line": 19,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 22
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "testExample()",
+            "start_line": 24,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 27
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "testPerformanceExample()",
+            "start_line": 29,
+            "returns_optional_type": false,
+            "number_of_lines": 6,
+            "end_line": 34
+          }
+        ],
+        "name": "SpringAppTests",
+        "start_line": 12,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "type": "SpringAppTests.Type",
+        "number_of_lines": 25,
+        "inherits": "XCTestCase",
+        "end_line": 36
+      },
+      {
+        "number_of_instance_variables": 0,
+        "node_type": "class",
+        "number_of_methods": 4,
+        "number_of_constructors": 3,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "setUp()",
+            "start_line": 14,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 17
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "tearDown()",
+            "start_line": 19,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 22
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "testExample()",
+            "start_line": 24,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 27
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "testPerformanceExample()",
+            "start_line": 29,
+            "returns_optional_type": false,
+            "number_of_lines": 6,
+            "end_line": 34
+          }
+        ],
+        "name": "SpringTests",
+        "start_line": 12,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "type": "SpringTests.Type",
+        "number_of_lines": 25,
+        "inherits": "XCTestCase",
+        "end_line": 36
+      }
+    ],
+    "number_of_generic_catches": 1,
+    "number_of_vars": 283,
+    "number_of_try": 1,
+    "number_of_forced_type_casting": 16,
+    "number_of_guards": 3,
+    "enums": [
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 27,
+        "number_of_methods": 0,
+        "number_of_constructors": 0,
+        "methods": [],
+        "name": "AnimationPreset",
+        "start_line": 106,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "number_of_lines": 29,
+        "end_line": 134
+      },
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 29,
+        "number_of_methods": 0,
+        "number_of_constructors": 0,
+        "methods": [],
+        "name": "AnimationCurve",
+        "start_line": 136,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "number_of_lines": 31,
+        "end_line": 166
+      }
+    ],
+    "extensions": [
+      {
+        "number_of_ifs": 2,
+        "node_type": "extension",
+        "number_of_if_lets": 1,
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "number_of_if_nil": 1,
+            "name": "showLoading()",
+            "start_line": 51,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 17,
+            "end_line": 67
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 0,
+            "name": "hideLoading()",
+            "start_line": 69,
+            "returns_optional_type": false,
+            "number_of_lines": 13,
+            "end_line": 81
+          }
+        ],
+        "number_of_if_nil": 1,
+        "name": "UIView",
+        "start_line": 45,
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "number_of_lines": 39,
+        "end_line": 83
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "Int",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 26,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 26
+          },
+          {
+            "return_type": "NSURL?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "toURL()",
+            "start_line": 28,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 30
+          }
+        ],
+        "name": "String",
+        "start_line": 25,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 7,
+        "end_line": 31
+      },
+      {
+        "number_of_ifs": 2,
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "UIColor",
+        "start_line": 59,
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "number_of_vars": 6,
+        "number_of_lines": 44,
+        "end_line": 102
+      },
+      {
+        "number_of_guards": 2,
+        "node_type": "extension",
+        "number_of_guard_lets": 2,
+        "number_of_optional_type_casting": 1,
+        "number_of_methods": 0,
+        "methods": [],
+        "number_of_if_nil": 1,
+        "name": "UIImageView",
+        "start_line": 236,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "number_of_lines": 27,
+        "end_line": 262
+      },
+      {
+        "number_of_lets_with_optional_type": 1,
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "UIImage",
+            "number_of_lets_with_optional_type": 1,
+            "parameter_types": [
+              "UIColor"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "imageWithColor(tintColor:)",
+            "number_of_forced_unwrappings": 5,
+            "start_line": 104,
+            "returns_optional_type": false,
+            "number_of_lets": 3,
+            "number_of_lines": 18,
+            "end_line": 121
+          }
+        ],
+        "name": "UIImage",
+        "number_of_forced_unwrappings": 5,
+        "start_line": 103,
+        "number_of_lets": 3,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "number_of_lines": 20,
+        "end_line": 122
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIStoryboardSegue"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "unwindToViewController(_:)",
+            "start_line": 26,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 26
+          }
+        ],
+        "name": "UIViewController",
+        "start_line": 25,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "number_of_lines": 3,
+        "end_line": 27
+      }
+    ],
+    "number_of_if_lets": 24,
+    "number_of_guard_lets": 3,
+    "number_of_forced_unwrappings": 169,
+    "number_of_optional_try": 1,
+    "number_of_lets": 130,
+    "number_of_nil_coalescing": 2,
+    "protocols": [
+      {
+        "node_type": "protocol",
+        "number_of_methods": 43,
+        "methods": [
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 26,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 26
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Bool"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 26,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 26
+          },
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 27,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 27
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Bool"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 27,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 27
+          },
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 28,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 28
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 28,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 28
+          },
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 29,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 29
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 29,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 29
+          },
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 30,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 30
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 30,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 30
+          },
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 31,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 31
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 31,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 31
+          },
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 32,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 32
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 32,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 32
+          },
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 33,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 33
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 33,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 33
+          },
+          {
+            "return_type": "Float",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 34,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 34
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Float"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 34,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 34
+          },
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 35,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 35
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 35,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 35
+          },
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 36,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 36
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 36,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 36
+          },
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 37,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 37
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 37,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 37
+          },
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 38,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 38
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 38,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 38
+          },
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 39,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 39
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 39,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 39
+          },
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 40,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 40
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 40,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 40
+          },
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 41,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 41
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Bool"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 41,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 41
+          },
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 42,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 42
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 42,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 42
+          },
+          {
+            "return_type": "CALayer",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 45,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 45
+          },
+          {
+            "return_type": "CGAffineTransform",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 46,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 46
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGAffineTransform"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 46,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 46
+          },
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 47,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 47
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 47,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 47
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "animate()",
+            "start_line": 49,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 49
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "() -> ()"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "animateNext(completion:)",
+            "start_line": 50,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 50
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "animateTo()",
+            "start_line": 51,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 51
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "() -> ()"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "animateToNext(completion:)",
+            "start_line": 52,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 52
+          }
+        ],
+        "name": "Springable",
+        "start_line": 25,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "number_of_vars": 20,
+        "number_of_lines": 29,
+        "end_line": 53
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 7,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "dampingSliderChanged(_:)",
+            "start_line": 13,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 13
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "velocitySliderChanged(_:)",
+            "start_line": 14,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 14
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "scaleSliderChanged(_:)",
+            "start_line": 15,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 15
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "xSliderChanged(_:)",
+            "start_line": 16,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 16
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "ySliderChanged(_:)",
+            "start_line": 17,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 17
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "rotateSliderChanged(_:)",
+            "start_line": 18,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 18
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "AnyObject"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "resetButtonPressed(_:)",
+            "start_line": 19,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 19
+          }
+        ],
+        "name": "OptionsViewControllerDelegate",
+        "start_line": 12,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/Spring-master-2/Spring/SpringTextView.swift",
+        "number_of_lines": 9,
+        "end_line": 20
+      }
+    ],
+    "number_of_vars_with_optional_type": 26,
+    "number_of_do_blocks": 1
+  }
+}

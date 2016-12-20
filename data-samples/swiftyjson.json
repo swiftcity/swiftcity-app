@@ -1,0 +1,1808 @@
+{
+  "project": {
+    "number_of_ifs": 47,
+    "number_of_catches": 5,
+    "structs": [
+      {
+        "number_of_ifs": 5,
+        "number_of_instance_variables": 13,
+        "number_of_catches": 1,
+        "number_of_methods": 10,
+        "methods": [
+          {
+            "return_type": "JSON",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "parse(json:)",
+            "start_line": 118,
+            "returns_optional_type": false,
+            "number_of_nil_coalescing": 1,
+            "number_of_lines": 4,
+            "end_line": 121
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "JSON"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "merge(with:)",
+            "start_line": 168,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "number_of_try": 1,
+            "end_line": 170
+          },
+          {
+            "return_type": "JSON",
+            "parameter_types": [
+              "JSON"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "merged(with:)",
+            "start_line": 180,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 5,
+            "number_of_try": 1,
+            "end_line": 184
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "JSON",
+              "Bool"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "merge(with:typecheck:)",
+            "start_line": 188,
+            "returns_optional_type": false,
+            "number_of_lines": 20,
+            "number_of_try": 1,
+            "end_line": 207,
+            "number_of_throws": 1
+          },
+          {
+            "return_type": "Any",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 223,
+            "returns_optional_type": false,
+            "number_of_lines": 16,
+            "end_line": 238
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "Any"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 239,
+            "returns_optional_type": false,
+            "number_of_lines": 31,
+            "end_line": 269
+          },
+          {
+            "return_type": "Type",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 273,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 273
+          },
+          {
+            "return_type": "NSError?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 276,
+            "returns_optional_type": true,
+            "number_of_lines": 1,
+            "end_line": 276
+          },
+          {
+            "return_type": "JSON",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 280,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 280
+          },
+          {
+            "return_type": "JSON",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 281,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 281
+          }
+        ],
+        "number_of_if_nil": 1,
+        "start_line": 56,
+        "number_of_catches_by_type": 1,
+        "number_of_vars": 15,
+        "type": "JSON.Type",
+        "number_of_lines": 227,
+        "number_of_try": 4,
+        "end_line": 282,
+        "number_of_throws": 1,
+        "node_type": "struct",
+        "number_of_if_lets": 1,
+        "number_of_constructors": 6,
+        "name": "JSON",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_nil_coalescing": 1,
+        "number_of_vars_with_optional_type": 2,
+        "number_of_do_blocks": 1
+      }
+    ],
+    "number_of_optional_type_casting": 15,
+    "number_of_methods": 107,
+    "number_of_if_nil": 3,
+    "classes": [],
+    "number_of_catches_by_type": 1,
+    "number_of_generic_catches": 4,
+    "number_of_vars": 69,
+    "number_of_try": 13,
+    "number_of_throws": 5,
+    "number_of_guards": 8,
+    "enums": [
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 7,
+        "number_of_constructors": 0,
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "Type",
+        "start_line": 44,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_lines": 10,
+        "end_line": 53
+      },
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 3,
+        "number_of_constructors": 0,
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "Bool",
+            "parameter_types": [
+              "Index<T>",
+              "Index<T>"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "==(_:_:)",
+            "start_line": 290,
+            "returns_optional_type": false,
+            "number_of_lines": 11,
+            "end_line": 300
+          },
+          {
+            "return_type": "Bool",
+            "parameter_types": [
+              "Index<T>",
+              "Index<T>"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "<(_:_:)",
+            "start_line": 302,
+            "returns_optional_type": false,
+            "number_of_lines": 10,
+            "end_line": 311
+          }
+        ],
+        "name": "Index",
+        "start_line": 284,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_lines": 29,
+        "end_line": 312
+      },
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 2,
+        "number_of_constructors": 0,
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "JSONKey",
+        "start_line": 385,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_lines": 5,
+        "end_line": 389
+      },
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 4,
+        "number_of_constructors": 0,
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "writtingOptionsKeys",
+        "start_line": 1480,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_lines": 6,
+        "end_line": 1485
+      }
+    ],
+    "extensions": [
+      {
+        "node_type": "extension",
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "JSON.Index",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 324,
+            "returns_optional_type": false,
+            "number_of_lines": 11,
+            "end_line": 334
+          },
+          {
+            "return_type": "JSON.Index",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 337,
+            "returns_optional_type": false,
+            "number_of_lines": 11,
+            "end_line": 347
+          },
+          {
+            "return_type": "JSON.Index",
+            "parameter_types": [
+              "JSON.Index"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "index(after:)",
+            "start_line": 349,
+            "returns_optional_type": false,
+            "number_of_lines": 13,
+            "end_line": 361
+          },
+          {
+            "return_type": "JSON)",
+            "parameter_types": [
+              "JSON.Index"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 364,
+            "returns_optional_type": false,
+            "number_of_lets": 2,
+            "number_of_lines": 12,
+            "end_line": 375
+          }
+        ],
+        "name": "JSON",
+        "start_line": 318,
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_vars": 2,
+        "number_of_lines": 61,
+        "end_line": 378
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "JSONKey",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 396,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 398
+          }
+        ],
+        "name": "Int",
+        "start_line": 395,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 5,
+        "end_line": 399
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "JSONKey",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 402,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 404
+          }
+        ],
+        "name": "String",
+        "start_line": 401,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 5,
+        "end_line": 405
+      },
+      {
+        "number_of_ifs": 7,
+        "number_of_methods": 10,
+        "methods": [
+          {
+            "return_type": "JSON",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "Int"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 411,
+            "returns_optional_type": false,
+            "number_of_vars": 2,
+            "number_of_nil_coalescing": 1,
+            "number_of_lines": 13,
+            "end_line": 423
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "JSON",
+              "Int"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "number_of_if_nil": 1,
+            "name": "self",
+            "start_line": 424,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 430
+          },
+          {
+            "return_type": "JSON",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "String"
+            ],
+            "start_line": 435,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 13,
+            "end_line": 447,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "self",
+            "number_of_nil_coalescing": 1
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "JSON",
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "number_of_if_nil": 1,
+            "name": "self",
+            "start_line": 448,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 452
+          },
+          {
+            "return_type": "JSON",
+            "parameter_types": [
+              "JSONSubscriptType"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 457,
+            "returns_optional_type": false,
+            "number_of_lines": 6,
+            "end_line": 462
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "JSON",
+              "JSONSubscriptType"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "self",
+            "start_line": 463,
+            "returns_optional_type": false,
+            "number_of_lines": 6,
+            "end_line": 468
+          },
+          {
+            "return_type": "JSON",
+            "parameter_types": [
+              "[JSONSubscriptType]"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 485,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 487
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "JSON",
+              "[JSONSubscriptType]"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "self",
+            "start_line": 488,
+            "returns_optional_type": false,
+            "number_of_vars": 2,
+            "number_of_lines": 13,
+            "end_line": 500
+          },
+          {
+            "return_type": "JSON",
+            "parameter_types": [
+              "[JSONSubscriptType]"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 515,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 517
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "JSON",
+              "[JSONSubscriptType]"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "self",
+            "start_line": 518,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 520
+          }
+        ],
+        "number_of_if_nil": 2,
+        "start_line": 407,
+        "number_of_vars": 5,
+        "number_of_lines": 116,
+        "end_line": 522,
+        "node_type": "extension",
+        "number_of_if_lets": 1,
+        "name": "JSON",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_nil_coalescing": 2
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "JSON",
+        "start_line": 526,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_lines": 14,
+        "end_line": 539
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "JSON",
+        "start_line": 541,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_lines": 6,
+        "end_line": 546
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "JSON",
+        "start_line": 548,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_lines": 6,
+        "end_line": 553
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "JSON",
+        "start_line": 555,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_lines": 6,
+        "end_line": 560
+      },
+      {
+        "number_of_ifs": 5,
+        "number_of_optional_type_casting": 4,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 562,
+        "number_of_vars": 1,
+        "number_of_lines": 39,
+        "end_line": 600,
+        "node_type": "extension",
+        "number_of_if_lets": 5,
+        "name": "JSON",
+        "number_of_lets": 5,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift"
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "JSON",
+        "start_line": 602,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_lines": 6,
+        "end_line": 607
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "JSON",
+        "start_line": 609,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_lines": 7,
+        "end_line": 615
+      },
+      {
+        "number_of_ifs": 6,
+        "number_of_catches": 4,
+        "number_of_optional_type_casting": 6,
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "Any",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 629,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 631
+          },
+          {
+            "return_type": "String?",
+            "parameter_types": [
+              "[writtingOptionsKeys : Any]"
+            ],
+            "number_of_catches": 1,
+            "number_of_optional_type_casting": 2,
+            "start_line": 650,
+            "returns_optional_type": true,
+            "number_of_generic_catches": 1,
+            "number_of_lines": 10,
+            "number_of_try": 1,
+            "end_line": 659,
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "rawString(options:)",
+            "number_of_lets": 2,
+            "number_of_nil_coalescing": 2,
+            "number_of_do_blocks": 1
+          }
+        ],
+        "start_line": 619,
+        "number_of_generic_catches": 4,
+        "number_of_vars": 1,
+        "number_of_lines": 129,
+        "number_of_try": 9,
+        "end_line": 747,
+        "number_of_throws": 4,
+        "number_of_guards": 8,
+        "node_type": "extension",
+        "number_of_guard_lets": 7,
+        "name": "JSON",
+        "number_of_lets": 10,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_nil_coalescing": 4,
+        "number_of_do_blocks": 4
+      },
+      {
+        "number_of_ifs": 1,
+        "node_type": "extension",
+        "number_of_if_lets": 1,
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "String",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 753,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 759
+          },
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 761,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 763
+          }
+        ],
+        "name": "JSON",
+        "start_line": 751,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_vars": 2,
+        "number_of_lines": 14,
+        "end_line": 764
+      },
+      {
+        "number_of_ifs": 2,
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "[JSON]?",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 772,
+            "returns_optional_type": true,
+            "number_of_lines": 7,
+            "end_line": 778
+          },
+          {
+            "return_type": "[JSON]",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 783,
+            "returns_optional_type": false,
+            "number_of_nil_coalescing": 1,
+            "number_of_lines": 3,
+            "end_line": 785
+          },
+          {
+            "return_type": "[Any]?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 790,
+            "returns_optional_type": true,
+            "number_of_lines": 8,
+            "end_line": 797
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "[Any]?"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 798,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 804
+          }
+        ],
+        "start_line": 768,
+        "number_of_vars": 3,
+        "number_of_lines": 39,
+        "end_line": 806,
+        "node_type": "extension",
+        "number_of_if_lets": 1,
+        "name": "JSON",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_nil_coalescing": 1,
+        "number_of_vars_with_optional_type": 2
+      },
+      {
+        "number_of_ifs": 2,
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "JSON]?",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 813,
+            "returns_optional_type": true,
+            "number_of_vars": 1,
+            "number_of_lines": 11,
+            "end_line": 823
+          },
+          {
+            "return_type": "JSON]",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 826,
+            "returns_optional_type": false,
+            "number_of_nil_coalescing": 1,
+            "number_of_lines": 3,
+            "end_line": 828
+          },
+          {
+            "return_type": "Any]?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 833,
+            "returns_optional_type": true,
+            "number_of_lines": 8,
+            "end_line": 840
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "[String : Any]?"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 841,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 847
+          }
+        ],
+        "start_line": 810,
+        "number_of_vars": 4,
+        "number_of_lines": 40,
+        "end_line": 849,
+        "node_type": "extension",
+        "number_of_if_lets": 1,
+        "name": "JSON",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_nil_coalescing": 1,
+        "number_of_vars_with_optional_type": 2
+      },
+      {
+        "number_of_ifs": 1,
+        "node_type": "extension",
+        "number_of_if_lets": 1,
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "Bool?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 857,
+            "returns_optional_type": true,
+            "number_of_lines": 8,
+            "end_line": 864
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "Bool?"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 865,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 871
+          },
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 876,
+            "returns_optional_type": false,
+            "number_of_lines": 14,
+            "end_line": 889
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Bool"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 890,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 892
+          }
+        ],
+        "name": "JSON",
+        "start_line": 853,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_vars": 2,
+        "number_of_lines": 42,
+        "number_of_vars_with_optional_type": 1,
+        "end_line": 894
+      },
+      {
+        "number_of_ifs": 1,
+        "number_of_optional_type_casting": 3,
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "String?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "number_of_optional_type_casting": 1,
+            "name": "self",
+            "start_line": 902,
+            "returns_optional_type": true,
+            "number_of_lines": 8,
+            "end_line": 909
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "String?"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 910,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 916
+          },
+          {
+            "return_type": "String",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "number_of_optional_type_casting": 2,
+            "name": "self",
+            "start_line": 921,
+            "returns_optional_type": false,
+            "number_of_nil_coalescing": 2,
+            "number_of_lines": 12,
+            "end_line": 932
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 933,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 935
+          }
+        ],
+        "start_line": 898,
+        "number_of_vars": 2,
+        "number_of_lines": 40,
+        "end_line": 937,
+        "node_type": "extension",
+        "number_of_if_lets": 1,
+        "name": "JSON",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_nil_coalescing": 2,
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_ifs": 1,
+        "number_of_optional_type_casting": 2,
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "NSNumber?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 944,
+            "returns_optional_type": true,
+            "number_of_lines": 10,
+            "end_line": 953
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "NSNumber?"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 954,
+            "returns_optional_type": false,
+            "number_of_nil_coalescing": 1,
+            "number_of_lines": 3,
+            "end_line": 956
+          },
+          {
+            "return_type": "NSNumber",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "number_of_optional_type_casting": 2,
+            "start_line": 961,
+            "returns_optional_type": false,
+            "number_of_lines": 16,
+            "end_line": 976,
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "number_of_lets": 1,
+            "number_of_nil_coalescing": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "NSNumber"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 977,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 979
+          }
+        ],
+        "start_line": 940,
+        "number_of_vars": 2,
+        "number_of_lines": 42,
+        "end_line": 981,
+        "node_type": "extension",
+        "name": "JSON",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_nil_coalescing": 2,
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_ifs": 1,
+        "node_type": "extension",
+        "number_of_if_lets": 1,
+        "number_of_methods": 3,
+        "methods": [
+          {
+            "return_type": "NSNull?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 987,
+            "returns_optional_type": true,
+            "number_of_lines": 8,
+            "end_line": 994
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "NSNull?"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 995,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 997
+          },
+          {
+            "return_type": "Bool",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 0,
+            "name": "exists()",
+            "start_line": 999,
+            "returns_optional_type": false,
+            "number_of_lines": 8,
+            "end_line": 1006
+          }
+        ],
+        "name": "JSON",
+        "start_line": 984,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 24,
+        "number_of_vars_with_optional_type": 1,
+        "end_line": 1007
+      },
+      {
+        "number_of_ifs": 2,
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "URL?",
+            "number_of_ifs": 2,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1014,
+            "returns_optional_type": true,
+            "number_of_lines": 16,
+            "end_line": 1029
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "URL?"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1030,
+            "returns_optional_type": false,
+            "number_of_nil_coalescing": 1,
+            "number_of_lines": 3,
+            "end_line": 1032
+          }
+        ],
+        "start_line": 1010,
+        "number_of_vars": 1,
+        "number_of_lines": 25,
+        "end_line": 1034,
+        "node_type": "extension",
+        "number_of_if_lets": 2,
+        "name": "JSON",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_nil_coalescing": 1,
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_ifs": 12,
+        "node_type": "extension",
+        "number_of_if_lets": 12,
+        "number_of_methods": 48,
+        "methods": [
+          {
+            "return_type": "Double?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1041,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 1043
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "Double?"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1044,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 1050
+          },
+          {
+            "return_type": "Double",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1054,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 1056
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Double"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1057,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 1059
+          },
+          {
+            "return_type": "Float?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1063,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 1065
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "Float?"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1066,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 1072
+          },
+          {
+            "return_type": "Float",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1076,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 1078
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Float"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1079,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 1081
+          },
+          {
+            "return_type": "Int?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1086,
+            "returns_optional_type": true,
+            "number_of_lines": 4,
+            "end_line": 1089
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "Int?"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1090,
+            "returns_optional_type": false,
+            "number_of_lines": 10,
+            "end_line": 1099
+          },
+          {
+            "return_type": "Int",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1103,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 1105
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Int"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1106,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 1108
+          },
+          {
+            "return_type": "UInt?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1112,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 1114
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "UInt?"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1115,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 1121
+          },
+          {
+            "return_type": "UInt",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1125,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 1127
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UInt"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1128,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 1130
+          },
+          {
+            "return_type": "Int8?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1134,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 1136
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "Int8?"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1137,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 1143
+          },
+          {
+            "return_type": "Int8",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1147,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 1149
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Int8"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1150,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 1152
+          },
+          {
+            "return_type": "UInt8?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1156,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 1158
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "UInt8?"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1159,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 1165
+          },
+          {
+            "return_type": "UInt8",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1169,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 1171
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UInt8"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1172,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 1174
+          },
+          {
+            "return_type": "Int16?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1178,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 1180
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "Int16?"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1181,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 1187
+          },
+          {
+            "return_type": "Int16",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1191,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 1193
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Int16"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1194,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 1196
+          },
+          {
+            "return_type": "UInt16?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1200,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 1202
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "UInt16?"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1203,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 1209
+          },
+          {
+            "return_type": "UInt16",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1213,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 1215
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UInt16"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1216,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 1218
+          },
+          {
+            "return_type": "Int32?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1222,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 1224
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "Int32?"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1225,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 1231
+          },
+          {
+            "return_type": "Int32",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1235,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 1237
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Int32"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1238,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 1240
+          },
+          {
+            "return_type": "UInt32?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1244,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 1246
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "UInt32?"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1247,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 1253
+          },
+          {
+            "return_type": "UInt32",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1257,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 1259
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UInt32"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1260,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 1262
+          },
+          {
+            "return_type": "Int64?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1266,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 1268
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "Int64?"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1269,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 1275
+          },
+          {
+            "return_type": "Int64",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1279,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 1281
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Int64"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1282,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 1284
+          },
+          {
+            "return_type": "UInt64?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1288,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 1290
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "UInt64?"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1291,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 1297
+          },
+          {
+            "return_type": "UInt64",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1301,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 1303
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UInt64"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 1304,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 1306
+          }
+        ],
+        "name": "JSON",
+        "start_line": 1038,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_vars": 24,
+        "number_of_lines": 271,
+        "number_of_vars_with_optional_type": 12,
+        "end_line": 1308
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "JSON",
+        "start_line": 1311,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_lines": 1,
+        "end_line": 1311
+      },
+      {
+        "number_of_ifs": 1,
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "Bool",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 1406,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 8,
+            "end_line": 1413
+          }
+        ],
+        "name": "NSNumber",
+        "start_line": 1404,
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 12,
+        "end_line": 1415
+      }
+    ],
+    "number_of_if_lets": 27,
+    "number_of_guard_lets": 7,
+    "number_of_lets": 30,
+    "number_of_nil_coalescing": 14,
+    "protocols": [
+      {
+        "node_type": "protocol",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "JSONKey",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 392,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 392
+          }
+        ],
+        "name": "JSONSubscriptType",
+        "start_line": 391,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SwiftyJSON-master-2/Source/SwiftyJSON.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 3,
+        "end_line": 393
+      }
+    ],
+    "number_of_vars_with_optional_type": 23,
+    "number_of_do_blocks": 5
+  }
+}

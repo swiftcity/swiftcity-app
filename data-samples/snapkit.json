@@ -1,0 +1,3682 @@
+{
+  "project": {
+    "number_of_lets_with_optional_type": 4,
+    "number_of_ifs": 57,
+    "structs": [
+      {
+        "number_of_instance_variables": 2,
+        "number_of_methods": 6,
+        "methods": [
+          {
+            "return_type": "[Constraint]",
+            "parameter_types": [
+              "(ConstraintMaker) -> Void"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "prepareConstraints(_:)",
+            "start_line": 35,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 37
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "(ConstraintMaker) -> Void"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "makeConstraints(_:)",
+            "start_line": 39,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 41
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "(ConstraintMaker) -> Void"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "remakeConstraints(_:)",
+            "start_line": 43,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 45
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "(ConstraintMaker) -> Void"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "updateConstraints(_:)",
+            "start_line": 47,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 49
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "removeConstraints()",
+            "start_line": 51,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 53
+          },
+          {
+            "return_type": "AnyObject?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 55,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 57
+          }
+        ],
+        "start_line": 32,
+        "number_of_vars": 1,
+        "type": "ConstraintLayoutGuideDSL.Type",
+        "number_of_lines": 35,
+        "end_line": 66,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "ConstraintLayoutGuideDSL",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintLayoutGuideDSL.swift",
+        "inherits": "ConstraintA",
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_ifs": 11,
+        "number_of_instance_variables": 30,
+        "number_of_methods": 33,
+        "methods": [
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 44,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 44
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "convertFromNilLiteral()",
+            "start_line": 45,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 45
+          },
+          {
+            "return_type": "Bool",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 46,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 46
+          },
+          {
+            "return_type": "UInt",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "toRaw()",
+            "start_line": 48,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 48
+          },
+          {
+            "return_type": "ConstraintAttributes?",
+            "parameter_types": [
+              "UInt"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "fromRaw(_:)",
+            "start_line": 49,
+            "returns_optional_type": true,
+            "number_of_lines": 1,
+            "end_line": 49
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [
+              "UInt"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "fromMask(_:)",
+            "start_line": 50,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 50
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 54,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 54
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 55,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 55
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 56,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 56
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 57,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 57
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 58,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 58
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 59,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 59
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 60,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 60
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 61,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 61
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 62,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 62
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 63,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 63
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 64,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 64
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 65,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 65
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 68,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 68
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 71,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 71
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 74,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 74
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 77,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 77
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 80,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 80
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 83,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 83
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 86,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 86
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 89,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 89
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 92,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 92
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 96,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 96
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 97,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 97
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 98,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 98
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 101,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 101
+          },
+          {
+            "return_type": "ConstraintAttributes",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 104,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 104
+          },
+          {
+            "return_type": "[NSLayoutAttribute]",
+            "number_of_ifs": 11,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 106,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 68,
+            "end_line": 173
+          }
+        ],
+        "start_line": 31,
+        "number_of_vars": 31,
+        "type": "ConstraintAttributes.Type",
+        "number_of_lines": 144,
+        "end_line": 174,
+        "node_type": "struct",
+        "number_of_constructors": 3,
+        "name": "ConstraintAttributes",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintAttributes.swift",
+        "inherits": "OptionSet"
+      },
+      {
+        "number_of_instance_variables": 1,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 33,
+        "number_of_vars": 1,
+        "type": "ConstraintConfig.Type",
+        "number_of_lines": 5,
+        "end_line": 37,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "ConstraintConfig",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintConfig.swift"
+      },
+      {
+        "number_of_instance_variables": 5,
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "AnyObject?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 34,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 36
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 45,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 47
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 49,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 51
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 53,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 55
+          }
+        ],
+        "start_line": 32,
+        "number_of_vars": 4,
+        "type": "ConstraintLayoutSupportDSL.Type",
+        "number_of_lines": 25,
+        "end_line": 56,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "ConstraintLayoutSupportDSL",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintLayoutSupportDSL.swift",
+        "inherits": "ConstraintD",
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_instance_variables": 6,
+        "number_of_methods": 14,
+        "methods": [
+          {
+            "return_type": "[Constraint]",
+            "parameter_types": [
+              "(ConstraintMaker) -> Void"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "prepareConstraints(_:)",
+            "start_line": 34,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 36
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "(ConstraintMaker) -> Void"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "makeConstraints(_:)",
+            "start_line": 38,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 40
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "(ConstraintMaker) -> Void"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "remakeConstraints(_:)",
+            "start_line": 42,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 44
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "(ConstraintMaker) -> Void"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "updateConstraints(_:)",
+            "start_line": 46,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 48
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "removeConstraints()",
+            "start_line": 50,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 52
+          },
+          {
+            "return_type": "Float",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 55,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 57
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Float"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 58,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 60
+          },
+          {
+            "return_type": "Float",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 64,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 66
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Float"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 67,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 69
+          },
+          {
+            "return_type": "Float",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 73,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 75
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Float"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 76,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 78
+          },
+          {
+            "return_type": "Float",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 82,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 84
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Float"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 85,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 87
+          },
+          {
+            "return_type": "AnyObject?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 90,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 92
+          }
+        ],
+        "start_line": 31,
+        "number_of_vars": 5,
+        "type": "ConstraintViewDSL.Type",
+        "number_of_lines": 71,
+        "end_line": 101,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "ConstraintViewDSL",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintViewDSL.swift",
+        "inherits": "ConstraintA",
+        "number_of_vars_with_optional_type": 1
+      }
+    ],
+    "number_of_optional_type_casting": 31,
+    "number_of_methods": 234,
+    "number_of_if_nil": 1,
+    "classes": [
+      {
+        "number_of_instance_variables": 2,
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "ConstraintMakerFinalizable",
+            "parameter_types": [
+              "String"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "labeled(_:)",
+            "start_line": 40,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 43
+          },
+          {
+            "return_type": "Constraint",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 45,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 47
+          }
+        ],
+        "start_line": 31,
+        "number_of_vars": 1,
+        "type": "ConstraintMakerFinalizable.Type",
+        "number_of_lines": 19,
+        "end_line": 49,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "name": "ConstraintMakerFinalizable",
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintMakerFinalizable.swift"
+      },
+      {
+        "number_of_ifs": 3,
+        "number_of_instance_variables": 1,
+        "number_of_optional_type_casting": 3,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "ConstraintMakerEditable",
+            "number_of_ifs": 3,
+            "parameter_types": [
+              "ConstraintRelatableTarget",
+              "ConstraintRelation",
+              "String",
+              "UInt"
+            ],
+            "number_of_optional_type_casting": 3,
+            "start_line": 39,
+            "returns_optional_type": false,
+            "number_of_lines": 32,
+            "end_line": 70,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_if_lets": 3,
+            "number_of_parameters": 4,
+            "name": "relatedTo(_:relation:file:line:)",
+            "number_of_lets": 3
+          }
+        ],
+        "start_line": 31,
+        "type": "ConstraintMakerRelatable.Type",
+        "number_of_lines": 80,
+        "end_line": 110,
+        "number_of_guards": 4,
+        "node_type": "class",
+        "number_of_guard_lets": 3,
+        "number_of_if_lets": 3,
+        "number_of_constructors": 1,
+        "name": "ConstraintMakerRelatable",
+        "number_of_lets": 4,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintMakerRelatable.swift"
+      },
+      {
+        "number_of_instance_variables": 0,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "ConstraintMakerEditable",
+            "parameter_types": [
+              "ConstraintMultiplierTarget"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "multipliedBy(_:)",
+            "start_line": 34,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 37
+          },
+          {
+            "return_type": "ConstraintMakerEditable",
+            "parameter_types": [
+              "ConstraintMultiplierTarget"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "dividedBy(_:)",
+            "start_line": 40,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 42
+          },
+          {
+            "return_type": "ConstraintMakerEditable",
+            "parameter_types": [
+              "ConstraintOffsetTarget"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "offset(_:)",
+            "start_line": 45,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 48
+          },
+          {
+            "return_type": "ConstraintMakerEditable",
+            "parameter_types": [
+              "ConstraintInsetTarget"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "inset(_:)",
+            "start_line": 51,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 54
+          }
+        ],
+        "name": "ConstraintMakerEditable",
+        "start_line": 31,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintMakerEditable.swift",
+        "type": "ConstraintMakerEditable.Type",
+        "number_of_lines": 26,
+        "inherits": "Constraint",
+        "end_line": 56
+      },
+      {
+        "number_of_instance_variables": 28,
+        "number_of_methods": 32,
+        "methods": [
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 32,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 34
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 36,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 38
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 40,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 42
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 44,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 46
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 48,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 50
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 52,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 54
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 56,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 58
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 60,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 62
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 64,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 66
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 68,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 70
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 73,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 75
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 77,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 79
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 82,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 84
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 87,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 89
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 92,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 94
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 97,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 99
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 102,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 104
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 107,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 109
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 112,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 114
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 117,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 119
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 122,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 124
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 126,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 128
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 129,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 131
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 132,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 134
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 137,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 139
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 142,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 144
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [
+              "ConstraintAttributes"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "makeExtendableWithAttributes(_:)",
+            "start_line": 154,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 5,
+            "end_line": 158
+          },
+          {
+            "return_type": "[Constraint]",
+            "parameter_types": [
+              "LayoutConstraintItem",
+              "(ConstraintMaker) -> Void"
+            ],
+            "start_line": 160,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 12,
+            "end_line": 171,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 2,
+            "name": "prepareConstraints(item:closure:)",
+            "number_of_lets": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "LayoutConstraintItem",
+              "(ConstraintMaker) -> Void"
+            ],
+            "start_line": 173,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 30,
+            "end_line": 202,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 2,
+            "name": "makeConstraints(item:closure:)",
+            "number_of_lets": 3
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "LayoutConstraintItem",
+              "(ConstraintMaker) -> Void"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "remakeConstraints(item:closure:)",
+            "start_line": 204,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 207
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "LayoutConstraintItem",
+              "(ConstraintMaker) -> Void"
+            ],
+            "start_line": 209,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 19,
+            "end_line": 227,
+            "number_of_guards": 2,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 2,
+            "name": "updateConstraints(item:closure:)",
+            "number_of_lets": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "LayoutConstraintItem"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "removeConstraints(item:)",
+            "start_line": 229,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 6,
+            "end_line": 234
+          }
+        ],
+        "start_line": 30,
+        "number_of_vars": 30,
+        "type": "ConstraintMaker.Type",
+        "number_of_lines": 207,
+        "end_line": 236,
+        "number_of_guards": 4,
+        "node_type": "class",
+        "number_of_guard_lets": 3,
+        "number_of_constructors": 1,
+        "name": "ConstraintMaker",
+        "number_of_lets": 8,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintMaker.swift"
+      },
+      {
+        "number_of_instance_variables": 3,
+        "number_of_optional_type_casting": 1,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "LayoutConstraintItem?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_optional_type_casting": 1,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 41,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 43
+          }
+        ],
+        "start_line": 31,
+        "number_of_vars": 2,
+        "type": "ConstraintItem.Type",
+        "number_of_lines": 15,
+        "end_line": 45,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "name": "ConstraintItem",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintItem.swift",
+        "number_of_vars_with_optional_type": 2
+      },
+      {
+        "number_of_instance_variables": 24,
+        "number_of_methods": 24,
+        "methods": [
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 33,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 36
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 38,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 41
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 43,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 46
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 48,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 51
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 53,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 56
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 58,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 61
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 63,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 66
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 68,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 71
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 73,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 76
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 78,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 81
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 84,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 87
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 89,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 92
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 95,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 98
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 101,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 104
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 107,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 110
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 113,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 116
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 119,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 122
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 125,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 128
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 131,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 134
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 137,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 140
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 142,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 145
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 146,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 149
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 152,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 155
+          },
+          {
+            "return_type": "ConstraintMakerExtendable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 158,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 161
+          }
+        ],
+        "start_line": 31,
+        "number_of_vars": 24,
+        "type": "ConstraintMakerExtendable.Type",
+        "number_of_lines": 133,
+        "end_line": 163,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "name": "ConstraintMakerExtendable",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintMakerExtendable.swift",
+        "inherits": "Constraint"
+      },
+      {
+        "number_of_instance_variables": 0,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "ConstraintLayoutSupport",
+        "start_line": 35,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintLayoutSupport.swift",
+        "type": "ConstraintLayoutSupport.Type",
+        "number_of_lines": 1,
+        "end_line": 35
+      },
+      {
+        "number_of_ifs": 5,
+        "number_of_lets_with_optional_type": 2,
+        "number_of_instance_variables": 9,
+        "number_of_methods": 18,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "ConstraintConstantTarget"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 40,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 42
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "ConstraintPriorityTarget"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 45,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 47
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "install()",
+            "start_line": 173,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 175
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "uninstall()",
+            "start_line": 178,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 180
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "activate()",
+            "start_line": 182,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 184
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "deactivate()",
+            "start_line": 186,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 188
+          },
+          {
+            "return_type": "Constraint",
+            "parameter_types": [
+              "ConstraintOffsetTarget"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "update(offset:)",
+            "start_line": 191,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 194
+          },
+          {
+            "return_type": "Constraint",
+            "parameter_types": [
+              "ConstraintInsetTarget"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "update(inset:)",
+            "start_line": 197,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 200
+          },
+          {
+            "return_type": "Constraint",
+            "parameter_types": [
+              "ConstraintPriorityTarget"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "update(priority:)",
+            "start_line": 203,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 206
+          },
+          {
+            "return_type": "Void",
+            "parameter_types": [
+              "ConstraintOffsetTarget"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "updateOffset(amount:)",
+            "start_line": 209,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 209
+          },
+          {
+            "return_type": "Void",
+            "parameter_types": [
+              "ConstraintInsetTarget"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "updateInsets(amount:)",
+            "start_line": 212,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 212
+          },
+          {
+            "return_type": "Void",
+            "parameter_types": [
+              "ConstraintPriorityTarget"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "updatePriority(amount:)",
+            "start_line": 215,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 215
+          },
+          {
+            "return_type": "Void",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "updatePriorityRequired()",
+            "start_line": 218,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 218
+          },
+          {
+            "return_type": "Void",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "updatePriorityHigh()",
+            "start_line": 221,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 221
+          },
+          {
+            "return_type": "Void",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "updatePriorityMedium()",
+            "start_line": 224,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 224
+          },
+          {
+            "return_type": "Void",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "updatePriorityLow()",
+            "start_line": 227,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 227
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "updateConstantAndPriorityIfNeeded()",
+            "start_line": 231,
+            "returns_optional_type": false,
+            "number_of_lets": 2,
+            "number_of_lines": 17,
+            "end_line": 247
+          },
+          {
+            "return_type": "()",
+            "number_of_guards": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 0,
+            "name": "deactivateIfNeeded()",
+            "start_line": 277,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 9,
+            "end_line": 285
+          }
+        ],
+        "number_of_if_nil": 1,
+        "start_line": 30,
+        "number_of_vars": 5,
+        "type": "Constraint.Type",
+        "number_of_lines": 257,
+        "end_line": 286,
+        "number_of_guards": 3,
+        "node_type": "class",
+        "number_of_guard_lets": 3,
+        "number_of_constructors": 1,
+        "name": "Constraint",
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 21,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/Constraint.swift",
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_instance_variables": 0,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "number_of_methods": 5,
+        "methods": [
+          {
+            "return_type": "ConstraintMakerFinalizable",
+            "parameter_types": [
+              "ConstraintPriorityTarget"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "priority(_:)",
+            "start_line": 34,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 37
+          },
+          {
+            "return_type": "ConstraintMakerFinalizable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "priorityRequired()",
+            "start_line": 41,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 43
+          },
+          {
+            "return_type": "ConstraintMakerFinalizable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "priorityHigh()",
+            "start_line": 47,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 49
+          },
+          {
+            "return_type": "ConstraintMakerFinalizable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "priorityMedium()",
+            "start_line": 53,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 59
+          },
+          {
+            "return_type": "ConstraintMakerFinalizable",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "priorityLow()",
+            "start_line": 63,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 65
+          }
+        ],
+        "name": "ConstraintMakerPriortizable",
+        "start_line": 31,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintMakerPriortizable.swift",
+        "type": "ConstraintMakerPriortizable.Type",
+        "number_of_lines": 37,
+        "inherits": "Constraint",
+        "end_line": 67
+      },
+      {
+        "number_of_instance_variables": 2,
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "String?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 34,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 36
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String?"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 37,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 39
+          }
+        ],
+        "start_line": 31,
+        "number_of_vars": 2,
+        "type": "LayoutConstraint.Type",
+        "number_of_lines": 14,
+        "end_line": 44,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "name": "LayoutConstraint",
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/LayoutConstraint.swift",
+        "inherits": "NSLayoutCo",
+        "number_of_vars_with_optional_type": 2
+      },
+      {
+        "number_of_ifs": 1,
+        "number_of_lets_with_optional_type": 2,
+        "number_of_instance_variables": 10,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 31,
+        "number_of_vars": 10,
+        "type": "ConstraintDescription.Type",
+        "number_of_lines": 39,
+        "end_line": 69,
+        "number_of_guards": 1,
+        "node_type": "class",
+        "number_of_guard_lets": 1,
+        "number_of_constructors": 1,
+        "name": "ConstraintDescription",
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 4,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintDescription.swift",
+        "number_of_vars_with_optional_type": 6
+      }
+    ],
+    "number_of_vars": 195,
+    "number_of_forced_type_casting": 1,
+    "number_of_guards": 15,
+    "enums": [
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 3,
+        "number_of_constructors": 0,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "NSLayoutRelation",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 37,
+            "returns_optional_type": false,
+            "number_of_lines": 10,
+            "end_line": 46
+          }
+        ],
+        "name": "ConstraintRelation",
+        "start_line": 31,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintRelation.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 18,
+        "end_line": 48
+      }
+    ],
+    "extensions": [
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "CGPoint",
+        "start_line": 34,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintConstantTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 35
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "CGSize",
+        "start_line": 37,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintConstantTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 38
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "ConstraintInsets",
+        "start_line": 40,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintConstantTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 41
+      },
+      {
+        "number_of_ifs": 10,
+        "node_type": "extension",
+        "number_of_if_lets": 8,
+        "number_of_optional_type_casting": 8,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "CGFloat",
+            "number_of_ifs": 10,
+            "parameter_types": [
+              "NSLayoutAttribute"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 8,
+            "number_of_optional_type_casting": 8,
+            "number_of_parameters": 1,
+            "name": "constraintConstantTargetValueFor(layoutAttribute:)",
+            "start_line": 45,
+            "returns_optional_type": false,
+            "number_of_lines": 101,
+            "end_line": 145
+          }
+        ],
+        "name": "ConstraintConstantTarget",
+        "start_line": 43,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintConstantTarget.swift",
+        "number_of_lines": 105,
+        "end_line": 147
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 32,
+        "methods": [
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 34,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 34
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 37,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 37
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 40,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 40
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 43,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 43
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 46,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 46
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 49,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 49
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 52,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 52
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 55,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 55
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 58,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 58
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 61,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 61
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 64,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 64
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 68,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 68
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 72,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 72
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 76,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 76
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 80,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 80
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 84,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 84
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 88,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 88
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 92,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 92
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 96,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 96
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 100,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 100
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 104,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 104
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 107,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 107
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 110,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 110
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 113,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 113
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 117,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 117
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 121,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 121
+          },
+          {
+            "return_type": "[Constraint]",
+            "parameter_types": [
+              "(ConstraintMaker) -> Void"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "snp_prepareConstraints(_:)",
+            "start_line": 124,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 126
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "(ConstraintMaker) -> Void"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "snp_makeConstraints(_:)",
+            "start_line": 129,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 131
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "(ConstraintMaker) -> Void"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "snp_remakeConstraints(_:)",
+            "start_line": 134,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 136
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "(ConstraintMaker) -> Void"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "snp_updateConstraints(_:)",
+            "start_line": 139,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 141
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "snp_removeConstraints()",
+            "start_line": 144,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 146
+          },
+          {
+            "return_type": "ConstraintViewDSL",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 148,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 150
+          }
+        ],
+        "name": "ConstraintView",
+        "start_line": 31,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintView+Extensions.swift",
+        "number_of_vars": 27,
+        "number_of_lines": 122,
+        "end_line": 152
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "Int",
+        "start_line": 34,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintOffsetTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 35
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "UInt",
+        "start_line": 37,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintOffsetTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 38
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "Float",
+        "start_line": 40,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintOffsetTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 41
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "Double",
+        "start_line": 43,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintOffsetTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 44
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "CGFloat",
+        "start_line": 46,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintOffsetTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 47
+      },
+      {
+        "number_of_ifs": 5,
+        "number_of_optional_type_casting": 5,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "CGFloat",
+            "number_of_ifs": 5,
+            "parameter_types": [],
+            "number_of_optional_type_casting": 5,
+            "start_line": 51,
+            "returns_optional_type": false,
+            "number_of_lines": 17,
+            "end_line": 67,
+            "node_type": "method",
+            "number_of_if_lets": 5,
+            "number_of_parameters": 0,
+            "name": "self",
+            "number_of_lets": 1
+          }
+        ],
+        "start_line": 49,
+        "number_of_vars": 1,
+        "number_of_lines": 21,
+        "end_line": 69,
+        "node_type": "extension",
+        "number_of_if_lets": 5,
+        "name": "ConstraintOffsetTarget",
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintOffsetTarget.swift"
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "Int",
+        "start_line": 34,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintRelatableTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 35
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "UInt",
+        "start_line": 37,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintRelatableTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 38
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "Float",
+        "start_line": 40,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintRelatableTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 41
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "Double",
+        "start_line": 43,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintRelatableTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 44
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "CGFloat",
+        "start_line": 46,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintRelatableTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 47
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "CGSize",
+        "start_line": 49,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintRelatableTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 50
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "CGPoint",
+        "start_line": 52,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintRelatableTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 53
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "ConstraintInsets",
+        "start_line": 55,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintRelatableTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 56
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "ConstraintItem",
+        "start_line": 58,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintRelatableTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 59
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "ConstraintView",
+        "start_line": 61,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintRelatableTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 62
+      },
+      {
+        "node_type": "extension",
+        "number_of_optional_type_casting": 1,
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String?"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "setLabel(_:)",
+            "start_line": 41,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 43
+          },
+          {
+            "return_type": "String?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_optional_type_casting": 1,
+            "number_of_parameters": 0,
+            "name": "label()",
+            "start_line": 44,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 46
+          }
+        ],
+        "name": "ConstraintDSL",
+        "start_line": 39,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintDSL.swift",
+        "number_of_lines": 10,
+        "end_line": 48
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 13,
+        "methods": [
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 58,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 60
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 62,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 64
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 66,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 68
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 70,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 72
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 74,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 76
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 78,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 80
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 82,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 84
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 86,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 88
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 90,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 92
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 94,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 96
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 98,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 100
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 102,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 104
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 106,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 108
+          }
+        ],
+        "name": "ConstraintBasicAttributesDSL",
+        "start_line": 54,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintDSL.swift",
+        "number_of_vars": 13,
+        "number_of_lines": 57,
+        "end_line": 110
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 13,
+        "methods": [
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 119,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 121
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 124,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 126
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 129,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 131
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 136,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 138
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 141,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 143
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 146,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 148
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 151,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 153
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 156,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 158
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 161,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 163
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 166,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 168
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 171,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 173
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 176,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 178
+          },
+          {
+            "return_type": "ConstraintItem",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 181,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 183
+          }
+        ],
+        "name": "ConstraintAttributesDSL",
+        "start_line": 114,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintDSL.swift",
+        "number_of_vars": 13,
+        "number_of_lines": 72,
+        "end_line": 185
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "Float",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 39,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 41
+          }
+        ],
+        "name": "Int",
+        "start_line": 37,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintPriorityTarget.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 7,
+        "end_line": 43
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "Float",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 47,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 49
+          }
+        ],
+        "name": "UInt",
+        "start_line": 45,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintPriorityTarget.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 7,
+        "end_line": 51
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "Float",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 55,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 57
+          }
+        ],
+        "name": "Float",
+        "start_line": 53,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintPriorityTarget.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 7,
+        "end_line": 59
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "Float",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 63,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 65
+          }
+        ],
+        "name": "Double",
+        "start_line": 61,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintPriorityTarget.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 7,
+        "end_line": 67
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "Float",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 71,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 73
+          }
+        ],
+        "name": "CGFloat",
+        "start_line": 69,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintPriorityTarget.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 7,
+        "end_line": 75
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "ConstraintLayoutGuideDSL",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 32,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 34
+          }
+        ],
+        "name": "ConstraintLayoutGuide",
+        "start_line": 30,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintLayoutGuide+Extensions.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 7,
+        "end_line": 36
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "Int",
+        "start_line": 34,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintInsetTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 35
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "UInt",
+        "start_line": 37,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintInsetTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 38
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "Float",
+        "start_line": 40,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintInsetTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 41
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "Double",
+        "start_line": 43,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintInsetTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 44
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "CGFloat",
+        "start_line": 46,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintInsetTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 47
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "ConstraintInsets",
+        "start_line": 49,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintInsetTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 50
+      },
+      {
+        "number_of_ifs": 6,
+        "node_type": "extension",
+        "number_of_if_lets": 6,
+        "number_of_optional_type_casting": 6,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "ConstraintInsets",
+            "number_of_ifs": 6,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_if_lets": 6,
+            "number_of_optional_type_casting": 6,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 54,
+            "returns_optional_type": false,
+            "number_of_lines": 17,
+            "end_line": 70
+          }
+        ],
+        "name": "ConstraintInsetTarget",
+        "start_line": 52,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintInsetTarget.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 21,
+        "end_line": 72
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "ConstraintLayoutGuide",
+        "start_line": 35,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/LayoutConstraintItem.swift",
+        "number_of_lines": 2,
+        "end_line": 36
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "ConstraintView",
+        "start_line": 38,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/LayoutConstraintItem.swift",
+        "number_of_lines": 2,
+        "end_line": 39
+      },
+      {
+        "number_of_ifs": 4,
+        "number_of_optional_type_casting": 4,
+        "number_of_methods": 6,
+        "methods": [
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_optional_type_casting": 1,
+            "number_of_parameters": 0,
+            "name": "prepare()",
+            "start_line": 44,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 48
+          },
+          {
+            "return_type": "ConstraintView?",
+            "number_of_ifs": 2,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_optional_type_casting": 2,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 50,
+            "returns_optional_type": true,
+            "number_of_lines": 11,
+            "end_line": 60
+          },
+          {
+            "return_type": "[Constraint]",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 61,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 63,
+            "number_of_forced_type_casting": 1
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "[Constraint]"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "add(constraints:)",
+            "start_line": 65,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 6,
+            "end_line": 70
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "[Constraint]"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "remove(constraints:)",
+            "start_line": 72,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 6,
+            "end_line": 77
+          },
+          {
+            "return_type": "NSMutableSet",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "number_of_optional_type_casting": 1,
+            "start_line": 79,
+            "returns_optional_type": false,
+            "number_of_lines": 12,
+            "end_line": 90,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 0,
+            "name": "self",
+            "number_of_lets": 1
+          }
+        ],
+        "start_line": 42,
+        "number_of_vars": 3,
+        "number_of_lines": 51,
+        "end_line": 92,
+        "number_of_forced_type_casting": 1,
+        "node_type": "extension",
+        "number_of_if_lets": 4,
+        "name": "LayoutConstraintItem",
+        "number_of_lets": 3,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/LayoutConstraintItem.swift",
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 39,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 41
+          }
+        ],
+        "name": "Int",
+        "start_line": 37,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintMultiplierTarget.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 7,
+        "end_line": 43
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 47,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 49
+          }
+        ],
+        "name": "UInt",
+        "start_line": 45,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintMultiplierTarget.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 7,
+        "end_line": 51
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 55,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 57
+          }
+        ],
+        "name": "Float",
+        "start_line": 53,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintMultiplierTarget.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 7,
+        "end_line": 59
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 63,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 65
+          }
+        ],
+        "name": "Double",
+        "start_line": 61,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintMultiplierTarget.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 7,
+        "end_line": 67
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 71,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 73
+          }
+        ],
+        "name": "CGFloat",
+        "start_line": 69,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintMultiplierTarget.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 7,
+        "end_line": 75
+      },
+      {
+        "number_of_ifs": 9,
+        "node_type": "extension",
+        "number_of_if_lets": 2,
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "String",
+            "number_of_ifs": 9,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_if_lets": 2,
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 32,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 45,
+            "end_line": 76
+          }
+        ],
+        "name": "LayoutConstraint",
+        "start_line": 30,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/Debugging.swift",
+        "number_of_vars": 2,
+        "number_of_lines": 49,
+        "end_line": 78
+      },
+      {
+        "node_type": "extension",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "ConstraintLayoutSupportDSL",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 32,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 34
+          }
+        ],
+        "name": "ConstraintLayoutSupport",
+        "start_line": 30,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/UILayoutSupport+Extensions.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 7,
+        "end_line": 36
+      }
+    ],
+    "number_of_if_lets": 31,
+    "number_of_guard_lets": 11,
+    "number_of_forced_unwrappings": 4,
+    "number_of_lets": 47,
+    "number_of_nil_coalescing": 2,
+    "protocols": [
+      {
+        "node_type": "protocol",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "ConstraintConstantTarget",
+        "start_line": 31,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintConstantTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 32
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "ConstraintOffsetTarget",
+        "start_line": 31,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintOffsetTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 32
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "ConstraintRelatableTarget",
+        "start_line": 31,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintRelatableTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 32
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 3,
+        "methods": [
+          {
+            "return_type": "AnyObject?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 33,
+            "returns_optional_type": true,
+            "number_of_lines": 1,
+            "end_line": 33
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "String?"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "setLabel(_:)",
+            "start_line": 35,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 35
+          },
+          {
+            "return_type": "String?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "label()",
+            "start_line": 36,
+            "returns_optional_type": true,
+            "number_of_lines": 1,
+            "end_line": 36
+          }
+        ],
+        "name": "ConstraintDSL",
+        "start_line": 31,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintDSL.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 8,
+        "number_of_vars_with_optional_type": 1,
+        "end_line": 38
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "ConstraintBasicAttributesDSL",
+        "start_line": 52,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintDSL.swift",
+        "number_of_lines": 2,
+        "end_line": 53
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "ConstraintAttributesDSL",
+        "start_line": 112,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintDSL.swift",
+        "number_of_lines": 2,
+        "end_line": 113
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "Float",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 33,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 33
+          }
+        ],
+        "name": "ConstraintPriorityTarget",
+        "start_line": 31,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintPriorityTarget.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 5,
+        "end_line": 35
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "ConstraintInsetTarget",
+        "start_line": 31,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintInsetTarget.swift",
+        "number_of_lines": 2,
+        "end_line": 32
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "LayoutConstraintItem",
+        "start_line": 31,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/LayoutConstraintItem.swift",
+        "number_of_lines": 2,
+        "end_line": 32
+      },
+      {
+        "node_type": "protocol",
+        "number_of_methods": 1,
+        "methods": [
+          {
+            "return_type": "CGFloat",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 33,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 33
+          }
+        ],
+        "name": "ConstraintMultiplierTarget",
+        "start_line": 31,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/SnapKit-develop-2/Source/ConstraintMultiplierTarget.swift",
+        "number_of_vars": 1,
+        "number_of_lines": 5,
+        "end_line": 35
+      }
+    ],
+    "number_of_vars_with_optional_type": 16
+  }
+}

@@ -1,0 +1,1191 @@
+{
+  "project": {
+    "number_of_ifs": 27,
+    "number_of_lets_with_optional_type": 2,
+    "structs": [
+      {
+        "number_of_instance_variables": 0,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 39,
+        "type": "RAMItemAnimation.Constants.Type",
+        "number_of_lines": 11,
+        "end_line": 49,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "Constants",
+        "number_of_lets": 5,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/animated-tab-bar-master-2/RAMAnimatedTabBarController/RAMItemAnimationProtocol.swift"
+      },
+      {
+        "number_of_instance_variables": 5,
+        "number_of_methods": 0,
+        "methods": [],
+        "start_line": 41,
+        "type": "RAMItemAnimation.Constants.AnimationKeys.Type",
+        "number_of_lines": 8,
+        "end_line": 48,
+        "node_type": "struct",
+        "number_of_constructors": 1,
+        "name": "AnimationKeys",
+        "number_of_lets": 5,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/animated-tab-bar-master-2/RAMAnimatedTabBarController/RAMItemAnimationProtocol.swift"
+      }
+    ],
+    "number_of_optional_type_casting": 6,
+    "number_of_methods": 53,
+    "number_of_if_nil": 10,
+    "classes": [
+      {
+        "number_of_instance_variables": 3,
+        "number_of_methods": 3,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIImageView",
+              "UILabel"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "playAnimation(_:textLabel:)",
+            "start_line": 68,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 70
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIImageView",
+              "UILabel",
+              "UIColor",
+              "UIColor"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 4,
+            "name": "deselectAnimation(_:textLabel:defaultTextColor:defaultIconColor:)",
+            "start_line": 80,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 82
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIImageView",
+              "UILabel"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "selectedState(_:textLabel:)",
+            "start_line": 90,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 92
+          }
+        ],
+        "start_line": 35,
+        "number_of_vars": 3,
+        "type": "RAMItemAnimation.Type",
+        "number_of_lines": 59,
+        "end_line": 93,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "name": "RAMItemAnimation",
+        "number_of_lets": 5,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/animated-tab-bar-master-2/RAMAnimatedTabBarController/RAMItemAnimationProtocol.swift",
+        "inherits": "NSObject,"
+      },
+      {
+        "number_of_instance_variables": 3,
+        "number_of_methods": 5,
+        "methods": [
+          {
+            "return_type": "RAMBadge",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "badge()",
+            "start_line": 16,
+            "returns_optional_type": false,
+            "number_of_lines": 3,
+            "end_line": 18
+          },
+          {
+            "return_type": "CGSize",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 35,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 5,
+            "end_line": 39
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "CGSize"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "createSizeConstraints(_:)",
+            "start_line": 47,
+            "returns_optional_type": false,
+            "number_of_lets": 2,
+            "number_of_lines": 22,
+            "end_line": 68
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "configureNumberLabel()",
+            "start_line": 70,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 74
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIView"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "addBadgeOnView(_:)",
+            "number_of_forced_unwrappings": 2,
+            "start_line": 78,
+            "returns_optional_type": false,
+            "number_of_lines": 23,
+            "end_line": 100
+          }
+        ],
+        "start_line": 11,
+        "number_of_vars": 4,
+        "type": "RAMBadge.Type",
+        "number_of_lines": 91,
+        "end_line": 101,
+        "node_type": "class",
+        "number_of_constructors": 2,
+        "name": "RAMBadge",
+        "number_of_forced_unwrappings": 2,
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/animated-tab-bar-master-2/RAMAnimatedTabBarController/RAMBadge/RAMBadge.swift",
+        "inherits": "UILabel",
+        "number_of_vars_with_optional_type": 2
+      },
+      {
+        "number_of_ifs": 2,
+        "number_of_instance_variables": 1,
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIImageView",
+              "UILabel"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "playAnimation(_:textLabel:)",
+            "number_of_forced_unwrappings": 1,
+            "start_line": 43,
+            "returns_optional_type": false,
+            "number_of_lines": 8,
+            "end_line": 50
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "UIImageView",
+              "UILabel",
+              "UIColor",
+              "UIColor"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 4,
+            "name": "deselectAnimation(_:textLabel:defaultTextColor:defaultIconColor:)",
+            "start_line": 60,
+            "returns_optional_type": false,
+            "number_of_lets": 2,
+            "number_of_lines": 11,
+            "end_line": 70
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIImageView",
+              "UILabel"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "selectedState(_:textLabel:)",
+            "start_line": 78,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 81
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "UIImageView",
+              "UILabel"
+            ],
+            "number_of_if_nil": 1,
+            "start_line": 84,
+            "returns_optional_type": false,
+            "number_of_lines": 10,
+            "end_line": 93,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 2,
+            "name": "selectedColor(_:textLabel:)",
+            "number_of_lets": 1
+          }
+        ],
+        "number_of_if_nil": 1,
+        "start_line": 26,
+        "number_of_vars": 1,
+        "type": "RAMTransitionItemAnimations.Type",
+        "number_of_lines": 69,
+        "end_line": 94,
+        "node_type": "class",
+        "number_of_if_lets": 2,
+        "number_of_constructors": 1,
+        "name": "RAMTransitionItemAnimations",
+        "number_of_forced_unwrappings": 1,
+        "number_of_lets": 3,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/animated-tab-bar-master-2/RAMAnimatedTabBarController/Animations/TransitionAniamtions/RAMTransitionItemAnimations.swift",
+        "inherits": "RAMItemAni"
+      },
+      {
+        "number_of_instance_variables": 0,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "RAMFlipLeftTransitionItemAnimations",
+        "start_line": 96,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/animated-tab-bar-master-2/RAMAnimatedTabBarController/Animations/TransitionAniamtions/RAMTransitionItemAnimations.swift",
+        "type": "RAMFlipLeftTransitionItemAnimations.Type",
+        "number_of_lines": 8,
+        "inherits": "RAMTransit",
+        "end_line": 103
+      },
+      {
+        "number_of_instance_variables": 0,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "RAMFlipRightTransitionItemAnimations",
+        "start_line": 106,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/animated-tab-bar-master-2/RAMAnimatedTabBarController/Animations/TransitionAniamtions/RAMTransitionItemAnimations.swift",
+        "type": "RAMFlipRightTransitionItemAnimations.Type",
+        "number_of_lines": 8,
+        "inherits": "RAMTransit",
+        "end_line": 113
+      },
+      {
+        "number_of_instance_variables": 0,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "RAMFlipTopTransitionItemAnimations",
+        "start_line": 115,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/animated-tab-bar-master-2/RAMAnimatedTabBarController/Animations/TransitionAniamtions/RAMTransitionItemAnimations.swift",
+        "type": "RAMFlipTopTransitionItemAnimations.Type",
+        "number_of_lines": 8,
+        "inherits": "RAMTransit",
+        "end_line": 122
+      },
+      {
+        "number_of_instance_variables": 0,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "RAMFlipBottomTransitionItemAnimations",
+        "start_line": 124,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/animated-tab-bar-master-2/RAMAnimatedTabBarController/Animations/TransitionAniamtions/RAMTransitionItemAnimations.swift",
+        "type": "RAMFlipBottomTransitionItemAnimations.Type",
+        "number_of_lines": 8,
+        "inherits": "RAMTransit",
+        "end_line": 131
+      },
+      {
+        "number_of_ifs": 3,
+        "number_of_instance_variables": 0,
+        "number_of_methods": 7,
+        "methods": [
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "UIImageView",
+              "UILabel"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 2,
+            "name": "playAnimation(_:textLabel:)",
+            "start_line": 35,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 11,
+            "end_line": 45
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "UIImageView",
+              "UILabel",
+              "UIColor",
+              "UIColor"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 4,
+            "name": "deselectAnimation(_:textLabel:defaultTextColor:defaultIconColor:)",
+            "start_line": 54,
+            "returns_optional_type": false,
+            "number_of_lets": 2,
+            "number_of_lines": 14,
+            "end_line": 67
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "UIImageView",
+              "UILabel"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 2,
+            "name": "selectedState(_:textLabel:)",
+            "start_line": 75,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 12,
+            "end_line": 86
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIImageView",
+              "[AnyObject]"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "playMoveIconAnimation(_:values:)",
+            "start_line": 88,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 6,
+            "end_line": 93
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UILabel"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "playLabelAnimation(_:)",
+            "start_line": 97,
+            "returns_optional_type": false,
+            "number_of_lets": 3,
+            "number_of_lines": 15,
+            "end_line": 111
+          },
+          {
+            "return_type": "CAKeyframeAnimation",
+            "parameter_types": [
+              "String",
+              "[AnyObject]",
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 3,
+            "name": "createAnimation(_:values:duration:)",
+            "start_line": 113,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 10,
+            "end_line": 122
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UILabel"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "playDeselectLabelAnimation(_:)",
+            "start_line": 126,
+            "returns_optional_type": false,
+            "number_of_lets": 2,
+            "number_of_lines": 8,
+            "end_line": 133
+          }
+        ],
+        "start_line": 27,
+        "type": "RAMFumeAnimation.Type",
+        "number_of_lines": 108,
+        "end_line": 134,
+        "node_type": "class",
+        "number_of_if_lets": 3,
+        "number_of_constructors": 1,
+        "name": "RAMFumeAnimation",
+        "number_of_lets": 11,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/animated-tab-bar-master-2/RAMAnimatedTabBarController/Animations/FumeAnimation/RAMFumeAnimation.swift",
+        "inherits": "RAMItemAni"
+      },
+      {
+        "number_of_ifs": 4,
+        "number_of_instance_variables": 1,
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIImageView",
+              "UILabel"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "playAnimation(_:textLabel:)",
+            "start_line": 48,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 51
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "UIImageView",
+              "UILabel",
+              "UIColor",
+              "UIColor"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 4,
+            "name": "deselectAnimation(_:textLabel:defaultTextColor:defaultIconColor:)",
+            "start_line": 61,
+            "returns_optional_type": false,
+            "number_of_lets": 2,
+            "number_of_lines": 11,
+            "end_line": 71
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "UIImageView",
+              "UILabel"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 2,
+            "name": "selectedState(_:textLabel:)",
+            "start_line": 79,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 9,
+            "end_line": 87
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "UIImageView"
+            ],
+            "number_of_if_nil": 1,
+            "start_line": 89,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 21,
+            "end_line": 109,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "playRoatationAnimation(_:)",
+            "number_of_lets": 2
+          }
+        ],
+        "number_of_if_nil": 1,
+        "start_line": 27,
+        "number_of_vars": 2,
+        "type": "RAMRotationAnimation.Type",
+        "number_of_lines": 84,
+        "end_line": 110,
+        "node_type": "class",
+        "number_of_if_lets": 3,
+        "number_of_constructors": 1,
+        "name": "RAMRotationAnimation",
+        "number_of_lets": 5,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/animated-tab-bar-master-2/RAMAnimatedTabBarController/Animations/RotationAnimation/RAMRotationAnimation.swift",
+        "inherits": "RAMItemAni"
+      },
+      {
+        "number_of_instance_variables": 0,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "RAMLeftRotationAnimation",
+        "start_line": 113,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/animated-tab-bar-master-2/RAMAnimatedTabBarController/Animations/RotationAnimation/RAMRotationAnimation.swift",
+        "type": "RAMLeftRotationAnimation.Type",
+        "number_of_lines": 7,
+        "inherits": "RAMRotatio",
+        "end_line": 119
+      },
+      {
+        "number_of_instance_variables": 0,
+        "node_type": "class",
+        "number_of_constructors": 1,
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "RAMRightRotationAnimation",
+        "start_line": 122,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/animated-tab-bar-master-2/RAMAnimatedTabBarController/Animations/RotationAnimation/RAMRotationAnimation.swift",
+        "type": "RAMRightRotationAnimation.Type",
+        "number_of_lines": 7,
+        "inherits": "RAMRotatio",
+        "end_line": 128
+      },
+      {
+        "number_of_ifs": 3,
+        "number_of_instance_variables": 0,
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIImageView",
+              "UILabel"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "playAnimation(_:textLabel:)",
+            "start_line": 35,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 38
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "UIImageView",
+              "UILabel",
+              "UIColor",
+              "UIColor"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 4,
+            "name": "deselectAnimation(_:textLabel:defaultTextColor:defaultIconColor:)",
+            "start_line": 48,
+            "returns_optional_type": false,
+            "number_of_lets": 2,
+            "number_of_lines": 11,
+            "end_line": 58
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "UIImageView",
+              "UILabel"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 2,
+            "name": "selectedState(_:textLabel:)",
+            "start_line": 66,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 9,
+            "end_line": 74
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "UIImageView"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "playBounceAnimation(_:)",
+            "start_line": 76,
+            "returns_optional_type": false,
+            "number_of_lets": 2,
+            "number_of_lines": 15,
+            "end_line": 90
+          }
+        ],
+        "start_line": 27,
+        "type": "RAMBounceAnimation.Type",
+        "number_of_lines": 65,
+        "end_line": 91,
+        "node_type": "class",
+        "number_of_if_lets": 3,
+        "number_of_constructors": 1,
+        "name": "RAMBounceAnimation",
+        "number_of_lets": 5,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/animated-tab-bar-master-2/RAMAnimatedTabBarController/Animations/BounceAnimation/RAMBounceAnimation.swift",
+        "inherits": "RAMItemAni"
+      },
+      {
+        "number_of_ifs": 3,
+        "number_of_instance_variables": 4,
+        "number_of_methods": 7,
+        "methods": [
+          {
+            "return_type": "()",
+            "number_of_guards": 2,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 0,
+            "name": "awakeFromNib()",
+            "start_line": 39,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 16,
+            "end_line": 54
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "Array<String>"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "createImagesArray(_:)",
+            "start_line": 56,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 62
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "Array<UIImage>"
+            ],
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "setAnimationImages(_:)",
+            "start_line": 71,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 9,
+            "end_line": 79
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIImageView",
+              "UILabel"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "playAnimation(_:textLabel:)",
+            "start_line": 89,
+            "returns_optional_type": false,
+            "number_of_lines": 5,
+            "end_line": 93
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "UIImageView",
+              "UILabel",
+              "UIColor",
+              "UIColor"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 4,
+            "name": "deselectAnimation(_:textLabel:defaultTextColor:defaultIconColor:)",
+            "start_line": 103,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 109
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIImageView",
+              "UILabel"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "selectedState(_:textLabel:)",
+            "start_line": 117,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 120
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIImageView",
+              "Array<CGImage>"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "playFrameAnimation(_:images:)",
+            "start_line": 122,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 10,
+            "end_line": 131
+          }
+        ],
+        "start_line": 27,
+        "number_of_vars": 5,
+        "type": "RAMFrameItemAnimation.Type",
+        "number_of_lines": 106,
+        "end_line": 132,
+        "number_of_guards": 2,
+        "node_type": "class",
+        "number_of_guard_lets": 1,
+        "number_of_if_lets": 2,
+        "number_of_constructors": 1,
+        "name": "RAMFrameItemAnimation",
+        "number_of_lets": 2,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/animated-tab-bar-master-2/RAMAnimatedTabBarController/Animations/FrameAnimation/RAMFrameItemAnimation.swift",
+        "inherits": "RAMItemAni"
+      },
+      {
+        "number_of_instance_variables": 10,
+        "number_of_methods": 4,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "Bool"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 1,
+            "name": "self",
+            "start_line": 59,
+            "returns_optional_type": false,
+            "number_of_lines": 4,
+            "end_line": 62
+          },
+          {
+            "return_type": "()",
+            "number_of_guards": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "number_of_if_nil": 2,
+            "name": "playAnimation()",
+            "number_of_forced_unwrappings": 3,
+            "start_line": 90,
+            "returns_optional_type": false,
+            "number_of_lines": 8,
+            "end_line": 97
+          },
+          {
+            "return_type": "()",
+            "number_of_guards": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "number_of_if_nil": 2,
+            "name": "deselectAnimation()",
+            "number_of_forced_unwrappings": 3,
+            "start_line": 102,
+            "returns_optional_type": false,
+            "number_of_lines": 12,
+            "end_line": 113
+          },
+          {
+            "return_type": "()",
+            "number_of_guards": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "number_of_if_nil": 2,
+            "name": "selectedState()",
+            "number_of_forced_unwrappings": 3,
+            "start_line": 118,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 124
+          }
+        ],
+        "number_of_if_nil": 6,
+        "start_line": 54,
+        "number_of_vars": 10,
+        "type": "RAMAnimatedTabBarItem.Type",
+        "number_of_lines": 72,
+        "end_line": 125,
+        "number_of_guards": 3,
+        "node_type": "class",
+        "number_of_constructors": 2,
+        "name": "RAMAnimatedTabBarItem",
+        "number_of_forced_unwrappings": 9,
+        "number_of_lets": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/animated-tab-bar-master-2/RAMAnimatedTabBarController/RAMAnimatedTabBarController.swift",
+        "inherits": "UITabBarIt",
+        "number_of_vars_with_optional_type": 2
+      },
+      {
+        "number_of_ifs": 8,
+        "number_of_instance_variables": 2,
+        "number_of_optional_type_casting": 4,
+        "number_of_methods": 7,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "viewDidLoad()",
+            "start_line": 248,
+            "returns_optional_type": false,
+            "number_of_lines": 7,
+            "end_line": 254
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "initializeContainers()",
+            "start_line": 256,
+            "returns_optional_type": false,
+            "number_of_lets": 1,
+            "number_of_lines": 9,
+            "end_line": 264
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "NSDictionary"
+            ],
+            "number_of_optional_type_casting": 2,
+            "start_line": 268,
+            "returns_optional_type": false,
+            "number_of_vars": 1,
+            "number_of_lines": 60,
+            "end_line": 327,
+            "number_of_guards": 3,
+            "node_type": "method",
+            "number_of_guard_lets": 3,
+            "number_of_parameters": 1,
+            "name": "createCustomIcons(_:)",
+            "number_of_lets": 4
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIView",
+              "UIView",
+              "CGSize",
+              "CGFloat"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 4,
+            "name": "createConstraints(_:container:size:yOffset:)",
+            "start_line": 329,
+            "returns_optional_type": false,
+            "number_of_lets": 4,
+            "number_of_lines": 38,
+            "end_line": 366
+          },
+          {
+            "return_type": "NSDictionary",
+            "parameter_types": [],
+            "start_line": 368,
+            "returns_optional_type": false,
+            "number_of_vars": 2,
+            "number_of_lines": 26,
+            "end_line": 393,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 0,
+            "name": "createViewContainers()",
+            "number_of_forced_unwrappings": 1,
+            "number_of_lets": 2
+          },
+          {
+            "return_type": "UIView",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "createViewContainer()",
+            "number_of_forced_unwrappings": 2,
+            "start_line": 395,
+            "returns_optional_type": false,
+            "number_of_lets": 4,
+            "number_of_lines": 34,
+            "end_line": 428
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 5,
+            "parameter_types": [
+              "UIGestureRecognizer"
+            ],
+            "number_of_optional_type_casting": 2,
+            "start_line": 432,
+            "returns_optional_type": false,
+            "number_of_lines": 42,
+            "end_line": 473,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_if_lets": 2,
+            "number_of_parameters": 1,
+            "name": "tapHandler(_:)",
+            "number_of_forced_unwrappings": 5,
+            "number_of_lets": 6
+          }
+        ],
+        "start_line": 190,
+        "number_of_vars": 5,
+        "type": "RAMAnimatedTabBarController.Type",
+        "number_of_lines": 285,
+        "end_line": 474,
+        "number_of_guards": 5,
+        "node_type": "class",
+        "number_of_guard_lets": 5,
+        "number_of_if_lets": 2,
+        "number_of_constructors": 3,
+        "name": "RAMAnimatedTabBarController",
+        "number_of_forced_unwrappings": 8,
+        "number_of_lets": 21,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/animated-tab-bar-master-2/RAMAnimatedTabBarController/RAMAnimatedTabBarController.swift",
+        "inherits": "UITabBarCo"
+      }
+    ],
+    "number_of_vars": 31,
+    "number_of_forced_type_casting": 1,
+    "number_of_guards": 12,
+    "enums": [
+      {
+        "node_type": "enum",
+        "number_of_enum_cases": 2,
+        "number_of_constructors": 0,
+        "number_of_methods": 0,
+        "methods": [],
+        "name": "RAMRotationDirection",
+        "start_line": 35,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/animated-tab-bar-master-2/RAMAnimatedTabBarController/Animations/RotationAnimation/RAMRotationAnimation.swift",
+        "number_of_lines": 4,
+        "end_line": 38
+      }
+    ],
+    "extensions": [
+      {
+        "number_of_ifs": 2,
+        "number_of_methods": 2,
+        "methods": [
+          {
+            "return_type": "String?",
+            "parameter_types": [],
+            "node_type": "method",
+            "number_of_parameters": 0,
+            "name": "self",
+            "start_line": 32,
+            "returns_optional_type": true,
+            "number_of_lines": 3,
+            "end_line": 34
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 2,
+            "parameter_types": [
+              "String?"
+            ],
+            "number_of_if_nil": 2,
+            "start_line": 35,
+            "returns_optional_type": false,
+            "number_of_lines": 15,
+            "end_line": 49,
+            "node_type": "method",
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "self",
+            "number_of_forced_unwrappings": 1
+          }
+        ],
+        "number_of_if_nil": 2,
+        "start_line": 28,
+        "number_of_vars": 1,
+        "number_of_lines": 24,
+        "end_line": 51,
+        "node_type": "extension",
+        "number_of_if_lets": 1,
+        "name": "RAMAnimatedTabBarItem",
+        "number_of_forced_unwrappings": 1,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/animated-tab-bar-master-2/RAMAnimatedTabBarController/RAMAnimatedTabBarController.swift",
+        "number_of_vars_with_optional_type": 1
+      },
+      {
+        "number_of_ifs": 2,
+        "number_of_lets_with_optional_type": 2,
+        "number_of_optional_type_casting": 2,
+        "number_of_methods": 3,
+        "methods": [
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "UIColor",
+              "UIColor"
+            ],
+            "start_line": 135,
+            "returns_optional_type": false,
+            "number_of_lines": 14,
+            "end_line": 148,
+            "number_of_forced_type_casting": 1,
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "changeSelectedColor(_:iconSelectedColor:)",
+            "number_of_forced_unwrappings": 3,
+            "number_of_lets": 2
+          },
+          {
+            "return_type": "()",
+            "number_of_ifs": 1,
+            "parameter_types": [
+              "Bool"
+            ],
+            "number_of_optional_type_casting": 1,
+            "start_line": 155,
+            "returns_optional_type": false,
+            "number_of_lines": 11,
+            "end_line": 165,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_if_lets": 1,
+            "number_of_parameters": 1,
+            "name": "animationTabBarHidden(_:)"
+          },
+          {
+            "return_type": "()",
+            "number_of_lets_with_optional_type": 2,
+            "parameter_types": [
+              "Int",
+              "Int"
+            ],
+            "number_of_optional_type_casting": 1,
+            "start_line": 173,
+            "returns_optional_type": false,
+            "number_of_lines": 14,
+            "end_line": 186,
+            "number_of_guards": 1,
+            "node_type": "method",
+            "number_of_guard_lets": 1,
+            "number_of_parameters": 2,
+            "name": "setSelectIndex(from:to:)",
+            "number_of_lets": 2
+          }
+        ],
+        "start_line": 127,
+        "number_of_lines": 61,
+        "end_line": 187,
+        "number_of_forced_type_casting": 1,
+        "number_of_guards": 2,
+        "node_type": "extension",
+        "number_of_guard_lets": 2,
+        "number_of_if_lets": 1,
+        "name": "RAMAnimatedTabBarController",
+        "number_of_forced_unwrappings": 3,
+        "number_of_lets": 4,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/animated-tab-bar-master-2/RAMAnimatedTabBarController/RAMAnimatedTabBarController.swift"
+      }
+    ],
+    "number_of_guard_lets": 8,
+    "number_of_if_lets": 17,
+    "number_of_forced_unwrappings": 24,
+    "number_of_lets": 59,
+    "protocols": [
+      {
+        "node_type": "protocol",
+        "number_of_methods": 3,
+        "methods": [
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIImageView",
+              "UILabel"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "playAnimation(_:textLabel:)",
+            "start_line": 29,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 29
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIImageView",
+              "UILabel",
+              "UIColor",
+              "UIColor"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 4,
+            "name": "deselectAnimation(_:textLabel:defaultTextColor:defaultIconColor:)",
+            "start_line": 30,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 30
+          },
+          {
+            "return_type": "()",
+            "parameter_types": [
+              "UIImageView",
+              "UILabel"
+            ],
+            "node_type": "method",
+            "number_of_parameters": 2,
+            "name": "selectedState(_:textLabel:)",
+            "start_line": 31,
+            "returns_optional_type": false,
+            "number_of_lines": 1,
+            "end_line": 31
+          }
+        ],
+        "name": "RAMItemAnimationProtocol",
+        "start_line": 27,
+        "source_path": "/Users/Marcel/Google Drive/Mestrado/Visualization/projects-poster/lib/animated-tab-bar-master-2/RAMAnimatedTabBarController/RAMItemAnimationProtocol.swift",
+        "number_of_lines": 6,
+        "end_line": 32
+      }
+    ],
+    "number_of_vars_with_optional_type": 5
+  }
+}
