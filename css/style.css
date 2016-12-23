@@ -47,6 +47,10 @@
     padding-right: 0px !important;
 }
 
+.project-details-style {
+    padding: 5px !important;
+}
+
 #toast-container {
   top: auto !important;
   bottom: 10%;

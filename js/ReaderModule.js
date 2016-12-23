@@ -28,11 +28,11 @@ function updateWithFile() {
         return;
     } else if (lastFileSelected == selectedFile){
         if(filtersChanged() == false){
-            showToast("You just chose the same file!", 2000);
+            showToast("You just chose the same file!", 3000);
             return;
         }
         appConfiguration.holdCamera = true;
-        showToast("Reloading with: "+appConfiguration.filterChanged+"...", 2000);
+        showToast("Reloading with new configurantion...", 3000);
         restartAppData();
     } else {
         appConfiguration.holdCamera = false;
