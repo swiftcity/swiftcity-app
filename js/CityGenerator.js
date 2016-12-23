@@ -20,17 +20,13 @@ function cityMaker(files){
     cityMatrix = fillMatrix(cityMatrix, filesArray, dimension);
 
     // Define district position and inside layout.
-    cityMatrix = _defineCityLayout(cityMatrix, dimension);
+    sorted = appConfiguration.sortEnabled();
+    cityMatrix = defineCityLayout(cityMatrix, dimension);
 
     // Render the city.
     renderCity(cityMatrix, dimension);
 
     return cityMatrix;
-}
-
-function _defineCityLayout(cityMatrix, dimension) {
-    sorted = appConfiguration.filters.indexOf("sort") > -1 ? true : false;
-    return defineCityLayout(cityMatrix, dimension);
 }
 
 function defineCityLayout(cityMatrix, dimension){
@@ -88,7 +84,9 @@ function districtMaker(file, x, z, offset, maxZ){
 
     var blocksMatrix = initMatrix(dimension);
 
-    // Fill matrix in height order
+    if(sorted)
+        sortBlocks(file);
+
     blocksMatrix = fillMatrix(blocksMatrix, file, dimension);
 
     blocksMatrix = defineXZ(blocksMatrix, dimension, file, x, z, offset, maxZ);

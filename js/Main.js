@@ -9,6 +9,7 @@ function init(){
 function setUp(){
     var width = appConfiguration.width;
     var height = appConfiguration.height;
+
     appConfiguration.scene = new THREE.Scene();
     appConfiguration.camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 20000);
     appConfiguration.renderer = new THREE.WebGLRenderer({
@@ -17,6 +18,7 @@ function setUp(){
     appConfiguration.raycaster = new THREE.Raycaster();
     appConfiguration.mouse = new THREE.Vector3();
     appConfiguration.renderer.setSize(width, height);
+
     insertRender(appConfiguration.renderer);
     render();
 }

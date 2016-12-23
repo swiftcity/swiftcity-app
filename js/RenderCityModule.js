@@ -88,11 +88,7 @@ function renderNeigh(neighMatrix, dimension, scene, file, block){
 }
 
 function renderFloor(floor, scene, type) {
-    var geometry = new THREE.BoxGeometry(floor.width, floor.height, 1);
-    var color = pickColor(type);
-    var material = new THREE.MeshBasicMaterial( {color: color } );
-    var plane = new THREE.Mesh( geometry, material );
-
+    var plane = createCube([floor.width, floor.height, getFloorHeight(type)], type, [0,0,0]);
     var x = floor.coordinates.x;
     var z = floor.coordinates.z;
 
@@ -103,9 +99,7 @@ function renderFloor(floor, scene, type) {
 
     scene.add(plane);
 
-    var geo = new THREE.EdgesGeometry(geometry);
-    var mat = new THREE.LineBasicMaterial({ color: pickColor("Wireframe"), linewidth: 0.5 });
-    var wireframe = new THREE.LineSegments(geo, mat);
+    var wireframe = createWireFrame(plane.geometry, [floor.width, floor.height, getFloorHeight(type)], [0,0,0]);
 
     wireframe.rotation.x = Math.PI/2;
     wireframe.position.x = x + floor.width/2;
@@ -115,14 +109,27 @@ function renderFloor(floor, scene, type) {
     scene.add(wireframe);
 }
 
+function getFloorHeight(type) {
+    switch (type) {
+        case "CityFloor":
+            return 1.0;
+        case "DistrictFloor":
+            return 1.35;
+        case "NeighFloor":
+            return 1.25;
+        default:
+            return 0;
+    }
+}
+
 function getFloorOffeset(type) {
     switch (type) {
         case "CityFloor":
-            return -0.3;
+            return -0.5;
         case "DistrictFloor":
-            return -0.2;
+            return -0.25;
         case "NeighFloor":
-            return 0;
+            return -0.15;
         default:
             return 0;
     }
@@ -131,64 +138,28 @@ function getFloorOffeset(type) {
 function renderCube(scene, block){
     var coordinates = block.coordinates;
     var size = block.size;
-    var key;
-    if(appConfiguration.colorEnabled())
-        key = block.color;
-    else
-        key = "DefaultColor";
+    var key = block.color;
 
-    var geometry = new THREE.BoxGeometry( size[0], size[1], size[2]);
-    var material = new THREE.MeshBasicMaterial( { color: pickColor(key) } );
-    var newCube = new THREE.Mesh( geometry, material );
-
+    var newCube = createCube(size, key, coordinates);
+    // Add to the cube the block information and assings the block to the watchlist of raycaster.
     newCube["blockInformation"] = block;
     addToTargetList(newCube);
-
-    newCube.position.x = coordinates.x;
-    newCube.position.y = size[1]/2 + 0.5;
-    newCube.position.z = coordinates.z;
-
+    var wireframe = createWireFrame(newCube.geometry, size, coordinates);
     scene.add(newCube);
-
-    var geo = new THREE.EdgesGeometry(geometry); // or WireframeGeometry( geometry )
-    var mat = new THREE.LineBasicMaterial({ color: pickColor("Wireframe"), linewidth: 0.5 });
-    var wireframe = new THREE.LineSegments(geo, mat);
-    wireframe.position.x = coordinates.x;
-    wireframe.position.y = size[1]/2 + 0.5;
-    wireframe.position.z = coordinates.z;
-
     scene.add(wireframe);
 }
 
 function renderCubeWithExtensions(scene, children, block){
     var coordinates = block.coordinates;
     var size = block.size;
-    var key;
-    if(appConfiguration.colorEnabled())
-        key = block.color;
-    else
-        key = "DefaultColor";
+    var key = block.color;
 
-    var geometry = new THREE.BoxGeometry( size[0], size[1], size[2]);
-    var material = new THREE.MeshBasicMaterial( { color: pickColor(key) } );
-    var newCube = new THREE.Mesh( geometry, material );
-
+    var newCube = createCube(size, key, coordinates);
+    // Add to the cube the block information and assings the block to the watchlist of raycaster.
     newCube["blockInformation"] = block;
     addToTargetList(newCube);
-
-    newCube.position.x = coordinates.x;
-    newCube.position.y = size[1]/2 + 0.5;
-    newCube.position.z = coordinates.z;
-
+    var wireframe = createWireFrame(newCube.geometry, size, coordinates);
     scene.add(newCube);
-
-    var geo = new THREE.EdgesGeometry(geometry); // or WireframeGeometry( geometry )
-    var mat = new THREE.LineBasicMaterial({ color: pickColor("Wireframe"), linewidth: 0.5 });
-    var wireframe = new THREE.LineSegments(geo, mat);
-    wireframe.position.x = coordinates.x;
-    wireframe.position.y = size[1]/2 + 0.5;
-    wireframe.position.z = coordinates.z;
-
     scene.add(wireframe);
 
     var child;
@@ -200,6 +171,7 @@ function renderCubeWithExtensions(scene, children, block){
         z: coordinates.z
     };
 
+    // Get and add children
     for (var i = 0; i < children.length; i++) {
         child = children[i];
         block = getBlockFrom(baseXYZ, child.size, child.key, child);
@@ -211,24 +183,12 @@ function renderCubeWithExtensions(scene, children, block){
 }
 
 function getBlockFrom(baseXYZ, size, key, block) {
-    var geometry = new THREE.BoxGeometry( size[0], size[1], size[2]);
-    var material = new THREE.MeshBasicMaterial( { color: appConfiguration.colorEnabled() ? pickColor(key) : pickColor("DefaultColor")} );
-    var newCube = new THREE.Mesh( geometry, material );
-
+    var newCube = createCube(size, key, baseXYZ);
+    // Add to the cube the block information and assings the block to the watchlist of raycaster.
     newCube["blockInformation"] = block;
     addToTargetList(newCube);
-
-    newCube.position.x = baseXYZ.x;
-    newCube.position.y = baseXYZ.y + size[1]/2 + 0.5;
-    newCube.position.z = baseXYZ.z;
-
-    var geo = new THREE.EdgesGeometry(geometry); // or WireframeGeometry( geometry )
-    var mat = new THREE.LineBasicMaterial({ color: pickColor("Wireframe"), linewidth: 0.5 });
-    var wireframe = new THREE.LineSegments(geo, mat);
-    wireframe.position.x = baseXYZ.x;
-    wireframe.position.y = baseXYZ.y + size[1]/2 + 0.5;
-    wireframe.position.z = baseXYZ.z;
-
+    var wireframe = createWireFrame(newCube.geometry, size, baseXYZ);
+    // Update the base height
     baseXYZ.y = baseXYZ.y + size[1];
     var block = [newCube, wireframe, baseXYZ];
     return block;
@@ -236,4 +196,37 @@ function getBlockFrom(baseXYZ, size, key, block) {
 
 function addToTargetList(object) {
     appConfiguration.targetList.push(object);
+}
+
+function createCube(size, key, coordinates) {
+    var geometry = new THREE.BoxGeometry( size[0], size[1], size[2]);
+    var material = new THREE.MeshBasicMaterial( { color: getCubeColor(key) } );
+    var newCube = new THREE.Mesh(geometry, material);
+
+    newCube.position.x = coordinates.x;
+    newCube.position.y = coordinates.y + size[1]/2 + 0.5;
+    newCube.position.z = coordinates.z;
+
+    return newCube;
+}
+
+function createWireFrame(geo, size, coordinates) {
+    var geometry = new THREE.EdgesGeometry(geo);
+    var material = new THREE.LineBasicMaterial({ color: pickColor("Wireframe"), linewidth: 0.5 });
+    var wireframe = new THREE.LineSegments(geometry, material);
+
+    wireframe.position.x = coordinates.x;
+    wireframe.position.y = coordinates.y + size[1]/2 + 0.5;
+    wireframe.position.z = coordinates.z;
+
+    return wireframe;
+}
+
+function getCubeColor(key) {
+    if (key == "CityFloor" || key == "DistrictFloor" || key == "NeighFloor")
+        return pickColor(key);
+    else if(appConfiguration.colorEnabled())
+        return pickColor(key);
+    else
+        return pickColor("DefaultColor");
 }

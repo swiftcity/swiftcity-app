@@ -27,6 +27,12 @@ let appConfiguration = {
         else
             return false;
     },
+    sortEnabled : function () {
+        if(this.filters.indexOf("sort") > -1)
+            return true;
+        else
+            return false;
+    },
     filterChanged : null,
     stackExtensions : function() {
         if(this.filters.indexOf("stack") > -1)

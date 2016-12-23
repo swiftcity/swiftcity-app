@@ -281,7 +281,3 @@ function getScale(filters){
     }
     console.log(">> ERROR: No scale matched.\n",filters);
 }
-
-function showToast(message, duration) {
-    Materialize.toast(message, duration);
-}

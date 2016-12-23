@@ -35,3 +35,7 @@ var blocksPallet = {
     "Protocol" : "#ff7f00",
     "DefaultColor" : "#C18787"
 };
+
+function showToast(message, duration) {
+    Materialize.toast(message, duration);
+}
