@@ -33,17 +33,17 @@ Xcode -> Toolchains -> Local Swift Development Snapshot 2016-11-21. It might be 
 <img src="https://github.com/swiftcity/swiftcity-app/blob/master/files/set-up-images/select-toolchain.png" width="500">
 <img src="https://github.com/swiftcity/swiftcity-app/blob/master/files/set-up-images/initial-menu.png" width="500">
 
-3. In order to extract information from the *dumper-output.txt*, we will use the parser. After downloading the SwiftDumperParser.jar, it is possible to run it using the command 'java -jar SwiftDumperParser.jar path/to/dumper-output.txt'. This will create a .json file that can be uploaded to Swiftcity.
-4. The step above can be automated by using build phase scripts inside Xcode. This allows the 'java -jar' command to be run automatically when the project is built.  
+3. In order to extract information from the *dumper-output.txt*, we will use the parser. After downloading the SwiftDumperParser.jar, it is possible to run it using the command `java -jar SwiftDumperParser.jar path/to/dumper-output.txt`. This will create a .json file that can be uploaded to Swiftcity.
+4. The step above can be automated by using build phase scripts inside Xcode. This allows the `java -jar` command to be run automatically when the project is built.  
  * With your project open, select your project icon (blue icon) on the Project Navigator. Then, select the target of your project, and click on *Build Phases*. We will add two new build phases. 
 
  <img src="https://github.com/swiftcity/swiftcity-app/blob/master/files/set-up-images/begin-build-phases.png" width="500">
 
-*  The first script will remove the old dumper file, if it exists. It is necessary since the current implementation of the toolchain appends the Ast Dump to the current existing file. Click the + icon, and select *New Run Script Phase*. Then, place the code 'rm -f dumper-output.txt' inside the black box, and mark 'Run script only when installing', so it runs when the project is built. Place the script between *Target Dependencies* and *Compile Sources*.
+*  The first script will remove the old dumper file, if it exists. It is necessary since the current implementation of the toolchain appends the Ast Dump to the current existing file. Click the + icon, and select *New Run Script Phase*. Then, place the code `rm -f dumper-output.txt` inside the black box, and mark *Run script only when installing*, so it runs when the project is built. Place the script between *Target Dependencies* and *Compile Sources*.
 
  <img src="https://github.com/swiftcity/swiftcity-app/blob/master/files/set-up-images/delete-old-dump-script.png" width="500">
  
-*  The second script will run the SwiftDumperParser.jar. Click the + icon, and select *New Run Script Phase*. Then, place the code 'java -jar path/to/SwiftDumperParser.jar dumper-output.txt your-project-name.json'. Remember to change the path on the script to your local *.jar* location. Place the script after *Link Binary With Libraries*. 
+*  The second script will run the SwiftDumperParser.jar. Click the + icon, and select *New Run Script Phase*. Then, place the code `java -jar path/to/SwiftDumperParser.jar dumper-output.txt your-project-name.json`. Remember to change the path on the script to your local *.jar* location. Place the script after *Link Binary With Libraries*. 
 
  <img src="https://github.com/swiftcity/swiftcity-app/blob/master/files/set-up-images/run-jar-script.png" width="500">
  
