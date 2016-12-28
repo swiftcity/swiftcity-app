@@ -29,6 +29,8 @@ Copy the file *swift-LOCAL-2016-11-21-a.xctoolchain* present at *Library/Develop
 your Xcode's toolchain folder. This is commonly located at */Applications/Xcode/Contents/Developer/Toolchains*. 
 This will enable Xcode to detect the custom toolchain and present it through its interface.
 2. Open Xcode and select the current toolchain to use the one you just installed. This can be done by the following steps: 
-Xcode -> Toolchains -> Local Swift Development Snapshot 2016-11-21. It might be necessary to reopen Xcode. It is possible to see
-which toolchain is being used through its initial menu.
-3. 
+Xcode -> Toolchains -> Local Swift Development Snapshot 2016-11-21. It might be necessary to reopen Xcode. It is possible to see which toolchain is being used through its initial menu.
+<img src="https://github.com/swiftcity/swiftcity-app/blob/master/files/set-up-images/select-toolchain.png" width="500">
+<img src="https://github.com/swiftcity/swiftcity-app/blob/master/files/set-up-images/initial-menu.png" width="500">
+3. From now on, every time that the project is built, a file called *dumper-output.txt* will be created with its AST information.
+
